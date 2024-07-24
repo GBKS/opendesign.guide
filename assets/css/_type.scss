@@ -1,0 +1,73 @@
+.-title-1,
+.-title-2,
+.-title-3,
+.-title-4,
+.-title-5,
+.-title-6,
+.-title-7 {
+  font-family: 'Inter';
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h1, .-title-1 { font-size: 36px; }
+h2, .-title-2 { font-size: 28px; }
+h3, .-title-3 { font-size: 24px; }
+h4, .-title-4 { font-size: 21px; }
+h5, .-title-5 { font-size: 18px; }
+h6, .-title-6 { font-size: 15px; }
+.-title-7 { font-size: 13px; }
+.-title-8 { font-size: 12px; }
+
+@include container(small) {
+  .-title-1-mobile { font-size: 36px; }
+  .-title-2-mobile { font-size: 28px; }
+  .-title-3-mobile { font-size: 24px; }
+  .-title-4-mobile { font-size: 21px; }
+  .-title-5-mobile { font-size: 18px; }
+  .-title-6-mobile { font-size: 15px; }
+  .-title-7-mobile { font-size: 13px; }
+  .-title-8-mobile { font-size: 12px; }
+}
+
+.-body-1,
+.-body-2,
+.-body-3,
+.-body-4,
+.-body-5,
+.-body-6,
+.-body-7,
+.-body-8 {
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 1.4;
+  font-variant-numeric: slashed-zero;
+}
+
+.-body-1 { font-size: 36px; }
+.-body-2 { font-size: 27px; }
+.-body-3 { font-size: 24px; }
+.-body-4 { font-size: 21px; }
+.-body-5 { font-size: 18px; }
+p, .-body-6 { font-size: 15px; }
+.-body-7 { font-size: 13px; }
+.-body-8 { font-size: 12px; }
+
+@include container(small) {
+  .-body-1-mobile { font-size: 36px; }
+  .-body-2-mobile { font-size: 27px; }
+  .-body-3-mobile { font-size: 24px; }
+  .-body-4-mobile { font-size: 21px; }
+  .-body-5-mobile { font-size: 18px; }
+  .-body-6-mobile { font-size: 15px; }
+  .-body-7-mobile { font-size: 13px; }
+  .-body-8-mobile { font-size: 12px; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--neutral-9);
+}
+
+p {
+  color: var(--neutral-7);
+}

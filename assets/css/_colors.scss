@@ -1,0 +1,73 @@
+:root {
+  --primary: #F7931A;
+  
+  --neutral-0: #ffffff;
+  --neutral-1: #f8f8f8;
+  --neutral-2: #f4f4f4;
+  --neutral-3: #ededed;
+  --neutral-4: #dedede;
+  --neutral-5: #bbbbbb;
+  --neutral-6: #999999;
+  --neutral-7: #777777;
+  --neutral-8: #404040;
+  --neutral-9: #000000;
+
+  --pink: #EE4162;
+  --red: #EB5757;
+  --orange: #F7931A;
+  --yellow: #F9CD21;
+  --green: #34C571;
+  --mint: #16CAC2;
+  --teal: #08B6DD;
+  --cyan: #2D9CDB;
+  --blue: #4A6FF5;
+  --indigo: #7A60E5;
+  --purple: #B85FDA;
+  --brown: #A68151;
+
+  --corner-radius-small: 3px;
+  --corner-radius: 5px;
+  --corner-radius-big: 10px;
+  --screen-padding-bottom: 50px;
+  --screen-side-padding: 20px;
+}
+
+.-primary { color: var(--primary); }
+
+.-neutral-1 { color: var(--neutral-1); }
+.-neutral-2 { color: var(--neutral-2); }
+.-neutral-3 { color: var(--neutral-3); }
+.-neutral-4 { color: var(--neutral-4); }
+.-neutral-5 { color: var(--neutral-5); }
+.-neutral-6 { color: var(--neutral-6); }
+.-neutral-7 { color: var(--neutral-7); }
+.-neutral-8 { color: var(--neutral-8); }
+.-neutral-9 { color: var(--neutral-9); }
+
+.--theme-dark {
+  --primary: #F7931A;
+
+  --neutral-0: #000000;
+  --neutral-1: #1A1A1A;
+  --neutral-2: #2D2D2D;
+  --neutral-3: #444444;
+  --neutral-4: #5C5C5C;
+  --neutral-5: #787878;
+  --neutral-6: #949494;
+  --neutral-7: #B0B0B0;
+  --neutral-8: #CCCCCC;
+  --neutral-9: #ffffff;
+
+  --pink: #EE4162;
+  --red: #EC6363;
+  --orange: #F89B2A;
+  --yellow: #F9CD21;
+  --green: #36B46B;
+  --mint: #16CAC2;
+  --teal: #08B6DD;
+  --cyan: #3CA3DE;
+  --blue: #6877FD;
+  --indigo: #7A60E5;
+  --purple: #C075DC;
+  --brown: #A68151;
+}

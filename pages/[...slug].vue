@@ -1,0 +1,299 @@
+<script lang="ts" setup>
+
+const route = useRoute()
+const routePath = route.path
+const { data: pageData } = await useAsyncData('page-data-'+route.path, queryContent(route.path).findOne)
+const { data: allPages } = await useAsyncData('all-pages', queryContent().find)
+
+const imageSource = computed(() => {
+  let result = null
+
+  if(pageData.value) {
+    result = '/images/'+pageData.value.images[0]
+  }
+
+  return null
+})
+
+const imageSourceSet = computed(() => {
+  const result = []
+
+  if(pageData.value) {
+    pageData.value.images.forEach((image) => {
+      result.push('/images/'+image)
+    })
+  }
+
+  return result.join(' 1x, ') + ' 2x'
+})
+
+const styleObject = computed(() => {
+  return {
+    backgroundColor: pageData.value?.colors.base || null
+  }
+})
+
+const chapterStyle = computed(() => {
+  return {
+    color: pageData.value?.colors.accentOne || null
+  }
+})
+
+const accentTwoStyle = computed(() => {
+  return '--color: '+pageData.value?.colors.accentTwo+';'
+})
+
+const nextPage = computed(() => {
+  let result = null
+
+  console.log('checking', routePath)
+
+  if(allPages.value) {
+    let isMatch = false
+    for(let i=0; i<allPages.value.length; i++) {
+      const page = allPages.value[i]
+
+      if(isMatch) {
+        result = {
+            title: page.title,
+            chapter: page.chapter,
+            path: page._path
+        }
+        break
+      }
+
+      isMatch = page._path == route.path
+    }
+  }
+
+  return result
+})
+
+const previousPage = computed(() => {
+  let result = null
+
+  if(allPages.value) {
+    for(let i=0; i<allPages.value.length; i++) {
+      const page = allPages.value[i]
+
+      if(page._path === route.path) {
+        if(i > 0) {
+            const previous = allPages.value[i-1]
+
+            result = {
+                title: previous.title,
+                chapter: previous.chapter,
+                path: previous._path
+            }
+            break
+        }
+      }
+    }
+  }
+
+  return result
+})
+
+</script>
+
+<template>
+    <div class="article-page" :style="styleObject">
+        <img
+            :src="imageSource"
+            :srcset="imageSourceSet"
+            alt=""
+        >
+        <div class="content">
+            <header :style="accentTwoStyle" data-color>
+                <NuxtLink class="logo" to="/">Open Design Guide</NuxtLink>
+            </header>
+            <article :style="accentTwoStyle" data-color>
+                <p class="-chapter" :style="chapterStyle">{{ pageData?.chapter }}</p>
+                <ContentDoc />
+            </article>
+            <div class="pagination">
+                <NuxtLink
+                    v-if="previousPage"
+                    :to="previousPage.path"
+                    class="-previous"
+                >
+                    <p>{{ previousPage.chapter }}</p>
+                    <h5>{{  previousPage.title }}</h5>
+                </NuxtLink>
+                <NuxtLink
+                    v-if="nextPage"
+                    :to="nextPage.path"
+                    class="-next"
+                >
+                    <p>{{ nextPage.chapter }}</p>
+                    <h5>{{  nextPage.title }}</h5>
+                </NuxtLink>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+
+.article-page {
+    position: relative;
+    padding: 75px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        max-width: 940px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        background-color: white;
+        @include r('padding', 20, 70);
+
+        header {
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                font-family: 'DM Serif Display', serif;
+                font-weight: 600;
+                font-size: 24px;
+                text-decoration: none;
+                color: black;
+            }
+
+            &[data-color]  {
+                .logo {
+                    &:hover {
+                        color: var(--color);
+                    }
+                }
+            }
+        }
+
+        article {
+            p {
+                &.-chapter {
+                    font-family: 'DM Serif Display', serif;
+                    font-weight: 600;
+                    line-height: 1.1;
+                    @include r('font-size', 32, 48);
+                }
+            }
+
+            :deep(h1) {
+                font-family: 'DM Serif Display', serif;
+                line-height: 1.1;
+                @include r('font-size', 32, 48);
+            }
+
+            &[data-color]  {
+                :deep(h1) {
+                    color: var(--color);
+
+                    & + p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            :deep(h2) {
+                font-size: 21px;
+                @include r('margin-top', 20, 30);
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                & + p {
+                    @include r('margin-top', 5, 10);
+                }
+            }
+
+            :deep(h3) {
+                font-size: 18px;
+                @include r('margin-top', 15, 20);
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+                & + p {
+                    @include r('margin-top', 5, 10);
+                }
+            }
+
+            :deep(p) {
+                font-size: 17px;
+                line-height: 1.6;
+                color: #404040;
+
+                & + p {
+                    @include r('margin-top', 10, 20);
+                }
+            }
+
+            :deep(ol),
+            :deep(ul) {
+                li {
+                    font-size: 17px;
+                    line-height: 1.6;
+                    color: #404040;
+
+                    a {
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pagination {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+
+            a {
+                display: block;
+                flex-basis: 0;
+                flex-grow: 1;
+                text-decoration: none;
+                position: relative;
+                transition: all 150ms $ease;
+                padding: 10px 15px;
+                border-radius: 10px;
+
+                &.-previous {
+
+                }
+
+                &.-next {
+                    text-align: right;
+                }
+
+                &:hover {
+                    background-color: #F8F8F8;
+                }
+            }
+        }
+    }
+
+    > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: auto;
+    }
+}
+
+</style>

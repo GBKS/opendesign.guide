@@ -1,0 +1,149 @@
+
+@mixin r($property, $minSize, $maxSize) {
+  $multiplier: math.div($maxSize - $minSize, 1280 - 375)*100;
+  $baseSize: $minSize - math.div(375, 100) * $multiplier + 'px';
+
+  #{$property}: calc(#{$baseSize} + 1vw * #{$multiplier});
+
+  @include media-query(large) {
+    #{$property}: $maxSize+px;
+  }
+}
+
+// Retina
+
+@mixin retina() {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    @content;
+  }
+}
+
+// Media queries
+
+@mixin media-query($media-query) {
+  @if $media-query == small {
+    @media only screen and (max-width:($small-width - 1)) {
+      @content;
+    }
+  }
+
+  @if $media-query == medium {
+    @media only screen and (min-width:$small-width) and (max-width:($large-width - 1)) {
+      @content;
+    }
+  }
+
+  @if $media-query == medium-up {
+    @media only screen and (min-width:$small-width) {
+      @content;
+    }
+  }
+
+  @if $media-query == medium-down {
+    @media only screen and (max-width:($large-width - 1)) {
+      @content;
+    }
+  }
+
+  @if $media-query == large {
+    @media only screen and (min-width:$large-width) {
+      @content;
+    }
+  }
+
+  @if $media-query == large-only {
+    @media only screen and (min-width:$large-width) and (max-width:($huge-width - 1)) {
+      @content;
+    }
+  }
+
+  @if $media-query == medium-large {
+    @media only screen and (min-width:$small-width) and (max-width:($huge-width - 1)) {
+      @content;
+    }
+  }
+
+  @if $media-query == large-mega {
+    @media only screen and (min-width:$large-width) and (max-width:($mega-width - 1)) {
+      @content;
+    }
+  }
+
+  @if $media-query == huge {
+    @media only screen and (min-width:$huge-width) {
+      @content;
+    }
+  }
+
+  @if $media-query == mega {
+    @media only screen and (min-width:$mega-width) {
+      @content;
+    }
+  }
+}
+
+// Container queries
+// Using variables here doesn't work for some reason, so using pixel sizes.
+
+@mixin container($query) {
+  @if $query == small {
+    @container (max-width: 639px) {
+      @content;
+    }
+  }
+
+  @if $query == medium {
+    @container (min-width: 640px) and (max-width: 1023px) {
+      @content;
+    }
+  }
+
+  @if $query == medium-up {
+    @container (min-width: 640px) {
+      @content;
+    }
+  }
+
+  @if $query == medium-down {
+    @container (max-width: 1023px) {
+      @content;
+    }
+  }
+
+  @if $query == large {
+    @container (min-width: 1024px) {
+      border: 10px solid red;
+      @content;
+    }
+  }
+
+  @if $query == large-only {
+    @container (min-width: 1024px) and (max-width: 1280px) {
+      @content;
+    }
+  }
+
+  @if $query == medium-large {
+    @container (min-width: 640px) and (max-width: 1280px) {
+      @content;
+    }
+  }
+
+  @if $query == large-mega {
+    @container (min-width: 1024px) and (max-width: 1600px) {
+      @content;
+    }
+  }
+
+  @if $query == huge {
+    @container (min-width: 1281px) {
+      @content;
+    }
+  }
+
+  @if $query == mega {
+    @container (min-width: 1601px) {
+      @content;
+    }
+  }
+}

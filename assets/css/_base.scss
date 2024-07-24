@@ -1,0 +1,256 @@
+@use "sass:math";
+
+@import "_normalize";
+@import "_variables";
+@import "_animations";
+@import "_colors";
+@import "_mixins";
+@import "_type";
+
+@font-face {
+  font-family: "DM Serif Display";
+  src: url('/fonts/DMSerifDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype-variations');
+  font-weight: 100 900; /* Define the range of weights */
+  font-stretch: 50% 100%; /* Define the range of widths */
+  font-style: normal; /* Normal style */
+}
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0 !important;
+  background-color: var(--neutral-0);
+
+  &.-dark {
+
+  }
+}
+
+html, 
+p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.01rem;
+  color: var(--neutral-7);
+}
+
+p {
+  b {
+    font-weight: 900;
+  }
+
+  a {
+    color: var(--neutral-9);
+  }
+}
+
+// Headers
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.-h1,
+.-h2,
+.-h3,
+.-h4,
+.-h5,
+.-h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01rem;
+  color: var(--neutral-9);
+}
+
+h1, 
+.-h1 {
+	@include r('font-size', 64, 64);
+}
+
+h2, 
+.-h2 {
+	@include r('font-size', 48, 48);
+}
+
+h3, 
+.-h3 {
+	@include r('font-size', 32, 32);
+}
+
+h4, 
+.-h4 {
+	@include r('font-size', 26, 26);
+}
+
+h5, 
+.-h5 {
+	@include r('font-size', 22, 22);
+}
+
+h6, 
+.-h6 {
+	@include r('font-size', 18, 18);
+}
+
+// Body
+
+.-p1,
+.-p2,
+.-p3,
+.-p4,
+.-p5,
+.-p6 {
+  margin: 0;
+  font-weight: 300;
+  color: var(--front);
+}
+
+.-p1 {
+	@include r('font-size', 27, 27);
+}
+
+.-p2 {
+	@include r('font-size', 24, 24);
+}
+
+.-p3 {
+	@include r('font-size', 20, 20);
+}
+
+.-p4 {
+	@include r('font-size', 16, 16);
+}
+
+.-p5 {
+	@include r('font-size', 14, 14);
+}
+
+.-p6 {
+	@include r('font-size', 12, 12);
+}
+
+// Create page slide transitions
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active,
+.slide-down-enter-active,
+.slide-down-leave-active {
+  transition: all 600ms $ease;
+  position: absolute !important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.slide-left-enter-from {
+  transform: translateX(100%);
+}
+.slide-left-leave-to {
+  transform: translateX(-100%);
+}
+.slide-right-enter-from {
+  transform: translateX(-100%);
+}
+.slide-right-leave-to {
+  transform: translateX(100%);
+}
+.slide-up-enter-from {
+  transform: translateY(100%);
+}
+.slide-up-leave-to {
+  transform: translateY(-100%);
+}
+.slide-down-enter-from {
+  transform: translateY(-100%);
+}
+.slide-down-leave-to {
+  transform: translateY(100%);
+}
+
+// Fade transition
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 400ms $ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+// Modal transition
+.modal-enter-active,
+.modal-leave-active {
+  transition: all 400ms $ease;
+
+  .wrap {
+    .content {
+      transition: all 400ms $ease;
+    }
+  }
+}
+.modal-enter-from,
+.modal-leave-to {
+  backdrop-filter: blur(0px);
+  background-color: rgba(black, 0);
+  opacity: 0;
+
+  .wrap {
+    .content {
+      transform: translateY(50px);
+    }
+  }
+}
+
+.-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: rgba(black, 0.2);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+
+  .wrap {
+    position: relative;
+    padding-top: 80px;
+  }
+
+  @include media-query(large) {
+    // align-items: center;
+  }
+}
+
+button {
+  appearance: none;
+  border-width: 0;
+  background-color: transparent;
+  padding: 0;
+}
