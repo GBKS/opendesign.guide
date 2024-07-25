@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - design-assets-thumb.jpg
   - design-assets-thumb@2x.jpg
+thumbnail_back:
+  - design-assets-thumb-back.png
+  - design-assets-thumb-back@2x.png
+thumbnail_mid:
+  - design-assets-thumb-mid.png
+  - design-assets-thumb-mid@2x.png
+thumbnail_front:
+  - design-assets-thumb-front.png
+  - design-assets-thumb-front@2x.png
 images:
   - design-assets.jpg
   - design-assets@2x.jpg
@@ -26,11 +35,11 @@ In open source, design is a team effort. The assets you create might be changed 
 
 Mockups and prototypes are like rough drafts of your design ideas. They help everyone understand what you're thinking before any real coding happens. Here's how you can approach this:
 
-Start simple. Use tools like Balsamiq or even pen and paper to sketch out your ideas quickly. These rough designs are great for getting early feedback from the community.
+Start simple. Use design-assets like Balsamiq or even pen and paper to sketch out your ideas quickly. These rough designs are great for getting early feedback from the community.
 
-As you refine your ideas, make more detailed mockups. These should show the real colors, fonts, and layout you're proposing. Tools like Figma or Sketch are great for this. Remember to think about any technical limits the project might have.
+As you refine your ideas, make more detailed mockups. These should show the real colors, fonts, and layout you're proposing. design-assets like Figma or Sketch are great for this. Remember to think about any technical limits the project might have.
 
-For designs with lots of interaction, try making a clickable prototype. This lets people experience your design idea as if it were real. Tools like InVision or even simple web pages can work well for this.
+For designs with lots of interaction, try making a clickable prototype. This lets people experience your design idea as if it were real. design-assets like InVision or even simple web pages can work well for this.
 
 When you share your mockups or prototypes, explain what problem you're trying to solve and how your design helps. Be ready to answer questions and make changes based on what others think.
 

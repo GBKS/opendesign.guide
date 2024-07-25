@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - history-thumb.jpg
   - history-thumb@2x.jpg
+thumbnail_back:
+  - history-thumb-back.png
+  - history-thumb-back@2x.png
+thumbnail_mid:
+  - history-thumb-mid.png
+  - history-thumb-mid@2x.png
+thumbnail_front:
+  - history-thumb-front.png
+  - history-thumb-front@2x.png
 images:
   - history.jpg
   - history@2x.jpg

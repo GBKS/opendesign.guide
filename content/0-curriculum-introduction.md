@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - welcome-thumb.jpg
   - welcome-thumb@2x.jpg
+thumbnail_back:
+  - welcome-thumb-back.png
+  - welcome-thumb-back@2x.png
+thumbnail_mid:
+  - welcome-thumb-mid.png
+  - welcome-thumb-mid@2x.png
+thumbnail_front:
+  - welcome-thumb-front.png
+  - welcome-thumb-front@2x.png
 images:
   - welcome.jpg
   - welcome@2x.jpg

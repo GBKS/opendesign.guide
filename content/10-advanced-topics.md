@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - advanced-thumb.jpg
   - advanced-thumb@2x.jpg
+thumbnail_back:
+  - advanced-thumb-back.png
+  - advanced-thumb-back@2x.png
+thumbnail_mid:
+  - advanced-thumb-mid.png
+  - advanced-thumb-mid@2x.png
+thumbnail_front:
+  - advanced-thumb-front.png
+  - advanced-thumb-front@2x.png
 images:
   - advanced.jpg
   - advanced@2x.jpg

@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - user-experience-thumb.jpg
   - user-experience-thumb@2x.jpg
+thumbnail_back:
+  - user-experience-thumb-back.png
+  - user-experience-thumb-back@2x.png
+thumbnail_mid:
+  - user-experience-thumb-mid.png
+  - user-experience-thumb-mid@2x.png
+thumbnail_front:
+  - user-experience-thumb-front.png
+  - user-experience-thumb-front@2x.png
 images:
   - user-experience.jpg
   - user-experience@2x.jpg

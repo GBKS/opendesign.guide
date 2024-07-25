@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - personal-brand-thumb.jpg
   - personal-brand-thumb@2x.jpg
+thumbnail_back:
+  - personal-brand-thumb-back.png
+  - personal-brand-thumb-back@2x.png
+thumbnail_mid:
+  - personal-brand-thumb-mid.png
+  - personal-brand-thumb-mid@2x.png
+thumbnail_front:
+  - personal-brand-thumb-front.png
+  - personal-brand-thumb-front@2x.png
 images:
   - personal-brand.jpg
   - personal-brand@2x.jpg

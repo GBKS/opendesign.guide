@@ -3,6 +3,8 @@
         <header>
             <h1>Open Design Guide</h1>
             <p>Open source software is designed by people just like you. Learn how to find your way around and contribute.</p>
+
+            <p class="-note">This is a total work-in-progress and the content is currently pretty much 100% AI generated and needs a ton of work. <a href="https://github.com/BitcoinDesign/Meta/issues/696" target="_blank">Learn more</a>.</p>
         </header>
         <div class="page-cards">
             <ContentList path="/" v-slot="{ list }">
@@ -41,6 +43,17 @@
             text-align: center;
             text-wrap: balance;
             @include r('font-size', 21, 24);
+
+            &.-note {
+                margin-top: 20px;
+                color: #859B63;
+                @include r('font-size', 17, 19);
+                font-weight: 600;
+
+                a {
+                    color: #859B63;
+                }
+            }
         }
     }
     

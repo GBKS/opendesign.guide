@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - collaboration-thumb.jpg
   - collaboration-thumb@2x.jpg
+thumbnail_back:
+  - collaboration-thumb-back.png
+  - collaboration-thumb-back@2x.png
+thumbnail_mid:
+  - collaboration-thumb-mid.png
+  - collaboration-thumb-mid@2x.png
+thumbnail_front:
+  - collaboration-thumb-front.png
+  - collaboration-thumb-front@2x.png
 images:
   - collaboration.jpg
   - collaboration@2x.jpg

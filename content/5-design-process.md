@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - process-thumb.jpg
   - process-thumb@2x.jpg
+thumbnail_back:
+  - process-thumb-back.png
+  - process-thumb-back@2x.png
+thumbnail_mid:
+  - process-thumb-mid.png
+  - process-thumb-mid@2x.png
+thumbnail_front:
+  - process-thumb-front.png
+  - process-thumb-front@2x.png
 images:
   - process.jpg
   - process@2x.jpg

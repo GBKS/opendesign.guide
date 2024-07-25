@@ -4,7 +4,53 @@ const props = defineProps([
   'info'
 ])
 
-const imageSource = computed(() => {
+const imageSourceBack = computed(() => {
+  let result = null
+
+  if(props.info.thumbnail_back) {
+    result = '/images/'+props.info.thumbnail_back[0]
+  }
+
+  return null
+})
+
+const imageSourceBackSet = computed(() => {
+  const result = []
+
+  if(props.info.thumbnail_back) {
+    props.info.thumbnail_back.forEach((image) => {
+      result.push('/images/'+image)
+    })
+  }
+
+  return result.join(' 1x, ') + ' 2x'
+})
+
+const imageSourceMid = computed(() => {
+  let result = null
+
+  if(props.info.thumbnail) {
+    result = '/images/'+props.info.thumbnail[0]
+  }
+
+  result = '/images/welcome-thumb-mid.png'
+
+  return null
+})
+
+const imageSourceMidSet = computed(() => {
+  const result = []
+
+  if(props.info.thumbnail_mid) {
+    props.info.thumbnail_mid.forEach((image) => {
+      result.push('/images/'+image)
+    })
+  }
+
+  return result.join(' 1x, ') + ' 2x'
+})
+
+const imageSourceFront = computed(() => {
   let result = null
 
   if(props.info.thumbnail) {
@@ -14,11 +60,11 @@ const imageSource = computed(() => {
   return null
 })
 
-const imageSourceSet = computed(() => {
+const imageSourceFrontSet = computed(() => {
   const result = []
 
-  if(props.info.thumbnail) {
-    props.info.thumbnail.forEach((image) => {
+  if(props.info.thumbnail_front) {
+    props.info.thumbnail_front.forEach((image) => {
       result.push('/images/'+image)
     })
   }
@@ -30,6 +76,91 @@ const colorStyle = computed(() => {
   return '--color: '+props.info.colors.card+';'
 })
 
+const imageFrontStyle = computed(() => {
+  const maxDelta = 0
+
+  const left = (-imageOffsetX.value * maxDelta) + 'px'
+  const top = (-imageOffsetY.value * maxDelta) + 'px'
+
+  return {
+    top: -maxDelta + 'px',
+    left: -maxDelta + 'px',
+    width: 'calc(100% + '+(maxDelta*2)+'px)',
+    height: 'calc(100% + '+(maxDelta*2)+'px)',
+    transform: 'translate3d('+left+', '+top+', 0)'
+  }
+})
+
+const imageMidStyle = computed(() => {
+  const maxDelta = 10
+
+  const left = (-imageOffsetX.value * maxDelta) + 'px'
+  const top = (-imageOffsetY.value * maxDelta) + 'px'
+
+  return {
+    top: -maxDelta + 'px',
+    left: -maxDelta + 'px',
+    width: 'calc(100% + '+(maxDelta*2)+'px)',
+    height: 'calc(100% + '+(maxDelta*2)+'px)',
+    transform: 'translate3d('+left+', '+top+', 0)'
+  }
+})
+
+const imageBackStyle = computed(() => {
+  const maxDelta = 20
+
+  const left = (-imageOffsetX.value * maxDelta) + 'px'
+  const top = (-imageOffsetY.value * maxDelta) + 'px'
+
+  return {
+    top: -maxDelta + 'px',
+    left: -maxDelta + 'px',
+    width: 'calc(100% + '+(maxDelta*2)+'px)',
+    height: 'calc(100% + '+(maxDelta*2)+'px)',
+    transform: 'translate3d('+left+', '+top+', 0)'
+  }
+})
+
+const mouseX = ref(0)
+const mouseY = ref(0)
+const imageOffsetX = ref(0)
+const imageOffsetY = ref(0)
+const canvas = ref(null)
+let updateTimer = null
+
+function mouseMove(event) {
+  const rectangle = event.target.getBoundingClientRect();
+  const x = event.clientX - rectangle.left; //x position within the element.
+  const y = event.clientY - rectangle.top; 
+
+  mouseX.value = x
+  mouseY.value = y
+
+  if(!updateTimer) {
+    updateTimer = setInterval(updateImagePositions, 25)
+  }
+}
+
+function updateImagePositions() {
+  const canvasWidth = canvas.value?.offsetWidth || 300
+  const canvasHeight = canvas.value?.offsetHeight || 300
+
+  const left = mouseX.value/canvasWidth - 0.5
+  const top = mouseY.value/canvasHeight - 0.5
+
+  const deltaX = (left - imageOffsetX.value) * 0.1
+  const deltaY = (top - imageOffsetY.value) * 0.1
+
+  imageOffsetX.value = imageOffsetX.value + deltaX
+  imageOffsetY.value = imageOffsetY.value + deltaY
+
+  const minValue = 0.01
+  if(Math.abs(deltaX) < minValue && Math.abs(deltaY) < minValue) {
+    clearInterval(updateTimer)
+    updateTimer = null
+  }
+}
+
 </script>
 
 <template>
@@ -37,10 +168,25 @@ const colorStyle = computed(() => {
     class="page-card"
     :key="info._path"
     :to="info._path"
+    ref="canvas"
+    @mousemove="mouseMove"
   >
     <img
-      :src="imageSource"
-      :srcset="imageSourceSet"
+      :style="imageBackStyle"
+      :src="imageSourceBack"
+      :srcset="imageSourceBackSet"
+      alt=""
+    >
+    <img
+      :style="imageMidStyle"
+      :src="imageSourceMid"
+      :srcset="imageSourceMidSet"
+      alt=""
+    >
+    <img
+      :style="imageFrontStyle"
+      :src="imageSourceFront"
+      :srcset="imageSourceFrontSet"
       alt=""
     >
     <div class="copy" :style="colorStyle" data-color>
@@ -95,6 +241,7 @@ const colorStyle = computed(() => {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transform-origin: center;
   }
 }
 

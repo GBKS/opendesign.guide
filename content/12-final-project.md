@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - final-project-thumb.jpg
   - final-project-thumb@2x.jpg
+thumbnail_back:
+  - final-project-thumb-back.png
+  - final-project-thumb-back@2x.png
+thumbnail_mid:
+  - final-project-thumb-mid.png
+  - final-project-thumb-mid@2x.png
+thumbnail_front:
+  - final-project-thumb-front.png
+  - final-project-thumb-front@2x.png
 images:
   - final-project.jpg
   - final-project@2x.jpg

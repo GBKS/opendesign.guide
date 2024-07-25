@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - designers-role-thumb.jpg
   - designers-role-thumb@2x.jpg
+thumbnail_back:
+  - designers-role-thumb-back.png
+  - designers-role-thumb-back@2x.png
+thumbnail_mid:
+  - designers-role-thumb-mid.png
+  - designers-role-thumb-mid@2x.png
+thumbnail_front:
+  - designers-role-thumb-front.png
+  - designers-role-thumb-front@2x.png
 images:
   - designers-role.jpg
   - designers-role@2x.jpg

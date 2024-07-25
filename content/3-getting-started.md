@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - getting-started-thumb.jpg
   - getting-started-thumb@2x.jpg
+thumbnail_back:
+  - getting-started-thumb-back.png
+  - getting-started-thumb-back@2x.png
+thumbnail_mid:
+  - getting-started-thumb-mid.png
+  - getting-started-thumb-mid@2x.png
+thumbnail_front:
+  - getting-started-thumb-front.png
+  - getting-started-thumb-front@2x.png
 images:
   - getting-started.jpg
   - getting-started@2x.jpg

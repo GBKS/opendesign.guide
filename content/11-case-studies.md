@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - case-studies-thumb.jpg
   - case-studies-thumb@2x.jpg
+thumbnail_back:
+  - case-studies-thumb-back.png
+  - case-studies-thumb-back@2x.png
+thumbnail_mid:
+  - case-studies-thumb-mid.png
+  - case-studies-thumb-mid@2x.png
+thumbnail_front:
+  - case-studies-thumb-front.png
+  - case-studies-thumb-front@2x.png
 images:
   - case-studies.jpg
   - case-studies@2x.jpg

@@ -9,6 +9,15 @@ colors:
 thumbnail:
   - tools-thumb.jpg
   - tools-thumb@2x.jpg
+thumbnail_back:
+  - tools-thumb-back.png
+  - tools-thumb-back@2x.png
+thumbnail_mid:
+  - tools-thumb-mid.png
+  - tools-thumb-mid@2x.png
+thumbnail_front:
+  - tools-thumb-front.png
+  - tools-thumb-front@2x.png
 images:
   - tools.jpg
   - tools@2x.jpg
@@ -78,7 +87,7 @@ Remember that while these tools are helpful, they should complement, not replace
 
 ## Version Control for Designers
 
-While version control systems like Git are typically associated with code, they can also be incredibly useful for managing design assets. Using version control for your design files allows you to track changes over time, collaborate more effectively with others, and maintain a clear history of your design process.
+While version control systems like Git are typically associated with code, they can also be incredibly useful for managing design assets. Using version control for your design files allows you to track changes over time, collaborate more effectively with others, and maintain a clear history of your design tools.
 
 Consider using Git Large File Storage (LFS) for managing larger binary files like high-resolution images or complex vector graphics. This can help keep your repository size manageable while still allowing you to version these files effectively.
 
