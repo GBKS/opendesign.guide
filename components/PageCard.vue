@@ -1,8 +1,17 @@
 <script lang="ts" setup>
 
 const props = defineProps([
-  'info'
+  'info',
+  'scrollPosition',
+  'isMobile'
 ])
+
+const mouseX = ref(0)
+const mouseY = ref(0)
+const imageOffsetX = ref(0)
+const imageOffsetY = ref(0)
+const canvas = ref(null)
+let updateTimer = null
 
 const imageSourceBack = computed(() => {
   let result = null
@@ -121,29 +130,27 @@ const imageBackStyle = computed(() => {
   }
 })
 
-const mouseX = ref(0)
-const mouseY = ref(0)
-const imageOffsetX = ref(0)
-const imageOffsetY = ref(0)
-const canvas = ref(null)
-let updateTimer = null
-
 function mouseMove(event) {
-  const rectangle = event.target.getBoundingClientRect();
-  const x = event.clientX - rectangle.left; //x position within the element.
-  const y = event.clientY - rectangle.top; 
+  if(!props.isMobile) {
 
-  mouseX.value = x
-  mouseY.value = y
+    const rectangle = event.target.getBoundingClientRect();
+    const x = event.clientX - rectangle.left; //x position within the element.
+    const y = event.clientY - rectangle.top; 
 
-  if(!updateTimer) {
-    updateTimer = setInterval(updateImagePositions, 25)
+    mouseX.value = x
+    mouseY.value = y
+
+    if(!updateTimer) {
+      updateTimer = setInterval(updateImagePositions, 25)
+    }
   }
 }
 
 function updateImagePositions() {
-  const canvasWidth = canvas.value?.offsetWidth || 300
-  const canvasHeight = canvas.value?.offsetHeight || 300
+  const element = canvas.value.$el
+
+  const canvasWidth = element.offsetWidth || 300
+  const canvasHeight = element.offsetHeight || 300
 
   const left = mouseX.value/canvasWidth - 0.5
   const top = mouseY.value/canvasHeight - 0.5
@@ -160,6 +167,36 @@ function updateImagePositions() {
     updateTimer = null
   }
 }
+
+function updateImagePositionsOnMobile() {
+  const element = canvas.value.$el
+
+  const rectangle = element.getBoundingClientRect();
+
+  const upperEdge = window.innerHeight/2 - rectangle.height/2
+  const lowerEdge = window.innerHeight/2 + rectangle.height/2 
+  const position = rectangle.top + rectangle.height/2
+
+  const percentage = (position - upperEdge) / (lowerEdge - upperEdge)
+
+  const top = percentage - 0.5
+
+  const deltaY = (top - imageOffsetY.value) * 0.1
+
+  imageOffsetY.value = imageOffsetY.value + deltaY
+
+  const minValue = 0.01
+  if(Math.abs(deltaY) < minValue) {
+    clearInterval(updateTimer)
+    updateTimer = null
+  }
+}
+
+watch(() => props.scrollPosition, () => {
+  if(props.isMobile) {
+    updateImagePositionsOnMobile()
+  }
+})
 
 </script>
 

@@ -1,3 +1,27 @@
+<script lang="ts" setup>
+const scrollPosition = ref(0)
+const isMobile = ref(false)
+
+function handleScroll() {
+    scrollPosition.value = window.scrollY
+}
+
+function detectMobile() {
+    if(import.meta.client) {
+        isMobile.value = window.matchMedia("(pointer: coarse)").matches
+    }
+}
+
+detectMobile()
+
+onMounted(() => {
+    document.addEventListener('scroll', handleScroll)
+})
+
+onBeforeUnmount(() => {
+    document.removeEventListener('scroll', handleScroll)
+})
+</script>
 <template>
     <div class="home-page">
         <header>
@@ -12,6 +36,8 @@
                     v-for="article in list" 
                     :key="article._path"
                     :info="article"
+                    :scrollPosition="scrollPosition"
+                    :isMobile="isMobile"
                 />
             </ContentList>
         </div>
