@@ -5,7 +5,7 @@ const route = useRoute()
 const searchActive = ref(false)
 
 watch(() => route.path, () => {
-  searchActive.value = false
+  hideSearch()
 })
 
 function toggleSearch() {

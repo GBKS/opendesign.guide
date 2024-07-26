@@ -8,7 +8,7 @@ const { data: allPages } = await useAsyncData('all-pages', queryContent().find)
 const searchActive = ref(false)
 
 watch(() => route.path, () => {
-  searchActive.value = false
+  hideSearch()
 })
 
 function toggleSearch() {
