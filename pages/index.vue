@@ -4,6 +4,21 @@ const isMobile = ref(false)
 const route = useRoute()
 const searchActive = ref(false)
 
+useHead({
+    title: 'Open Design Guide',
+    meta: [
+        {
+            name: 'description',
+            content: 'Open source software is designed by people just like you. Learn how to find your way around and contribute.'
+        },
+        {
+            hid: 'og:image',
+            property: 'og:image',
+            content: '/images/preview.jpg'
+        }
+    ]
+})
+
 watch(() => route.path, () => {
   hideSearch()
 })

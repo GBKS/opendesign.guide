@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import EmptyHeader from '../components/EmptyHeader.vue'
 
 const route = useRoute()
 const routePath = route.path
@@ -6,6 +7,10 @@ const { data: pageData } = await useAsyncData('page-data-'+route.path, queryCont
 const { data: allPages } = await useAsyncData('all-pages', queryContent().find)
 
 const searchActive = ref(false)
+
+const components = {
+  'h1': EmptyHeader
+}
 
 watch(() => route.path, () => {
   hideSearch()
@@ -64,6 +69,24 @@ const accentTwoStyle = computed(() => {
   return '--color: '+pageData.value?.colors.accentTwo+';'
 })
 
+const headers = computed(() => {
+  let result = []
+
+  if(pageData.value) {
+    const children = pageData.value.body.children
+    let i=0, child
+    for(; i<children.length; i++) {
+      child = children[i]
+
+      if(child.tag == 'h2') {
+        result.push(child)
+      }
+    }
+  }
+
+  return result
+})
+
 const nextPage = computed(() => {
   let result = null
 
@@ -115,6 +138,10 @@ const previousPage = computed(() => {
   return result
 })
 
+const title = computed(() => {
+  return pageData.value?.body.children[0].children[0].value || ''
+})
+
 </script>
 
 <template>
@@ -130,7 +157,9 @@ const previousPage = computed(() => {
             </header>
             <article :style="accentTwoStyle" data-color>
                 <p class="-chapter" :style="chapterStyle">{{ pageData?.chapter }}</p>
-                <ContentDoc />
+                <h1>{{ title }}</h1>
+                <TableOfContents :content="headers" />
+                <ContentDoc :components="components" />
             </article>
             <div class="pagination">
                 <NuxtLink
@@ -292,6 +321,11 @@ const previousPage = computed(() => {
                     font-size: 17px;
                     line-height: 1.6;
                     color: #404040;
+
+                    strong {
+                        font-weight: 600;
+                        color: black;
+                    }
 
                     a {
                         text-decoration: none;
