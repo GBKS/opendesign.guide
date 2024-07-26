@@ -147,6 +147,8 @@ function mouseMove(event) {
 }
 
 function updateImagePositions() {
+  if(!canvas.value) return
+
   const element = canvas.value.$el
 
   const canvasWidth = element.offsetWidth || 300

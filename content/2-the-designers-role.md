@@ -2,7 +2,7 @@
 title: Understanding the designer's role
 chapter: Chapter 2
 colors:
-  base: '#FEDBB3'
+  base: '#FDC3AF'
   accentOne: '#F2734F'
   accentTwo: '#2A5EA7'
   card: 'white'
@@ -51,9 +51,9 @@ In larger projects, you might contribute to **Design Systems**. This involves cr
 
 **Accessibility Design** is an increasingly important field. Your role here would be to ensure that the software is usable by people with various abilities, making technology more inclusive for everyone.
 
-Even if you prefer working with words over visuals, there's a place for you in open source design. Documentation Design involves improving the presentation and usability of project documentation, helping users and new contributors understand and use the software more effectively.
+Even if you prefer working with words over visuals, there's a place for you in open source design. **Documentation Design** involves improving the presentation and usability of project documentation, helping users and new contributors understand and use the software more effectively.
 
-## Importance of Design in Open Source Projects
+## The Importance of Design
 
 The impact of good design on open source projects cannot be overstated. Well-designed software is more likely to be adopted and used regularly. When users find software intuitive and enjoyable to use, they're more likely to stick with it and recommend it to others. This increased adoption can lead to a snowball effect, attracting more users and potentially more contributors to the project.
 
@@ -65,55 +65,55 @@ Design improvements can also make complex functionality more accessible to users
 
 Lastly, consistent and thoughtful design helps create a strong, recognizable brand for the project. This brand identity can help the project stand out in a crowded field and build user trust and loyalty over time.
 
-## Challenges Designers May Face in Open Source Environments
+## Challenges Designers May Face
 
 While designing for open source projects is rewarding, it does come with its unique set of challenges. Understanding these challenges can help you navigate them more effectively.
 
-One common challenge is working within technical constraints. Open source projects often have complex codebases and may use unconventional technologies. As a designer, you'll need to work closely with developers to understand what's technically feasible and find creative solutions within these constraints.
+One common challenge is working within **technical constraints**. Open source projects often have complex codebases and may use unconventional technologies. As a designer, you'll need to work closely with developers to understand what's technically feasible and find creative solutions within these constraints.
 
-Open source software often serves a global, diverse user base with varying needs. This diversity can make it challenging to create designs that work well for everyone. You'll need to think carefully about cultural differences, language barriers, and varying levels of technical expertise among users.
+Open source software often serves **a global, diverse user base** with varying needs. This diversity can make it challenging to create designs that work well for everyone. You'll need to think carefully about cultural differences, language barriers, and varying levels of technical expertise among users.
 
-Collaborating with a geographically dispersed team can also be tricky. You might be working with people across different time zones, cultures, and communication styles. This requires excellent communication skills and the ability to articulate your design decisions clearly.
+Collaborating with a **geographically dispersed team** can also be tricky. You might be working with people across different time zones, cultures, and communication styles. This requires excellent communication skills and the ability to articulate your design decisions clearly.
 
-In some cases, you might face resistance to change, especially in well-established projects. Long-time users may be accustomed to the current design and resist significant changes, even if those changes would benefit new users. Balancing the needs of existing and potential users can be a delicate task.
+In some cases, you might face **resistance to change**, especially in well-established projects. Long-time users may be accustomed to the current design and resist significant changes, even if those changes would benefit new users. Balancing the needs of existing and potential users can be a delicate task.
 
-Many open source projects operate with limited budgets and resources. This might mean working with basic tools or having limited access to user research. You'll often need to be creative and resourceful to overcome these limitations.
+Many open source projects operate with **limited budgets and resources**. This might mean working with basic tools or having limited access to user research. You'll often need to be creative and resourceful to overcome these limitations.
 
-Lastly, as a designer in an open source project, you'll need to balance the needs of various stakeholders. This includes end-users, developers, project maintainers, and the broader community. Each group may have different priorities, and finding solutions that satisfy everyone can be challenging.
+Lastly, as a designer in an open source project, you'll need to **balance the needs of various stakeholders**. This includes end-users, developers, project maintainers, and the broader community. Each group may have different priorities, and finding solutions that satisfy everyone can be challenging.
 
 Despite these challenges, many designers find working on open source projects to be incredibly fulfilling. The ability to impact software used by millions of people, the opportunity to work with talented individuals from around the world, and the chance to be part of a community driven by passion rather than profit make open source design a unique and rewarding field.
 
-## Success Stories: Designers in Open Source
+## Success Stories
 
 Despite the challenges, many designers have made significant impacts in the open source world. Their stories can serve as inspiration and show the real difference design can make in these projects.
 
-Take Elementary OS, for example. This Linux distribution stands out for its focus on design, creating a cohesive and intuitive user experience. The Elementary team has shown that open source software can be just as polished and user-friendly as proprietary alternatives. Their work has not only made Linux more accessible to non-technical users but has also raised the bar for design in the open source community as a whole.
+Take **Elementary OS**, for example. This Linux distribution stands out for its focus on design, creating a cohesive and intuitive user experience. The Elementary team has shown that open source software can be just as polished and user-friendly as proprietary alternatives. Their work has not only made Linux more accessible to non-technical users but has also raised the bar for design in the open source community as a whole.
 
-Mozilla Firefox is another great example of the power of design in open source. The Firefox browser has undergone several major redesigns over the years, each improving its usability and visual appeal. These changes have helped Firefox remain competitive in the browser market, providing a user-centric alternative to proprietary browsers.
+**Mozilla Firefox** is another great example of the power of design in open source. The Firefox browser has undergone several major redesigns over the years, each improving its usability and visual appeal. These changes have helped Firefox remain competitive in the browser market, providing a user-centric alternative to proprietary browsers.
 
-In the world of content management systems, WordPress has continually improved its user interface, making website creation accessible to non-technical users. The WordPress design team has played a crucial role in democratizing web publishing, allowing millions of people to create and manage their own websites without needing to understand the underlying code.
+In the world of content management systems, **WordPress** has continually improved its user interface, making website creation accessible to non-technical users. The WordPress design team has played a crucial role in democratizing web publishing, allowing millions of people to create and manage their own websites without needing to understand the underlying code.
 
-The Fedora project provides another inspiring example. Fedora, a popular Linux distribution, has a dedicated design team that has significantly improved the distribution's branding and user experience. Their work demonstrates how design can enhance not just the software itself, but also the overall project identity and community engagement.
+The **Fedora** project provides another inspiring example. Fedora, a popular Linux distribution, has a dedicated design team that has significantly improved the distribution's branding and user experience. Their work demonstrates how design can enhance not just the software itself, but also the overall project identity and community engagement.
 
 These success stories show that designers can have a profound impact on open source projects. Whether it's making complex technology more accessible, improving project branding, or enhancing user experiences, designers play a crucial role in the open source ecosystem.
 
-## Best Practices for Designers in Open Source
+## Best Practices
 
 As you embark on your journey in open source design, there are several best practices that can help you contribute effectively and make the most of your experience.
 
-First and foremost, take the time to understand the project thoroughly. Familiarize yourself with its goals, target user base, and any technical constraints. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement.
+First and foremost, take the time to **understand the project thoroughly**. Familiarize yourself with its goals, target user base, and any technical constraints. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement.
 
-When you're just starting out, it's often best to begin with minor contributions. This approach allows you to understand the project's workflow and community dynamics without feeling overwhelmed. As you gain confidence and familiarity with the project, you can gradually take on larger design tasks.
+When you're just starting out, it's often best to **begin with minor contributions**. This approach allows you to understand the project's workflow and community dynamics without feeling overwhelmed. As you gain confidence and familiarity with the project, you can gradually take on larger design tasks.
 
-Clear communication is key in open source projects. When proposing designs, explain your decisions clearly. What problem are you trying to solve? Why did you choose this particular solution? Being transparent about your thought process helps others understand and provide constructive feedback on your work.
+**Clear communication** is key in open source projects. When proposing designs, explain your decisions clearly. What problem are you trying to solve? Why did you choose this particular solution? Being transparent about your thought process helps others understand and provide constructive feedback on your work.
 
-Patience is another crucial virtue in the open source world. Change can often be slow in these projects, especially larger or more established ones. Don't get discouraged if your ideas aren't implemented immediately. Keep refining your proposals and building support within the community.
+**Patience** is another crucial virtue in the open source world. Change can often be slow in these projects, especially larger or more established ones. Don't get discouraged if your ideas aren't implemented immediately. Keep refining your proposals and building support within the community.
 
-While you don't need to become a programming expert, having a basic understanding of version control (particularly Git) can be incredibly helpful. This knowledge will allow you to contribute more effectively and collaborate more smoothly with developers.
+While you don't need to become a programming expert, having a **basic understanding of version control** (particularly Git) can be incredibly helpful. This knowledge will allow you to contribute more effectively and collaborate more smoothly with developers.
 
-Remember that design in open source is a collaborative effort. Work closely with developers to ensure your designs are technically feasible. Be open to feedback and willing to iterate on your designs based on community input.
+Remember that design in open source is **a collaborative effort**. Work closely with developers to ensure your designs are technically feasible. Be open to feedback and willing to iterate on your designs based on community input.
 
-Lastly, always document your work thoroughly. Clear documentation helps others understand and build upon your contributions, ensuring that your designs can evolve and improve even after you've moved on to other projects.
+Lastly, always **document your work thoroughly**. Clear documentation helps others understand and build upon your contributions, ensuring that your designs can evolve and improve even after you've moved on to other projects.
 
 By following these best practices, you'll be well-equipped to make meaningful contributions to open source projects and grow as a designer in this unique and rewarding field.
 

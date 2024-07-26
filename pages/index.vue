@@ -1,6 +1,27 @@
 <script lang="ts" setup>
 const scrollPosition = ref(0)
 const isMobile = ref(false)
+const route = useRoute()
+const searchActive = ref(false)
+
+watch(() => route.path, () => {
+  searchActive.value = false
+})
+
+function toggleSearch() {
+    if(searchActive.value) hideSearch()
+    else showSearch()
+}
+
+function showSearch() {
+    searchActive.value = true
+    document.body.classList.add('-search-active')
+}
+
+function hideSearch() {
+    searchActive.value = false
+    document.body.classList.remove('-search-active')
+}
 
 function handleScroll() {
     scrollPosition.value = window.scrollY
@@ -41,6 +62,14 @@ onBeforeUnmount(() => {
                 />
             </ContentList>
         </div>
+        <SearchButton
+            :active="searchActive"
+            @click="toggleSearch"
+        />
+        <Search
+            :active="searchActive"
+            @close="hideSearch"
+        />
     </div>
 </template>
 

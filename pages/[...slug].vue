@@ -5,6 +5,27 @@ const routePath = route.path
 const { data: pageData } = await useAsyncData('page-data-'+route.path, queryContent(route.path).findOne)
 const { data: allPages } = await useAsyncData('all-pages', queryContent().find)
 
+const searchActive = ref(false)
+
+watch(() => route.path, () => {
+  searchActive.value = false
+})
+
+function toggleSearch() {
+    if(searchActive.value) hideSearch()
+    else showSearch()
+}
+
+function showSearch() {
+    searchActive.value = true
+    document.body.classList.add('-search-active')
+}
+
+function hideSearch() {
+    searchActive.value = false
+    document.body.classList.remove('-search-active')
+}
+
 const imageSource = computed(() => {
   let result = null
 
@@ -129,6 +150,14 @@ const previousPage = computed(() => {
                     <h5>{{  nextPage.title }}</h5>
                 </NuxtLink>
             </div>
+            <SearchButton
+                :active="searchActive"
+                @click="toggleSearch"
+            />
+            <Search
+                :active="searchActive"
+                @close="hideSearch"
+            />
         </div>
     </div>
 </template>
@@ -188,6 +217,7 @@ const previousPage = computed(() => {
             :deep(h1) {
                 font-family: 'DM Serif Display', serif;
                 line-height: 1.1;
+                letter-spacing: 0;
                 @include r('font-size', 32, 48);
             }
 
@@ -202,7 +232,11 @@ const previousPage = computed(() => {
             }
 
             :deep(h2) {
-                font-size: 21px;
+                font-family: 'DM Serif Display', serif;
+                font-weight: 600;
+                line-height: 1.3;
+                letter-spacing: 0.05rem;
+                @include r('font-size', 21, 30);
                 @include r('margin-top', 20, 30);
 
                 a {
@@ -233,6 +267,19 @@ const previousPage = computed(() => {
                 font-size: 17px;
                 line-height: 1.6;
                 color: #404040;
+
+                code {
+                    background-color: #f4f4f4;
+                    border-radius: 3px;
+                    font-family: Inter, sans-serif;
+                    color: black;
+                    padding: 3px 5px;
+                }
+
+                strong {
+                    font-weight: 600;
+                    color: black;
+                }
 
                 & + p {
                     @include r('margin-top', 10, 20);
@@ -273,11 +320,12 @@ const previousPage = computed(() => {
                 border-radius: 10px;
 
                 &.-previous {
-
+                    margin-left: -15px;
                 }
 
                 &.-next {
                     text-align: right;
+                    margin-right: -15px;
                 }
 
                 &:hover {

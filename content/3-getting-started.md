@@ -33,7 +33,7 @@ Once you have a clear idea of what you're looking for, it's time to explore the 
 
 To make your search more manageable, consider using project discovery tools. OpenHatch is a fantastic resource that matches contributors with projects based on their skills and interests. Up For Grabs is another great option, listing projects that are actively seeking contributors. If you're new to open source, look for projects tagged with "First Timers Only" - these are specifically welcoming to newcomers.
 
-As a designer, you might want to focus your search on design-specific opportunities. Check out Opensource.design, a community dedicated to open source designers. The Drupal Design Initiative is another excellent option if you're interested in improving user experience for content management systems. If you're passionate about web browsers, the Mozilla Design team, which contributes to Firefox and other Mozilla projects, might be a perfect fit.
+As a designer, you might want to focus your search on design-specific opportunities. Check out Open Source Design, a community dedicated to open source designers. The Drupal Design Initiative is another excellent option if you're interested in improving user experience for content management systems. If you're passionate about web browsers, the Mozilla Design team, which contributes to Firefox and other Mozilla projects, might be a perfect fit.
 
 Remember, finding the right project is a process. Don't be discouraged if the first few projects you look at don't seem quite right. Keep exploring until you find a project that aligns with your skills and interests.
 

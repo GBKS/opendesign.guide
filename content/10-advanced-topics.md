@@ -25,7 +25,7 @@ images:
 
 # Advanced Topics
 
-## Leading Design Initiatives in Open Source Projects
+## Leading Design Initiatives
 
 As you gain experience in open source, you might find yourself ready to lead design efforts. Here's how to approach this:
 

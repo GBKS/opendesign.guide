@@ -25,7 +25,7 @@ images:
 
 # Collaborative Workflows
 
-## Version Control Basics for Designers
+## Version Control Basics
 
 As a designer venturing into the world of open source, one of the first concepts you'll need to grasp is version control. At its core, version control is a system that records changes to files over time, allowing you to recall specific versions later. This capability is crucial in collaborative environments where multiple people work on the same project simultaneously.
 

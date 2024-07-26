@@ -25,7 +25,7 @@ images:
 
 # Contributing Design Assets
 
-## Why Design Assets Matter in Open Source Projects
+## Why Design Assets Matter
 
 Design assets are the visual building blocks of open source projects. They help make the software look good and easy to use. These assets can be things like the buttons you click, the icons you see, or even the overall look of the app. As a designer, your job is to create these pieces and help make the software more user-friendly and attractive.
 
