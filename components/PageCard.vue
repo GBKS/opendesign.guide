@@ -253,15 +253,15 @@ watch(() => props.scrollPosition, () => {
     padding: 20px;
 
     p {
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 600;
       color: white;
     }
 
     h2 {
-      margin-top: 5px;
-      font-size: 24px;
-      line-height: 1.1;
+      margin-top: 2px;
+      font-size: 27px;
+      line-height: 1.2;
       font-weight: 600;
       color: white;
     }

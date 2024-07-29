@@ -1,6 +1,6 @@
 ---
-title: About
-chapter: What it's
+title: Hello there
+chapter: About
 colors:
   base: '#5B81FE'
   accentOne: '#F02C1F'
@@ -23,7 +23,7 @@ images:
   - about@2x.jpg
 ---
 
-# About
+# Hello there
 
 ## Our Mission and Purpose
 
@@ -45,7 +45,7 @@ This curriculum is designed to guide you through the entire process of contribut
 
 This curriculum wouldn't be possible without the support of numerous individuals and organizations who share our vision for a more design-centric open source ecosystem. We'd like to extend our heartfelt thanks to:
 
-- [Placeholder for specific supporters]
+- Placeholder for specific supporters (TODO)
 
 Your belief in our mission and your generous support have been instrumental in bringing this curriculum to life.
 
@@ -57,7 +57,7 @@ Special thanks to:
 
 - The maintainers and contributors of major open source projects who have paved the way for better design integration
 - Open source designers who have shared their experiences and best practices
-- Organizations that promote open source design, such as Open Source Design and the Open Design Foundation
+- Organizations that promote open source design, such as [Open Source Design](http://opensourcedesign.net) and the [Bitcoin Design Community](http://bitcoin.design)
 - Educational institutions and platforms that support open source education
 
 Your work inspires us and provides the foundation upon which we build.
@@ -92,11 +92,11 @@ We're thrilled that you're considering using this curriculum in your educational
 
 We're committed to supporting educators in delivering this content effectively. Here are some additional resources:
 
-- Slide decks for each chapter [Link placeholder]
-- Additional exercises and project ideas [Link placeholder]
-- A forum for educators to share experiences and best practices [Link placeholder]
+- Slide decks for each chapter (TODO)
+- Additional exercises and project ideas (TODO)
+- A forum for educators to share experiences and best practices (TODO)
 
-We welcome your feedback and suggestions on how to improve this curriculum for educational use. Please share your experiences and ideas through our GitHub repository or educator's forum.
+We welcome your feedback and suggestions on how to improve this curriculum for educational use. Please share your experiences and ideas through our [GitHub repository](https://github.com/GBKS/opendesign.guide) or educator's forum.
 
 ## Invitation to Contribute
 
@@ -110,7 +110,7 @@ Here's how you can contribute:
 4. **Translations**: Help make this curriculum accessible to non-English speakers.
 5. **Feedback**: Share your thoughts on the curriculum's effectiveness and areas for improvement.
 
-To contribute, please visit our GitHub repository at [Placeholder for repository link]. There, you'll find detailed guidelines on how to submit your contributions.
+To contribute, please visit our [GitHub repository](https://github.com/GBKS/opendesign.guide). There, you'll find detailed guidelines on how to submit your contributions.
 
 Remember, every contribution, no matter how small, helps improve this resource for designers worldwide. Together, we can create a more inclusive, design-friendly open source ecosystem.
 

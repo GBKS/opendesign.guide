@@ -25,15 +25,15 @@ images:
 
 # Getting Started
 
-## Finding Suitable Projects
+## Finding the Right Project
 
 Embarking on your open source design journey begins with finding the right project. Start by taking a moment to reflect on your skills and interests. What are you best at? Perhaps you excel at UI design, or maybe UX research is your forte. Consider the types of projects that excite you - are you drawn to web applications, mobile apps, or desktop software?
 
-Once you have a clear idea of what you're looking for, it's time to explore the vast landscape of open source platforms. GitHub is the largest host of open source projects and a great place to start your search. Don't overlook other platforms like GitLab or SourceForge, which also host many established open source projects.
+Once you have a clear idea of what you're looking for, it's time to explore the vast landscape of open source platforms. [GitHub](https://github.com/) is the largest host of open source projects and a great place to start your search. Don't overlook other platforms like [GitLab](https://about.gitlab.com/), which also host many established open source projects.
 
-To make your search more manageable, consider using project discovery tools. OpenHatch is a fantastic resource that matches contributors with projects based on their skills and interests. Up For Grabs is another great option, listing projects that are actively seeking contributors. If you're new to open source, look for projects tagged with "First Timers Only" - these are specifically welcoming to newcomers.
+To make your search more manageable, consider using project discovery tools. [Up For Grabs](https://up-for-grabs.net/) is a fantastic resource that matches contributors with projects based on their skills and interests, listing projects that are actively seeking contributors. If you're new to open source, look for projects tagged with "First Timers Only" - these are specifically welcoming to newcomers.
 
-As a designer, you might want to focus your search on design-specific opportunities. Check out Open Source Design, a community dedicated to open source designers. The Drupal Design Initiative is another excellent option if you're interested in improving user experience for content management systems. If you're passionate about web browsers, the Mozilla Design team, which contributes to Firefox and other Mozilla projects, might be a perfect fit.
+As a designer, you might want to focus your search on design-specific opportunities. Check out [Open Source Design](http://opensourcedesign.net), a community dedicated to open source designers. The [Drupal Design Initiative](https://groups.drupal.org/drupal-design/d8di) is another excellent option if you're interested in improving user experience for content management systems. If you're passionate about web browsers, the [Mozilla Design team](https://foundation.mozilla.org/en/docs/design/about/), which contributes to Firefox and other Mozilla projects, might be a perfect fit.
 
 Remember, finding the right project is a process. Don't be discouraged if the first few projects you look at don't seem quite right. Keep exploring until you find a project that aligns with your skills and interests.
 
@@ -41,13 +41,13 @@ Remember, finding the right project is a process. Don't be discouraged if the fi
 
 Once you've found a project that interests you, it's important to familiarize yourself with its structure. This will help you navigate the project more effectively and understand how you can best contribute.
 
-Start by reading the project's documentation. The README file is usually the best place to begin - it provides an overview of the project, its goals, and often includes information on how to get started. Look for a CONTRIBUTING file as well. This document outlines the specific processes for contributing to the project.
+Start by reading the project's documentation. The [README](https://www.makeareadme.com/) file is usually the best place to begin - it provides an overview of the project, its goals, and often includes information on how to get started. Look for a [CONTRIBUTING](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) file as well. This document outlines the specific processes for contributing to the project.
 
-Many projects also have a CODE_OF_CONDUCT file. This sets expectations for community behavior and is an important document to read to ensure you interact with the community in a respectful and appropriate manner.
+Many projects also have a [CODE_OF_CONDUCT](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-code-of-conduct-to-your-project) file. This sets expectations for community behavior and is an important document to read to ensure you interact with the community in a respectful and appropriate manner.
 
 Next, explore the project's issue tracker. This is where problems, feature requests, and tasks are logged. As a designer, you'll want to look for issues labeled with tags like "design" or "UX". These are areas where your skills can be particularly valuable.
 
-Most open source projects have some form of discussion forum. This might be a mailing list, a dedicated forum, or a chat platform like Slack or Discord. These spaces are great for asking questions, understanding the project's needs, and getting to know the community.
+Most open source projects have some form of discussion forum. This might be a mailing list, a dedicated forum, or a chat platform like [Telegram](https://telegram.org/) or [Discord](https://discord.com/). These spaces are great for asking questions, understanding the project's needs, and getting to know the community.
 
 Finally, check if the project has any specific design resources. Some projects have dedicated design repositories or wikis that include style guides, design systems, or brand guidelines. Familiarizing yourself with these will help ensure your contributions align with the project's existing design direction.
 
@@ -55,15 +55,15 @@ Finally, check if the project has any specific design resources. Some projects h
 
 Before you start contributing, it's crucial to understand the project's contribution guidelines. These guidelines ensure that your contributions align with the project's goals and standards.
 
-Begin by thoroughly reading the project's documentation. This will help you understand the project's vision, goals, and any existing design principles. This knowledge will inform your design decisions and help you create contributions that truly benefit the project.
+Begin by thoroughly *reading the project's documentation**. This will help you understand the project's vision, goals, and any existing design principles. This knowledge will inform your design decisions and help you create contributions that truly benefit the project.
 
-When you're just starting out, it's often best to begin with small contributions. Look for issues tagged as "good first issue" or "beginner-friendly". These are typically smaller tasks that are well-suited for newcomers. You might start by improving documentation, creating small UI elements, or even just participating in discussions.
+When you're just starting out, it's often best to **begin with small contributions**. Look for issues tagged as "good first issue" or "beginner-friendly". These are typically smaller tasks that are well-suited for newcomers. You might start by improving documentation, creating small UI elements, or even just participating in discussions.
 
-Communication is key in open source projects. Before you start working on a significant contribution, introduce yourself to the community. Share your background, your interest in the project, and what you hope to contribute. This helps the community get to know you and can lead to valuable guidance and mentorship.
+Communication is key in open source projects. Before you start working on a significant contribution, **introduce yourself** to the community. Share your background, your interest in the project, and what you hope to contribute. This helps the community get to know you and can lead to valuable guidance and mentorship.
 
-It's also a good idea to discuss your ideas before you start working on them. This ensures you're not duplicating work someone else is doing and allows you to get feedback on your approach early on.
+It's also a good idea to **discuss your ideas** before you start working on them. This ensures you're not duplicating work someone else is doing and allows you to get feedback on your approach early on.
 
-Make sure you understand the process for submitting your work. Many projects use pull requests on platforms like GitHub. Familiarize yourself with this process and be prepared to iterate on your work based on feedback. Remember, revision and improvement are normal parts of the open source contribution process.
+Make sure you **understand the process** for submitting your work. Many projects use pull requests on platforms like GitHub. Familiarize yourself with this process and be prepared to iterate on your work based on feedback. Remember, revision and improvement are normal parts of the open source contribution process.
 
 ## Setting Up Necessary Tools and Accounts
 
@@ -73,7 +73,7 @@ Version control is a fundamental part of open source development. Git is the mos
 
 You'll also need to create accounts on the platforms where the projects you're interested in are hosted. This often means setting up a GitHub account, but you might also need accounts on GitLab or other platforms depending on the projects you choose.
 
-As a designer, you'll need appropriate design tools. While many designers are accustomed to proprietary software, consider exploring open source alternatives like GIMP for image editing, Inkscape for vector graphics, or Krita for digital painting. These tools align well with the open source philosophy and ensure your design files are accessible to the wider community.
+As a designer, you'll need appropriate [design tools](/6-design-tools/). While many designers are accustomed to proprietary software, consider exploring open source alternatives like GIMP for image editing, Inkscape for vector graphics, or Krita for digital painting. These tools align well with the open source philosophy and ensure your design files are accessible to the wider community.
 
 Make sure your tools can export to the formats specified by the project. SVG is often preferred for vector graphics in open source projects due to its scalability and ease of modification.
 

@@ -52,6 +52,7 @@ detectMobile()
 
 onMounted(() => {
     document.addEventListener('scroll', handleScroll)
+    document.body.classList.remove('-search-active')
 })
 
 onBeforeUnmount(() => {

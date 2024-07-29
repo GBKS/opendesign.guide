@@ -142,6 +142,10 @@ const title = computed(() => {
   return pageData.value?.body.children[0].children[0].value || ''
 })
 
+onMounted(() => {
+    document.body.classList.remove('-search-active')
+})
+
 </script>
 
 <template>
@@ -329,6 +333,7 @@ const title = computed(() => {
 
                     a {
                         text-decoration: none;
+                        color: black;
 
                         &:hover {
                             text-decoration: underline;

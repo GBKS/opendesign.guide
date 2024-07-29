@@ -49,7 +49,7 @@ Successful collaboration in open source projects relies heavily on effective com
 
 When presenting your design decisions, clarity is key. Provide context for your choices, explaining not just what you've designed, but why. Whenever possible, support your decisions with data and user research. Visual aids such as wireframes and mockups can be incredibly helpful in illustrating your ideas, especially when dealing with complex interactions or layouts.
 
-Various collaborative tools can facilitate communication between designers and developers. Design handoff tools like Zeplin or Avocode can help you share design specs and assets. Prototyping tools such as InVision or Figma allow you to create interactive mockups that demonstrate how your designs will function. Collaborative whiteboards like Miro or Mural can be excellent for brainstorming sessions and discussing ideas visually.
+Various collaborative tools can facilitate communication between designers and developers. Design handoff tools like [Zeplin](https://zeplin.io/) can help you share design specs and assets. Prototyping tools such as [Penpot](https://penpot.app/) allow you to create interactive mockups that demonstrate how your designs will function. Collaborative whiteboards like [Miro](https://miro.com/) or [Mural](https://www.mural.co/) can be excellent for brainstorming sessions and discussing ideas visually.
 
 ## Handling Feedback and Iterations
 
