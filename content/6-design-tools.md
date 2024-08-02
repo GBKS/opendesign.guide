@@ -69,13 +69,15 @@ When creating a design system for your open source project, consider using tools
 
 ## Accessibility Tools
 
-Ensuring accessibility is a crucial aspect of open source design, as these projects often aim to be usable by as wide an audience as possible. Several open source tools can help you evaluate and improve the accessibility of your designs:
+Ensuring [accessibility](/8-improving-ux#designing-for-accessibility) is a crucial aspect of open source design, as these projects often aim to be usable by as wide an audience as possible. Several open source tools can help you evaluate and improve the accessibility of your designs:
 
 1. [WAVE](https://wave.webaim.org/): A web accessibility evaluation tool that provides visual feedback about the accessibility of your web content.
 2. [Contrast Checker](https://webaim.org/resources/contrastchecker/): A simple tool to check the contrast ratio of your color choices to ensure readability.
 3. [Axe](https://www.deque.com/axe/): An accessibility testing engine that can be integrated into automated workflows.
 
-Remember that while these tools are helpful, they should complement, not replace, manual testing and feedback from users with disabilities.
+Additionally, it's important to familiarize yourself with and regularly use the built-in accessibility features provided by major operating systems (Windows, macOS, iOS, Android). These include screen readers, magnifiers, and other assistive technologies. By using these tools during your design process, you can better understand how users with different abilities will interact with your software.
+
+Remember that while these tools are helpful, they should complement, not replace, manual testing and feedback from users with disabilities. Regular testing throughout the design and development process is crucial to ensure consistent accessibility.
 
 ## Version Control for Designers
 

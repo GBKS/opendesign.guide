@@ -27,13 +27,13 @@ images:
 
 ## What is Open Source?
 
-Open source is a fascinating concept that has revolutionized the way software is developed and distributed. At its core, open source refers to software whose source code – the underlying instructions that make the program work – is freely available for anyone to view, modify, and distribute. This approach stands in stark contrast to proprietary or "closed source" software, where the source code is kept secret and tightly controlled by its owners.
+[Open source](https://en.wikipedia.org/wiki/Open_source) is a fascinating concept that has revolutionized the way software is developed and distributed. At its core, open source refers to software whose source code – the underlying instructions that make the program work – is freely available for anyone to view, modify, and distribute. This approach stands in stark contrast to proprietary or "closed source" software, where the source code is kept secret and tightly controlled by its owners.
 
 But open source is more than just visible code. It's a philosophy that extends far beyond the realm of software development. The open source movement embodies principles of collaboration, transparency, and community-driven innovation. It's about fostering a culture where knowledge is shared freely and improvements are made collectively.
 
 Imagine a world where the blueprint for every piece of technology is available for all to see and improve upon. That's the essence of open source. It's like a global potluck dinner where everyone brings a dish to share, and together, we create a feast that's far more diverse and delicious than any one person could have made alone.
 
-## Key Principles of Open Source
+## Key Principles
 
 The open source philosophy is built on several fundamental principles that guide how these projects operate and grow.
 
@@ -57,7 +57,7 @@ In the open source world, contributions are typically judged on their merit, not
 
 Perhaps one of the most powerful aspects of open source is the strong sense of community that often develops around these projects. Contributors from around the world come together, united by a shared goal of improving the software they're working on.
 
-## Benefits of Contributing to Open Source Projects
+## Benefits of Contributing
 
 For designers, dipping your toes into the open source world can be an incredibly rewarding experience. It's not just about giving back to the community – although that's certainly a big part of it. Contributing to open source projects can significantly boost your career and personal growth in numerous ways.
 
@@ -81,13 +81,13 @@ For those who make significant contributions, open source can be a path to recog
 
 Lastly, many people find great personal satisfaction in contributing to open source projects. There's something special about knowing that your work is benefiting the wider community, often in ways you might never have imagined.
 
-## Common Misconceptions about Open Source
+## Common Misconceptions
 
 Despite its growing popularity, there are still some common misconceptions about open source that are worth addressing.
 
 ### Only for developers
 
-One prevalent myth is that open source is only for programmers. While it's true that coding plays a significant role in many open source projects, there's a growing need for a variety of skills. Designers, writers, testers, and many other non-coding roles are crucial to the success of open source projects. In fact, good design is becoming increasingly recognized as a key factor in the adoption and usability of open source software.
+One prevalent myth is that open source is only for programmers. While it's true that coding plays a significant role in many open source projects, there's a growing need for a variety of skills. Designers, writers, testers, and many other non-coding roles are crucial to the success of open source projects. In fact, good design is becoming increasingly recognized as a key factor in the adoption and usability of open source software. Read more about this in [chapter 2](/2-the-designers-role).
 
 ### It's always free
 
