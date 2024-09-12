@@ -341,6 +341,14 @@ onMounted(() => {
                     }
                 }
             }
+
+            :deep(hr) {
+                @include r('margin-top', 20, 40);
+                border: none;
+                height: 1px;
+                background-color: black;
+                opacity: 0.2;
+            }
         }
 
         .pagination {
