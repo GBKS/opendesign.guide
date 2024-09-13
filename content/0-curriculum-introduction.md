@@ -100,36 +100,32 @@ We're excited for you to begin this journey into open source design. Your contri
 
 ## For educators
 
-We're thrilled that you're considering using this curriculum in your educational program! Whether you're running a bootcamp, an online workshop, or integrating this into a broader course, we've designed this curriculum to be flexible and adaptable to various learning environments.
+We envision this guide as a valuable resource for educational programs, from bootcamps and online workshops to university courses. While we're still in the early stages of developing this guide for educational use, we're excited about its potential and would love to collaborate with you to refine and expand its applications.
 
-### How to Use This Curriculum
+### Our Vision for Educational Use
 
-1. **Modular Structure**: Each chapter is designed as a standalone module, allowing you to mix and match based on your program's needs and time constraints.
+We aspire for this guide to be:
 
-2. **Hands-on Projects**: We've included practical exercises and a final project. These can be expanded into larger assignments or group projects for your students.
+1. **Modular and Flexible**: Allowing you to adapt content to various learning environments and time constraints.
 
-3. **Discussion Prompts**: Each chapter includes topics that can spark meaningful discussions. Use these to encourage critical thinking and debate among your students.
+2. **Rich with Hands-on Projects**: Providing practical exercises that can be expanded into larger assignments or group projects.
 
-4. **Real-world Examples**: The case studies provided can be used as starting points for more in-depth analysis or as inspiration for student projects.
+3. **Discussion-Provoking**: Including topics that can spark meaningful conversations and debates among students.
 
-5. **Customization**: Feel free to supplement our material with your own examples, exercises, or additional resources that are relevant to your specific audience.
+4. **Grounded in Real-world Examples**: Offering case studies that can be used for in-depth analysis or project inspiration.
 
-### Tips for Different Settings
+5. **Customizable**: Serving as a foundation that you can build upon with your own examples and resources.
 
-- **Bootcamps**: Focus on the practical aspects and hands-on exercises. Consider having students contribute to a real open source project as their final assignment.
+### Invitation to Collaborate
 
-- **Online Workshops**: Break the content into digestible segments. Use the exercises as homework between sessions and dedicate live time to discussions and Q&A.
+We're eager to work with you to realize this vision. We invite you to pilot portions of this guide in your teaching and share your experiences with us. Your feedback on what works well and where improvements are needed will be invaluable. We welcome suggestions for additional topics, exercises, or resources that would enhance the guide's educational value.
 
-- **University Courses**: Expand on the theoretical aspects, perhaps inviting guest speakers from open source projects. Encourage students to critically analyze existing open source designs.
+### Future Resources
 
-- **Self-paced Online Course**: Provide clear milestones and create a community platform where learners can discuss topics and share their work.
+As we continue to develop content, we aim to create supplementary materials such as slide decks for each chapter, expanded exercise sets, and project ideas. We also envision establishing a forum where you can share your experiences and best practices for teaching open source design.
 
-### Additional Resources
+### Get Involved
 
-We're committed to supporting educators in delivering this content effectively. Here are some additional resources:
+We welcome your input and ideas on how to make this guide more effective for educational use. Please share your thoughts, experiences, and suggestions through our [GitHub repository](https://github.com/GBKS/opendesign.guide). Your contributions will be invaluable in shaping this resource to better serve you and students alike.
 
-- Slide decks for each chapter (TODO)
-- Additional exercises and project ideas (TODO)
-- A forum for educators to share experiences and best practices (TODO)
-
-We welcome your feedback and suggestions on how to improve this curriculum for educational use. Please share your experiences and ideas through our [GitHub repository](https://github.com/GBKS/opendesign.guide) or educator's forum.
+Together, we can work towards creating a comprehensive, practical, and engaging guide that introduces designers to the world of open source design. We're excited about the potential impact this could have on both education and the open source community, and we look forward to collaborating with you to make it a reality.
