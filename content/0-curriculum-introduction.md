@@ -118,7 +118,7 @@ We aspire for this guide to be:
 
 ### Invitation to Collaborate
 
-We're eager to work with you to realize this vision. We invite you to pilot portions of this guide in your teaching and share your experiences with us. Your feedback on what works well and where improvements are needed will be invaluable. We welcome suggestions for additional topics, exercises, or resources that would enhance the guide's educational value.
+We're eager to work with you to realize this vision. We invite you to pilot portions of this guide in your teaching and share your experiences with us. [Your feedback](/13-about#invitation-to-contribute) on what works well and where improvements are needed will be invaluable. We welcome suggestions for additional topics, exercises, or resources that would enhance the guide's educational value.
 
 ### Future Resources
 
