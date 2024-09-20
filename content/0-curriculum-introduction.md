@@ -25,15 +25,21 @@ images:
 
 # Introduction
 
-Welcome to [our](/13-about) comprehensive guide on contributing to open source projects as a designer! This site is designed to equip you with the knowledge, skills, and confidence to make meaningful contributions to the world of open source software.
+## Let's go
 
-Our mission is to empower designers like you to:
+Welcome to your guide on becoming an open source designer! This resource is designed to help you make meaningful contributions to software projects used by millions of people every day. Whether you're a student eager to apply your skills, a professional designer looking for new challenges, or someone who wants to improve the technology we all use, this guide is for you.
 
-- Improve the user experience of open source software
-- Make open source projects more accessible to a wider audience
-- Encourage collaboration between designers and developers
-- Foster innovation in open source design
-- Create opportunities for designers to grow their skills and expand their portfolios
+By contributing your design skills to open source projects, you can:
+
+- Make software more user-friendly and accessible to people of all backgrounds
+- Collaborate with developers and designers from around the world
+- Build a portfolio with real projects that solve actual problems
+- Work on a wide range of applications, from web browsers to scientific tools
+- Develop new skills in user research, interaction design, and visual design
+
+Our goal is to equip you with the knowledge and confidence to join open source communities as a designer. You'll learn what open source is about, the role of designers, collaborative workflows, and so much more.
+
+Are you ready to start making software better for everyone? Let's begin our journey into open source design!
 
 ## What's Included
 
@@ -54,23 +60,11 @@ This guide consists of 12 chapters, each focusing on a crucial aspect of open so
 
 Each chapter includes detailed explanations, practical tips, and real-world examples to help you understand and apply the concepts.
 
-By completing all chapters, you'll gain:
-
-1. Practical skills for contributing to open source projects
-2. Understanding of open source culture and workflows
-3. Experience with collaborative design processes
-4. Knowledge of tools and resources specific to open source design
-5. Insights from real-world case studies
-6. A significant portfolio piece from your final project
-7. The ability to make a real impact on software used by people worldwide
-
-Whether you're a student, a professional designer looking to expand your skills, or simply interested in giving back to the open source community, this guide will provide valuable knowledge and experience.
-
 ## How to Use This Guide
 
 Here are some tips to get the most out of this course:
 
-1. **Sequential Learning:** The chapters are designed to build on each other, so it's best to go through them in order.
+1. **Sequential Learning:** The chapters are designed to build on each other, so it's best to go through them in order (skipping around is also OK).
 
 2. **Hands-On Practice:** Don't just read – practice! Try out the tools and techniques discussed in each chapter.
 
@@ -84,17 +78,9 @@ Here are some tips to get the most out of this course:
 
 7. **Continuous Learning:** Open source is always evolving. Use this guide as a foundation, but keep learning and staying updated on new trends and practices.
 
-Ready to begin your journey into open source design? Here's how to get started:
-
-1. Read through this introduction to get an overview of what's ahead.
-2. Set aside regular time for studying and practicing.
-3. Prepare your design tools – both digital and traditional.
-4. Join online communities related to open source design.
-5. Start with [Chapter 1](/1-open-source) and work your way through the guide.
-
 Remember, the open source community values initiative and enthusiasm. Don't be afraid to jump in and start contributing, even as you're learning. Your fresh perspective as a newcomer can be incredibly valuable to projects.
 
-We're excited for you to begin this journey into open source design. Your contributions have the potential to improve software used by millions of people around the world. [Let's get started!](/1-open-source)
+Now, let's get started with [chapter 1](/1-open-source), an introduction to open-source.
 
 ---
 
