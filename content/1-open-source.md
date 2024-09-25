@@ -27,17 +27,19 @@ images:
 
 ## What is Open Source?
 
-Open source is a fascinating concept that has revolutionized the way software is developed and distributed. It is typically identified with software whose source code – the underlying instructions that make the program work – is freely available for anyone to view, modify, and distribute. This approach stands in stark contrast to proprietary or "closed source" software, where the source code is kept secret and tightly controlled by its owners. If you'd like to dig deeper into the history of open source, see the [Wikipedia entry](https://en.wikipedia.org/wiki/Open_source). 
+It is a fascinating concept that has revolutionized the way software is developed and distributed, and also been adapted to other areas like design, science, education and governance.
+
+It is typically identified with software whose source code – the underlying instructions that make the program work – is freely available for anyone to view, modify, and distribute. This approach stands in stark contrast to proprietary or "closed source" software, where the source code is kept secret and tightly controlled by its owners. Visit [Wikipedia](https://en.wikipedia.org/wiki/Open_source) if you'd like to dig deeper into the history of open source. 
 
 But there's more to it than just visible code. It's a philosophy that extends far beyond the realm of software development. The open source movement embodies principles of collaboration, transparency, and community-driven innovation. It's about fostering a culture where knowledge is shared freely and improvements are made collectively.
 
 Imagine a world where the blueprint for every piece of technology is available for all to see and improve upon. That's the essence of open source. It's like a global potluck dinner where everyone brings a dish to share, and together, we create a feast that's far more diverse and delicious than any one person could have made alone.
 
-While we'll primarily focus on open source software in this guide, it's important to note that its principles extend to other areas, including open design. As we explore this topic, you'll see how these concepts apply to your work as a designer.
+While we'll primarily focus on open source software in this guide, it's important to note that its principles extend to other areas, including open design. As we explore this topic, you'll see how these concepts apply to your work as a designer (especially [Chapter 2](/2-the-designers-role)).
 
 ## Key Principles
 
-Open source projects often adhere to the following principles, though it's important to note that individual projects may have their own unique guidelines:
+Open source projects often adhere to the following principles, though it's important to note that individual projects may have their own unique guidelines.
 
 ### Transparency
 
@@ -45,11 +47,11 @@ Transparency is at the heart of open source. Everything about the software – f
 
 ### Collaboration
 
-Projects contributions from welcome from anyone, regardless of their background or affiliation. Whether you're a seasoned professional or a curious newcomer, your ideas and efforts are valued. Also see [Chapter 4: Collaborative Workflows](/4-collaborative-workflows).
+Projects welcome contributions from anyone, regardless of their background or affiliation. Whether you're a seasoned professional or a curious newcomer, your ideas and efforts are valued.
 
 ### Iterative progress
 
-With the source code being accessible to all, new ideas can be quickly implemented and tested by the community. This leads to faster progress and more robust solutions.
+With the source code being accessible to all, new ideas can be quickly implemented and tested by the community. This leads to faster progress and more robust solutions. Also see [Chapter 4: Collaborative Workflows](/4-collaborative-workflows).
 
 ### Quality
 
@@ -78,19 +80,19 @@ As you work on projects, you'll connect with other professionals in your field f
 
 ### Impact and recognition
 
-Your contributions can positively affect thousands or even millions of users worldwide, and that kind of influence  can earn you respect from your peers in the open source community and beyond.
+Your contributions can positively affect thousands or even millions of users worldwide, and that kind of influence can earn you respect from your peers in the open source community and beyond.
 
 ### Personal satisfaction
 
-Lastly, many people find great personal satisfaction in contributing. There's something special about knowing that your work is benefiting the wider community, often in ways you might never have imagined.
+Lastly, many people find great personal satisfaction in contributing. There's something special about knowing that your work is benefiting the wider community, often in ways you might never have imagined. And it is a great way to spend time on topics you care about.
 
 ## Common Misconceptions
 
-Despite its growing popularity, there are still some common misconceptions about that are worth addressing.
+Despite its growing popularity, there are still some common misconceptions that are worth addressing.
 
 ### "It's only for developers"
 
-While it's true that coding plays a significant role in many open source projects, there's a growing need for a variety of skills. Designers, writers, testers, and many other non-coding roles are crucial to the broader success projects. In fact, good design is becoming increasingly recognized as a key factor in the adoption and usability of open source software. Read more about this in [chapter 2](/2-the-designers-role).
+While it's true that coding plays a significant role in many open source projects, there's a growing need for a variety of skills. Designers, writers, testers, and many other non-coding roles are crucial to the broader success of projects. In fact, good design is becoming increasingly recognized as a key factor for adoption and usability. Read more about this in [chapter 2](/2-the-designers-role).
 
 ### "It's always free"
 
@@ -106,7 +108,7 @@ While there can be a learning curve, many projects are actively working to make 
 
 ### "You'll be the only designer in the project"
 
-While some projects may have limited design resources, many open source projects have active design teams and communities.
+While some projects may have limited design resources, many open source projects have active design teams and communities. Other projects would be happy to have more design contributors, and you can help make that happen if you'd like.
 
 ## The Impact of Open Source
 
@@ -114,9 +116,9 @@ The impact of open source on the technology landscape cannot be overstated. It h
 
 - **Technology:** [Linux](https://www.linux.org/), an open source operating system, powers much of the internet's infrastructure. The [Android](https://www.android.com/) mobile operating system, based on open source, runs on billions of devices worldwide. This website is based on [Nuxt](https://nuxt.com/), an open-source Javascript framework.
 - **Design:** Open source design tools and resources, such as [Penpot](https://penpot.app/), the [Inter](https://rsms.me/inter/) typeface, [Open Peeps](https://www.openpeeps.com/), the [Bitcoin Design Guide](https://bitcoin.design/guide/), [Health Icons](https://healthicons.org/) or [Material Design](https://m3.material.io/), have democratized access to professional-grade design assets and guidelines. More on this in [Chapter 6: Tools & Resources](/6-design-tools).
-- **Education:** Open educational resources (like this guide you are reading right now) and platforms have made learning more accessible globally.
-- **Science:** Open source principles in scientific research have led to more collaborative and transparent scientific processes.
-- **Governance:** Open data initiatives in government have increased transparency and citizen engagement.
+- **[Education](https://en.wikipedia.org/wiki/Open_education):** Open educational resources (like this guide you are reading right now) and platforms have made learning more accessible globally.
+- **[Science](https://en.wikipedia.org/wiki/Open_science):** Open source principles in scientific research have led to more collaborative and transparent scientific processes.
+- **[Governance](https://en.wikipedia.org/wiki/Open_government):** Open data initiatives in government have increased transparency and citizen engagement.
 
 As a designer, your contributions can significantly enhance user experiences, making powerful tools and resources more accessible and user-friendly for people around the world.
 
