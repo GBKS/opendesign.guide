@@ -314,6 +314,15 @@ onMounted(() => {
                     color: black;
                 }
 
+                a {
+                    text-decoration: none;
+                    color: var(--blue);
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
                 & + p {
                     @include r('margin-top', 10, 20);
                 }
@@ -333,7 +342,7 @@ onMounted(() => {
 
                     a {
                         text-decoration: none;
-                        color: black;
+                        color: var(--blue);
 
                         &:hover {
                             text-decoration: underline;
