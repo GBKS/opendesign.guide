@@ -3,6 +3,7 @@ const scrollPosition = ref(0)
 const isMobile = ref(false)
 const route = useRoute()
 const searchActive = ref(false)
+const showContents = ref(false)
 
 useHead({
     title: 'Open Design Guide',
@@ -67,13 +68,38 @@ onBeforeUnmount(() => {
 
             <p class="-note">This is a total work-in-progress and the content is currently pretty much 100% AI generated and needs a ton of work. <a href="https://github.com/GBKS/opendesign.guide" target="_blank">File issues</a>, join our <a href="https://github.com/BitcoinDesign/Meta/issues?q=is%3Aissue+is%3Aopen+%22Open+Design+Guide%22" target="_blank">reading club</a>, and <a href="https://github.com/BitcoinDesign/Meta/issues/696" target="_blank">learn more</a>.</p>
         </header>
+        <button
+            :class="'content-toggle' + (showContents ? ' -active' : '')"
+            :aria-selected="showContents"
+            aria-label="Toggle content view"
+            @click="showContents = !showContents"
+        >
+            <p>Covers</p>
+            <p>Content</p>
+        </button>
         <div class="page-cards">
-            <ContentList path="/" v-slot="{ list }">
+            <ContentList
+                v-if="!showContents"
+                path="/" 
+                v-slot="{ list }"
+            >
                 <PageCard
                     v-for="article in list" 
                     :key="article._path"
                     :info="article"
                     :scrollPosition="scrollPosition"
+                    :isMobile="isMobile"
+                />
+            </ContentList>
+            <ContentList
+                v-if="showContents"
+                path="/" 
+                v-slot="{ list }"
+            >
+                <PageCardContent
+                    v-for="article in list" 
+                    :key="article._path"
+                    :info="article"
                     :isMobile="isMobile"
                 />
             </ContentList>
@@ -96,7 +122,7 @@ onBeforeUnmount(() => {
     flex-direction: column;
     align-items: center;
     padding: 75px 20px;
-    gap: 75px;
+    gap: 50px;
 
     header {
         max-width: 980px;
@@ -117,12 +143,61 @@ onBeforeUnmount(() => {
 
             &.-note {
                 margin-top: 20px;
-                color: #859B63;
+                color: #1CB3CB;
                 @include r('font-size', 17, 19);
                 font-weight: 600;
 
                 a {
-                    color: #859B63;
+                    color: #1CB3CB;
+                }
+            }
+        }
+    }
+
+    .content-toggle {
+        display: flex;
+        border-radius: 15px;
+        background-color: #f8f8f8;
+        cursor: pointer;
+        transition: all 250ms $ease;
+
+        p {
+            font-weight: 600;
+            color: #808080;
+            @include r('font-size', 13, 15);
+            padding: 5px 25px;
+
+            &:first-child {
+                background-color: #1CB3CB;
+                color: white;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 15px;
+            }
+
+            &:last-child {
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+
+                &:hover {
+                    color:#1CB3CB;
+                }
+            }
+        }
+
+        &.-active {
+            p {
+                &:first-child {
+                    background-color: transparent;
+                    color: #808080;
+
+                    &:hover {
+                        color:#1CB3CB;
+                    }
+                }
+
+                &:last-child {
+                    background-color: #1CB3CB;
+                    color: white;
                 }
             }
         }
