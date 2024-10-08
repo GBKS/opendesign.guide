@@ -85,7 +85,7 @@ These success stories show that designers can have a profound impact on open sou
 
 As you embark on your journey in open source design, there are several best practices that can help you contribute effectively and make the most of your experience.
 
-First and foremost, take the time to **understand the project thoroughly**. Familiarize yourself with its goals, target user base, and any technical constraints. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement [Chapter 3](/3-getting-started#understanding-project-structures){:class='chapter-link'}.
+First and foremost, take the time to **understand the project thoroughly**. Familiarize yourself with its goals, target user base, and any technical constraints. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement [C3](/3-getting-started#understanding-project-structures){:class='chapter-link'}.
 
 When you're just starting out, it's often best to **begin with minor contributions**. This approach allows you to understand the project's workflow and community dynamics without feeling overwhelmed. As you gain confidence and familiarity with the project, you can gradually take on larger design tasks.
 
@@ -107,4 +107,4 @@ Designers play a vital role in open source projects, making powerful software mo
 
 In the open source world, designers are problem solvers, user advocates, and community builders. They work in a unique environment that requires adaptability, clear communication, and close collaboration with developers and users.
 
-Now let's get you started in [Chapter 3](/3-getting-started){:class='chapter-link'}.
+Now let's get you started in [C3](/3-getting-started){:class='chapter-link'}.
