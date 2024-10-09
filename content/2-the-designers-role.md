@@ -27,7 +27,7 @@ images:
 
 ## The Evolving Role of Design
 
-In the early days of open source, the focus was primarily on functionality. Developers were more concerned with creating powerful software that could perform complex tasks, often with little emphasis on user-friendliness. The result was software that, while impressive in its capabilities, could be challenging for the average user to navigate and use effectively.
+In the early days of open source [C1](/1-open-source){:class='chapter-link'}, the focus was primarily on functionality. Developers were more concerned with creating powerful software that could perform complex tasks, often with little emphasis on user-friendliness. The result was software that, while impressive in its capabilities, could be challenging for the average user to navigate and use effectively.
 
 Today, design plays a crucial role in the success and adoption of open source projects. The community has recognized that even the most powerful software is of limited use if people find it difficult or frustrating to use. There is now a growing emphasis on creating intuitive, visually appealing interfaces and smooth user experiences.
 
@@ -37,7 +37,7 @@ This shift has opened up exciting opportunities for designers to make significan
 
 As a designer, you might be wondering exactly how you can contribute to open source projects. The good news is that there are many ways to get involved, each utilizing different aspects of your design expertise.
 
-**User Research** is essential for understanding the role a project plays in users lives. Listening to the community and speaking with users about their needs, behaviors, and pain points helps inform design decisions and ensure that the software meets real user needs.
+**User Research** is essential for understanding the role a project plays in users lives. Listening to the community and speaking with users about their needs, behaviors, and pain points helps inform design decisions and ensure that the software meets real user needs. A unique aspect of open-source user research is that you are part of the community and in direct contact with users and contributors all the time.
 
 **User Interface (UI) Design** is perhaps the most visible form of contribution. This involves creating visually appealing and intuitive interfaces for applications. Your work here can transform a powerful but intimidating piece of software into something that users find inviting and easy to use.
 
@@ -55,7 +55,7 @@ In larger projects, you might contribute to **Design Systems**. This involves cr
 
 Even if you prefer working with words over visuals, there's a place for you in open source design. **Documentation Design** involves improving the presentation and usability of project documentation, helping users and new contributors understand and use the software more effectively.
 
-Most designers work across several of these areas. There is also a good chance that you can help shape the design process in the project as you become a regular contributor.
+Most designers work across several of these areas, and other contributors typically help out as well. There is also a good chance that you can help shape the design process in the project as you become a regular contributor.
 
 ## The Importance of Design
 
@@ -65,13 +65,13 @@ Speaking of contributors, attractive and user-friendly projects tend to draw mor
 
 Good design also helps open source alternatives compete more effectively with proprietary software. In many cases, open source software may have similar or even superior functionality compared to proprietary alternatives. However, if the open source option is difficult to use, many people will stick with the more polished proprietary product. By improving the design of open source software, you can help level the playing field and **give users a genuine choice**.
 
-Design improvements can also make complex functionality more accessible to users. Many open source projects are incredibly powerful but can be overwhelming for new users. Your design skills can help bridge this gap, making advanced features **more discoverable and easier to use**.
+Design improvements can also make complex functionality more accessible to users. Many open source projects are incredibly powerful but can be overwhelming for new users. Your design skills can help bridge this gap, making advanced features **more discoverable and easier to use** and giving users new super powers.
 
 Lastly, consistent and thoughtful design helps **create a strong, recognizable brand** for the project. This can help the project stand out in a crowded field, strengthen the community, and build user trust and loyalty over time.
 
 ## Success Stories
 
-Despite the challenges, many designers have made significant impacts in the open source world. Their stories can serve as inspiration and show the real difference design can make in these projects.
+Designers have made significant impacts in the open source world. Their stories can serve as inspiration and show the real difference design can make in these projects.
 
 Take **[Elementary OS](https://docs.elementary.io/hig/design-philosophy)**, for example. This Linux distribution stands out for its focus on design, creating a cohesive and intuitive user experience. The Elementary team has shown that open source software can be just as polished and user-friendly as proprietary alternatives. Their work has not only made Linux more accessible to non-technical users but has also raised the bar for design in the open source community as a whole.
 
@@ -79,11 +79,11 @@ Take **[Elementary OS](https://docs.elementary.io/hig/design-philosophy)**, for 
 
 In the world of content management systems, **[WordPress](https://make.wordpress.org/design/handbook/)** has continually improved its user interface, making website creation accessible to non-technical users. The WordPress design team has played a crucial role in democratizing web publishing, allowing millions of people to create and manage their own websites without needing to understand the underlying code.
 
-These success stories show that designers can have a profound impact on open source projects. Whether it's making complex technology more accessible, improving project branding, or enhancing user experiences, designers play a crucial role in the open source ecosystem.
+These success stories show that designers can have a profound impact on open source projects. Whether it's making complex technology more accessible, improving project branding, or enhancing user experiences, designers play a crucial role in the ecosystem.
 
 ## Best Practices
 
-As you embark on your journey in open source design, there are several best practices that can help you contribute effectively and make the most of your experience.
+Open source collaboration is a unique way of collaboration, and there are several best practices that can help you contribute effectively and make the most of your experience.
 
 First and foremost, take the time to **understand the project thoroughly**. Familiarize yourself with its goals, target user base, and any technical constraints. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement [C3](/3-getting-started#understanding-project-structures){:class='chapter-link'}.
 
