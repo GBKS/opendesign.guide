@@ -80,7 +80,7 @@ Here are some tips to get the most out of this course:
 
 Remember, the open source community values initiative and enthusiasm. Don't be afraid to jump in and start contributing, even as you're learning. Your fresh perspective as a newcomer can be incredibly valuable to projects.
 
-Now, let's get started with [chapter 1](/1-open-source), an introduction to open-source.
+Now, let's get started with [Chapter 1](/1-open-source){:class='chapter-link'}, an introduction to open-source.
 
 ---
 
