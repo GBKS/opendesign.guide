@@ -39,9 +39,6 @@ As a designer, you might be wondering exactly how you can contribute to open sou
 
 **User Research** [C8](/8-improving-ux/#conducting-user-research){:class='chapter-link'} is essential for understanding the role a project plays in users lives. Listening to the community and speaking with users about their needs, behaviors, and pain points helps inform design decisions and ensure that the software meets real user needs. A unique aspect of open-source user research is that you are part of the community and in direct contact with users and contributors all the time.
 
-- [Bitcoin UX Research Toolkit](https://bitcoinresearch.xyz)
-- [Conducting research](https://bitcoin.design/guide/designing-products/user-research/) in the Bitcoin Design Guide
-
 **User Interface (UI) Design** is perhaps the most visible form of contribution. This involves creating visually appealing and intuitive interfaces for applications. Your work here can transform a powerful but intimidating piece of software into something that users find inviting and easy to use.
 
 Closely related to UI Design is **User Experience (UX) Design**. While UI focuses on the look of the interface, UX is concerned with the overall user journey. As a UX designer, you'll consider new, regular, and experienced users across their many activities, and make sure that every interaction is consistent, smooth and intuitive.
@@ -54,18 +51,20 @@ For those who enjoy organizing information, **Information Architecture** offers 
 
 In larger projects, you might contribute to **Design Systems**. This involves creating and maintaining consistent design languages that can be applied across all aspects of a project, ensuring a cohesive look and feel.
 
-- [Bitcoin UI Kit](https://www.bitcoinuikit.com)
-
 **Accessibility Design** is important for letting users adjust software to their needs and wants. Your role is to ensure that the technology is usable by people with various abilities and across many different contexts, making the project more inclusive for everyone.
-
-- [Accessibility](https://bitcoin.design/guide/designing-products/accessibility/) in the Bitcoin Design Guide
 
 Even if you prefer working with words over visuals, there's a place for you in open source design. **Documentation Design** involves improving the presentation and usability of project documentation, helping users and new contributors understand and use the software more effectively.
 
+Most designers work across several of these areas, and other contributors typically help out as well. There is also a good chance that you can help shape the design process in the project as you become a regular contributor.
+
+::resources
+- [Bitcoin UX Research Toolkit](https://bitcoinresearch.xyz)
+- [Bitcoin UI Kit](https://www.bitcoinuikit.com)
+- [Conducting research](https://bitcoin.design/guide/designing-products/user-research/) in the Bitcoin Design Guide
+- [Accessibility](https://bitcoin.design/guide/designing-products/accessibility/) in the Bitcoin Design Guide
 - [Simple Documentation](https://docs.simple.org)
 - [Bitcoin Core App Design documentation](https://bitcoincore.app)
-
-Most designers work across several of these areas, and other contributors typically help out as well. There is also a good chance that you can help shape the design process in the project as you become a regular contributor.
+::
 
 ## The Importance of Design
 
@@ -95,7 +94,10 @@ The redesign focused on improving the website's usability, visual appeal, and in
 User testing before and after the redesign showed significant improvements in user understanding and navigation of the site. The new design made it easier for different user groups - from everyday bitcoin users to security experts - to find the information they needed.
 This collaboration demonstrates how open source design can transform a technically complex project into a more user-friendly and impactful resource, potentially improving wallet security across the bitcoin ecosystem.
 
-<EditorsNote title="Request for content">We would like to showcase more examples of how designers helped make improvements. <a href="https://github.com/GBKS/opendesign.guide/issues/3">More here</a>.</EditorsNote>
+::editors-note
+###### Request for content
+We would like to showcase more examples of how designers helped make improvements. [More here](https://github.com/GBKS/opendesign.guide/issues/3).
+::
 
 These success stories show that designers can have a profound impact on open source projects. Whether it's making complex technology more accessible, improving project branding, or enhancing user experiences, designers play a crucial role in the ecosystem.
 

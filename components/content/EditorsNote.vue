@@ -1,12 +1,6 @@
-<script lang="ts" setup>
-const props = defineProps([
-  'title'
-])
-</script>
 <template>
   <div class="editors-note">
-    <h6>{{ title }}</h6>
-    <p><slot></slot></p>
+    <slot></slot>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -14,15 +8,16 @@ const props = defineProps([
 .editors-note {
   border-radius: 15px;
   padding: 20px;
-  background-color: rgba(var(--mint-rgb), 0.15);
+  background-color: rgba(var(--mint-rgb), 0.05);
   margin-top: 20px;
   margin-bottom: 20px;
 
-  h6 {
-    font-size: 19px;
+  :deep(h6) {
+    font-size: 15px !important;
   }
 
-  p {
+  :deep(p) {
+    font-size: 15px !important;
   }
 }
 

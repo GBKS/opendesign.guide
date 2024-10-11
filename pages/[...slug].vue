@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import EmptyHeader from '../components/EmptyHeader.vue'
-import EditorsNote from '../components/EditorsNote.vue'
 
 const route = useRoute()
 const routePath = route.path
@@ -10,8 +9,7 @@ const { data: allPages } = await useAsyncData('all-pages', queryContent().find)
 const searchActive = ref(false)
 
 const components = {
-  'h1': EmptyHeader,
-  'EditorsNote': EditorsNote
+  'h1': EmptyHeader
 }
 
 watch(() => route.path, () => {
