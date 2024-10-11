@@ -23,7 +23,7 @@ images:
   - designers-role@2x.jpg
 ---
 
-# Understanding the designer's role
+# Understanding the Designer's Role
 
 ## The Evolving Role of Design
 
@@ -37,7 +37,10 @@ This shift has opened up exciting opportunities for designers to make significan
 
 As a designer, you might be wondering exactly how you can contribute to open source projects. The good news is that there are many ways to get involved, each utilizing different aspects of your design expertise.
 
-**User Research** is essential for understanding the role a project plays in users lives. Listening to the community and speaking with users about their needs, behaviors, and pain points helps inform design decisions and ensure that the software meets real user needs. A unique aspect of open-source user research is that you are part of the community and in direct contact with users and contributors all the time.
+**User Research** [C8](/8-improving-ux/#conducting-user-research){:class='chapter-link'} is essential for understanding the role a project plays in users lives. Listening to the community and speaking with users about their needs, behaviors, and pain points helps inform design decisions and ensure that the software meets real user needs. A unique aspect of open-source user research is that you are part of the community and in direct contact with users and contributors all the time.
+
+- [Bitcoin UX Research Toolkit](https://bitcoinresearch.xyz)
+- [Conducting research](https://bitcoin.design/guide/designing-products/user-research/) in the Bitcoin Design Guide
 
 **User Interface (UI) Design** is perhaps the most visible form of contribution. This involves creating visually appealing and intuitive interfaces for applications. Your work here can transform a powerful but intimidating piece of software into something that users find inviting and easy to use.
 
@@ -51,15 +54,22 @@ For those who enjoy organizing information, **Information Architecture** offers 
 
 In larger projects, you might contribute to **Design Systems**. This involves creating and maintaining consistent design languages that can be applied across all aspects of a project, ensuring a cohesive look and feel.
 
+- [Bitcoin UI Kit](https://www.bitcoinuikit.com)
+
 **Accessibility Design** is important for letting users adjust software to their needs and wants. Your role is to ensure that the technology is usable by people with various abilities and across many different contexts, making the project more inclusive for everyone.
 
+- [Accessibility](https://bitcoin.design/guide/designing-products/accessibility/) in the Bitcoin Design Guide
+
 Even if you prefer working with words over visuals, there's a place for you in open source design. **Documentation Design** involves improving the presentation and usability of project documentation, helping users and new contributors understand and use the software more effectively.
+
+- [Simple Documentation](https://docs.simple.org)
+- [Bitcoin Core App Design documentation](https://bitcoincore.app)
 
 Most designers work across several of these areas, and other contributors typically help out as well. There is also a good chance that you can help shape the design process in the project as you become a regular contributor.
 
 ## The Importance of Design
 
-The impact of good design on open source projects cannot be overstated. Well-designed software that is truly built for users is more likely to be adopted and used regularly. When software is more intuitive and enjoyable to use, we are more likely to stick with it and recommend it to others. This **increased adoption** can lead to a snowball effect, attracting more users and potentially more contributors to the project.
+The impact of good design on open source projects cannot be overstated. Well-designed software that is truly built for real people is more likely to be adopted and used regularly. When software is more intuitive and enjoyable to use, we are more likely to stick with it and recommend it to others. **Increased adoption** can lead to a snowball effect, attracting more users and potentially more contributors to the project.
 
 Speaking of contributors, attractive and user-friendly projects tend to draw more people who want to get involved. This **growth in the community** can lead to faster development, more diverse perspectives, and ultimately, better software.
 
@@ -73,11 +83,19 @@ Lastly, consistent and thoughtful design helps **create a strong, recognizable b
 
 Designers have made significant impacts in the open source world. Their stories can serve as inspiration and show the real difference design can make in these projects.
 
-Take **[Elementary OS](https://docs.elementary.io/hig/design-philosophy)**, for example. This Linux distribution stands out for its focus on design, creating a cohesive and intuitive user experience. The Elementary team has shown that open source software can be just as polished and user-friendly as proprietary alternatives. Their work has not only made Linux more accessible to non-technical users but has also raised the bar for design in the open source community as a whole.
+**[WalletScrutiny](https://bitcoin.design/guide/case-studies/walletscrutiny/)** is an excellent example of how design can significantly improve the usability and impact of an open source project. The project, which evaluates the security and reproducibility of bitcoin wallets, underwent a comprehensive redesign process with the help of the Bitcoin Design Community.
 
-**[Mozilla Firefox](https://mozilla.design/firefox/)** is another great example of the power of design in open source. The Firefox browser has undergone several major redesigns over the years, each improving its usability and visual appeal. These changes have helped Firefox remain competitive in the browser market, providing a user-centric alternative to proprietary browsers.
+The redesign focused on improving the website's usability, visual appeal, and information architecture. Key improvements included:
 
-In the world of content management systems, **[WordPress](https://make.wordpress.org/design/handbook/)** has continually improved its user interface, making website creation accessible to non-technical users. The WordPress design team has played a crucial role in democratizing web publishing, allowing millions of people to create and manage their own websites without needing to understand the underlying code.
+- A new brand identity with a more professional and trustworthy feel
+- A redesigned homepage with a clear call-to-action and easy-to-use search function
+- Improved navigation and restructuring of the methodology page for better readability
+- Enhanced copywriting to make technical concepts more accessible to users
+
+User testing before and after the redesign showed significant improvements in user understanding and navigation of the site. The new design made it easier for different user groups - from everyday bitcoin users to security experts - to find the information they needed.
+This collaboration demonstrates how open source design can transform a technically complex project into a more user-friendly and impactful resource, potentially improving wallet security across the bitcoin ecosystem.
+
+<EditorsNote title="Request for content">We would like to showcase more examples of how designers helped make improvements. <a href="https://github.com/GBKS/opendesign.guide/issues/3">More here</a>.</EditorsNote>
 
 These success stories show that designers can have a profound impact on open source projects. Whether it's making complex technology more accessible, improving project branding, or enhancing user experiences, designers play a crucial role in the ecosystem.
 
@@ -85,7 +103,7 @@ These success stories show that designers can have a profound impact on open sou
 
 Open source collaboration is a unique way of collaboration, and there are several best practices that can help you contribute effectively and make the most of your experience.
 
-First and foremost, take the time to **understand the project thoroughly**. Familiarize yourself with its goals, target user base, and any technical constraints. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement [C3](/3-getting-started#understanding-project-structures){:class='chapter-link'}.
+First and foremost, take the time to **understand the project thoroughly**. Familiarize yourself with its goals, target audience, and any technical constraints. Use the software yourself and document your experience. Join the community, and see what is being discussed. This knowledge will help you create designs that truly serve the project's needs and are feasible to implement [C3](/3-getting-started#understanding-project-structures){:class='chapter-link'}.
 
 When you're just starting out, it's often best to **begin with minor contributions**. This approach allows you to understand the project's workflow and community dynamics without feeling overwhelmed. As you gain confidence and familiarity with the project, you can gradually take on larger design tasks.
 
