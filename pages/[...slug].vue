@@ -275,6 +275,10 @@ onMounted(() => {
                 a {
                     text-decoration: none;
                     color: black;
+
+                    &:hover {
+                        color: var(--blue);
+                    }
                 }
 
                 & + p {
@@ -289,6 +293,10 @@ onMounted(() => {
                 a {
                     text-decoration: none;
                     color: black;
+
+                    &:hover {
+                        color: var(--blue);
+                    }
                 }
 
                 & + p {

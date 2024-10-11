@@ -82,7 +82,9 @@ Lastly, consistent and thoughtful design helps **create a strong, recognizable b
 
 Designers have made significant impacts in the open source world. Their stories can serve as inspiration and show the real difference design can make in these projects.
 
-**[WalletScrutiny](https://bitcoin.design/guide/case-studies/walletscrutiny/)** is an excellent example of how design can significantly improve the usability and impact of an open source project. The project, which evaluates the security and reproducibility of bitcoin wallets, underwent a comprehensive redesign process with the help of the Bitcoin Design Community.
+### [WalletScrutiny](https://bitcoin.design/guide/case-studies/walletscrutiny/)
+
+This design effort is an excellent example of how design can significantly improve the usability and impact of an open source project. The project, which evaluates the security and reproducibility of bitcoin wallets, underwent a comprehensive redesign process with the help of the Bitcoin Design Community.
 
 The redesign focused on improving the website's usability, visual appeal, and information architecture. Key improvements included:
 
