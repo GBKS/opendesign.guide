@@ -76,7 +76,7 @@ Version control is a fundamental part of open source development. Git is the mos
 You'll also need to create accounts on the platforms where the projects you're interested in are hosted. This often means setting up a GitHub account, but you might also need accounts on GitLab or other platforms depending on the projects you choose.
 
 ### Design tools
-As a designer, you'll need appropriate [design tools](/6-design-tools/). While many designers are accustomed to proprietary software, consider exploring open source alternatives like GIMP for image editing, Inkscape for vector graphics, or Krita for digital painting. These tools align well with the open source philosophy and ensure your design files are accessible to the wider community.
+As a designer, you'll need appropriate design tools [C6](/6-design-tools/){:class='chapter-link'}. While many designers are accustomed to proprietary software, consider exploring open source alternatives like GIMP for image editing, Inkscape for vector graphics, or Krita for digital painting. These tools align well with the open source philosophy and ensure your design files are accessible to the wider community.
 
 Make sure your tools can export to the formats specified by the project. SVG is often preferred for vector graphics in open source projects due to its scalability and ease of modification.
 
