@@ -35,7 +35,7 @@ But there's more to it than just visible code. It's a philosophy that extends fa
 
 Imagine a world where the blueprint for every piece of technology is available for all to see and improve upon. That's the essence of open source. It's like a global potluck dinner where everyone brings a dish to share, and together, we create a feast that's far more diverse and delicious than any one person could have made alone.
 
-While we'll primarily focus on open source software in this guide, it's important to note that its principles extend to other areas, including open design. As we explore this topic, you'll see how these concepts apply to your work as a designer (especially [Chapter 2](/2-the-designers-role)).
+While we'll primarily focus on open source software in this guide, it's important to note that its principles extend to other areas, including open design. As we explore this topic, you'll see how these concepts apply to your work as a designer [C2](/2-the-designers-role){:class='chapter-link'}.
 
 ## Key Principles
 
@@ -51,7 +51,7 @@ Projects welcome contributions from anyone, regardless of their background or af
 
 ### Iterative progress
 
-With the source code being accessible to all, new ideas can be quickly implemented and tested by the community. This leads to faster progress and more robust solutions. Also see [Chapter 4: Collaborative Workflows](/4-collaborative-workflows).
+With the source code being accessible to all, new ideas can be quickly implemented and tested by the community. This leads to faster progress and more robust solutions [C4: Collaborative Workflows](/4-collaborative-workflows){:class='chapter-link'}.
 
 ### Quality
 
@@ -72,7 +72,7 @@ For designers, dipping your toes into the open source world can be an incredibly
 
 ### Develop skills and build your portfolio
 
-Project contributions are a fantastic way to build your portfolio. You're creating tangible examples of your work that everyone, including potential employers and clients, can see. It's like having a living, breathing resume that showcases not just what you can do, but what you've actually done in real-world scenarios. More on this in [Chapter 9: Building a Personal Brand](/9-personal-brand).
+Project contributions are a fantastic way to build your portfolio. You're creating tangible examples of your work that everyone, including potential employers and clients, can see. It's like having a living, breathing resume that showcases not just what you can do, but what you've actually done in real-world scenarios [C9: Building a Personal Brand](/9-personal-brand){:class='chapter-link'}.
 
 ### Collaborate and network
 
@@ -92,7 +92,7 @@ Despite its growing popularity, there are still some common misconceptions that 
 
 ### "It's only for developers"
 
-While it's true that coding plays a significant role in many open source projects, there's a growing need for a variety of skills. Designers, writers, testers, and many other non-coding roles are crucial to the broader success of projects. In fact, good design is becoming increasingly recognized as a key factor for adoption and usability. Read more about this in [chapter 2](/2-the-designers-role).
+While it's true that coding plays a significant role in many open source projects, there's a growing need for a variety of skills. Designers, writers, testers, and many other non-coding roles are crucial to the broader success of projects. In fact, good design is becoming increasingly recognized as a key factor for adoption and usability [C2](/2-the-designers-role){:class='chapter-link'}.
 
 ### "It's always free"
 
@@ -104,7 +104,7 @@ This couldn't be further from the truth. Many open source projects are of extrem
 
 ### "It's too complicated"
 
-While there can be a learning curve, many projects are actively working to make contribution easier for newcomers. There are often mentorship programs, "good first issue" tags, and supportive communities ready to help new contributors get started. However, it's important to acknowledge that the complexity can vary between projects and it may take time to get comfortable with the processes. More on this in [Chapter 3: Getting Started](/3-getting-started).
+While there can be a learning curve, many projects are actively working to make contribution easier for newcomers. There are often mentorship programs, "good first issue" tags, and supportive communities ready to help new contributors get started. However, it's important to acknowledge that the complexity can vary between projects and it may take time to get comfortable with the processes [C3: Getting Started](/3-getting-started){:class='chapter-link'}.
 
 ### "You'll be the only designer in the project"
 
@@ -130,4 +130,4 @@ The skills and experiences you gain from contributing can significantly enhance 
 
 Remember, every expert was once a beginner. The open source community is generally welcoming and supportive of newcomers. So don't be afraid to take that first step. Your journey into open design is just beginning, and it promises to be an exciting and rewarding adventure.
 
-Now let's venture deeper into the world of open source, you'll discover [the crucial role that designers play](/2-the-designers-role) in these collaborative ecosystems.
+Now let's venture deeper into the world of open source, in [Chapter 2](/2-the-designers-role){:class='chapter-link'} you'll discover the crucial role that designers play in these collaborative ecosystems.
