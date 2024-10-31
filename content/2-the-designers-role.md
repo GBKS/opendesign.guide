@@ -129,4 +129,4 @@ Designers play a vital role in open source projects, making powerful software mo
 
 In the open source world, designers are problem solvers, user advocates, and community builders. They work in a unique environment that requires adaptability, clear communication, and close collaboration with developers and users.
 
-Now let's get you started in [C3](/3-getting-started){:class='chapter-link'}.
+If this seems like a lot, no worries. Everyone starts small and can choose how many things they want to take on. [Chapter 3](/3-getting-started){:class='chapter-link'} is about taking your first steps.
