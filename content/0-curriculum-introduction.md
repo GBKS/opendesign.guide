@@ -1,6 +1,7 @@
 ---
 title: Introduction
 chapter: Welcome
+description: Start your journey into open source design with this comprehensive guide. Learn how to contribute your design skills to meaningful projects and join a global community of creators.
 colors:
   base: '#2B49E9'
   accentOne: '#FEBEA5'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - welcome.jpg
   - welcome@2x.jpg
+preview: welcome-preview.jpg
 ---
 
 # Introduction

@@ -1,6 +1,7 @@
 ---
 title: Collaborative Workflows
 chapter: Chapter 4
+description: Master the tools and techniques for effective collaboration in open source projects. Learn version control, communication strategies, and how to work with developers.
 colors:
   base: '#FDCCD8'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - collaboration.jpg
   - collaboration@2x.jpg
+preview: collaboration-preview.jpg
 ---
 
 # Collaborative Workflows

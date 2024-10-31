@@ -1,6 +1,7 @@
 ---
 title: Advanced Topics
 chapter: Chapter 10
+description: Take your open source design skills to the next level. Explore design systems, leadership, complex challenges, and effective mentoring in open source projects.
 colors:
   base: '#091480'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - advanced.jpg
   - advanced@2x.jpg
+preview: advanced-preview.jpg
 ---
 
 # Advanced Topics

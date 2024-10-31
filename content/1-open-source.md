@@ -1,6 +1,7 @@
 ---
 title: Open Source
 chapter: Chapter 1
+description: Discover what open source really means for designers. Learn about its core principles, benefits, and how you can make an impact by contributing your design expertise.
 colors:
   base: '#041B6A'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - history.jpg
   - history@2x.jpg
+preview: history-preview.jpg
 ---
 
 # Open Source

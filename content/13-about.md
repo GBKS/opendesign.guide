@@ -1,6 +1,7 @@
 ---
 title: Contributions
 chapter: Acknowledgements &
+description: Meet the team behind this open source design curriculum. Learn about our mission, supporters, and how you can contribute to improving design education.
 colors:
   base: '#5B81FE'
   accentOne: '#F02C1F'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - about.jpg
   - about@2x.jpg
+preview: about-preview.jpg
 ---
 
 # Contributions

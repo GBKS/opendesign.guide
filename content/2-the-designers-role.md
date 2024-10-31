@@ -1,6 +1,7 @@
 ---
 title: Understanding the designer's role
 chapter: Chapter 2
+description: Understand how designers shape open source projects. Learn about different design contributions, success stories, and best practices for making an impact in open source.
 colors:
   base: '#FDC3AF'
   accentOne: '#F2734F'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - designers-role.jpg
   - designers-role@2x.jpg
+preview: designers-role-preview.jpg
 ---
 
 # Understanding the Designer's Role

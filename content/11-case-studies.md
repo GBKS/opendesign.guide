@@ -1,6 +1,7 @@
 ---
 title: Case Studies
 chapter: Chapter 11
+description: Explore real-world examples of successful open source design. Learn from Firefox, Git, WordPress, and other projects that transformed through effective design.
 colors:
   base: '#808FE4'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - case-studies.jpg
   - case-studies@2x.jpg
+preview: case-studies-preview.jpg
 ---
 
 # Case Studies
