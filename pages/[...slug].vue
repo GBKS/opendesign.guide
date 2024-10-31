@@ -373,6 +373,23 @@ onMounted(() => {
                         &:hover {
                             text-decoration: underline;
                         }
+
+                        &.chapter-link {
+                            background-color: rgba(var(--blue-rgb), 0.15);
+                            padding: 3px 7px;
+                            border-radius: 30px;
+                            font-size: 13px;
+                            font-weight: 600;
+                            vertical-align: text-top;
+                            color: rgba(var(--blue-rgb), 0.85);
+                            transition: all 100ms $ease;
+
+                            &:hover {
+                                background-color: var(--blue);
+                                color: white;
+                                text-decoration: none
+                            }
+                        }
                     }
                 }
             }
