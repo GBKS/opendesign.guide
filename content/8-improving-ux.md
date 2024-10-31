@@ -1,6 +1,7 @@
 ---
 title: Improving User Experience
 chapter: Chapter 8
+description: Transform open source software with better UX. Learn research methods, usability improvements, and how to create more user-friendly open source applications.
 colors:
   base: '#FEF0D6'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - user-experience.jpg
   - user-experience@2x.jpg
+preview: user-experience-preview.jpg
 ---
 
 # Improving User Experience

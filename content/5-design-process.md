@@ -1,6 +1,7 @@
 ---
 title: Design Process
 chapter: Chapter 5
+description: Learn how to adapt traditional design methodologies for open source environments. Discover effective research, feedback, and iteration strategies for distributed teams.
 colors:
   base: '#FFD5DF'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - process.jpg
   - process@2x.jpg
+preview: process-preview.jpg
 ---
 
 # Design Process

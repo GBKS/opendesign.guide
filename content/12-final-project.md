@@ -1,6 +1,7 @@
 ---
 title: Final Project
 chapter: Chapter 12
+description: Put your open source design skills into practice. Follow this comprehensive guide to make a significant design contribution to an open source project of your choice.
 colors:
   base: '#F8C8D4'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - final-project.jpg
   - final-project@2x.jpg
+preview: final-project-preview.jpg
 ---
 
 # Final Project

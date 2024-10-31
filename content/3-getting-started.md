@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 chapter: Chapter 3
+description: Take your first steps into open source design. Find the right project, understand workflows, and learn how to make your first meaningful contribution as a designer.
 colors:
   base: '#BFBFFF'
   accentOne: '#316B38'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - getting-started.jpg
   - getting-started@2x.jpg
+preview: getting-started-preview.jpg
 ---
 
 # Getting Started

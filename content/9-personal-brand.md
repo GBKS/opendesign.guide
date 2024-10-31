@@ -1,6 +1,7 @@
 ---
 title: Building a Personal Brand
 chapter: Chapter 9
+description: Leverage your open source contributions to build a strong design portfolio. Learn to showcase your work and establish yourself in the open source community.
 colors:
   base: '#FAD8CB'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - personal-brand.jpg
   - personal-brand@2x.jpg
+preview: personal-brand-preview.jpg
 ---
 
 # Building a Personal Brand

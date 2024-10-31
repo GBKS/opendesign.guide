@@ -1,6 +1,7 @@
 ---
 title: Tools and Resources
 chapter: Chapter 6
+description: Explore essential design tools for open source contribution. From vector graphics to prototyping, find the right tools to create impactful designs in collaborative projects.
 colors:
   base: '#FEE6E4'
   accentOne: '#ADE3F5'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - tools.jpg
   - tools@2x.jpg
+preview: tools-preview.jpg
 ---
 
 # Tools and Resources

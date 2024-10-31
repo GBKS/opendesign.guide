@@ -16,6 +16,19 @@ watch(() => route.path, () => {
   hideSearch()
 })
 
+useHead({
+    meta: [
+        { hid: 'description', name: 'description', content: pageData.value?.description || '' },
+        { hid: 'og:description', property: 'og:description', content: pageData.value?.description || '' },
+        { hid: 'og:image', property: 'og:image', content: 'https://opendesign.guide/images/'+pageData.value?.preview },
+        { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
+        { hid: 'og:image:height', property: 'og:image:height', content: '630' },
+        { hid: 'og:title', property: 'og:title', content: ('Open Design Guide ' + pageData.value?.chapter + ': ' + pageData.value?.title) },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+        { hid: 'og:url', property: 'og:url', content: 'https://opendesign.guide'+route.path }
+    ]
+})
+
 function toggleSearch() {
     if(searchActive.value) hideSearch()
     else showSearch()

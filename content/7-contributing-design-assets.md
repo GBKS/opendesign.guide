@@ -1,6 +1,7 @@
 ---
 title: Contributing Design Assets
 chapter: Chapter 7
+description: Learn to create and share effective design assets in open source projects. Master file organization, documentation, and collaboration with the wider community.
 colors:
   base: '#FEDADE'
   accentOne: '#F77C97'
@@ -21,6 +22,7 @@ thumbnail_front:
 images:
   - design-assets.jpg
   - design-assets@2x.jpg
+preview: design-assets-preview.jpg
 ---
 
 # Contributing Design Assets
