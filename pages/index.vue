@@ -8,15 +8,14 @@ const showContents = ref(false)
 useHead({
     title: 'Open Design Guide',
     meta: [
-        {
-            name: 'description',
-            content: 'Open source software is designed by people just like you. Learn how to find your way around and contribute.'
-        },
-        {
-            hid: 'og:image',
-            property: 'og:image',
-            content: '/images/preview.jpg'
-        }
+        { hid: 'description', name: 'description', content: 'Open source software is designed by people just like you. Learn how to find your way around and contribute.' },
+        { hid: 'og:description', property: 'og:description', content: 'Open source software is designed by people just like you. Learn how to find your way around and contribute.' },
+        { hid: 'og:image', property: 'og:image', content: 'https://opendesign.guide/images/preview.jpg' },
+        { hid: 'og:image:width', property: 'og:image:width', content: '1200' },
+        { hid: 'og:image:height', property: 'og:image:height', content: '630' },
+        { hid: 'og:title', property: 'og:title', content: 'Open Design Guide' },
+        { hid: 'og:type', property: 'og:type', content: 'article' },
+        { hid: 'og:url', property: 'og:url', content: 'https://opendesign.guide/' }
     ]
 })
 
