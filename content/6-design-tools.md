@@ -153,6 +153,8 @@ Remember that accessibility is especially crucial in open source projects, as it
 - [Discord](https://discord.com/){:target="_blank"}: Real-time chat and community building
 - [Matrix](https://matrix.org/){:target="_blank"}: Decentralized communication platform
 - [CryptPad](https://cryptpad.fr/){:target="_blank"}: Privacy-focused collaboration platform
+- [Excalidraw](https://app.excalidraw.com/){:target="_blank"}: A whiteboard collaboration tools for note-taking, planning etc
+- [Taiga](https://taiga.pm/){:target="_blank"}: Kanban-style to-do lists and boards for project management
 
 ## Conclusion
 
