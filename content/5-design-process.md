@@ -33,6 +33,8 @@ If you're coming from a traditional design background, contributing to open sour
 
 Traditional design frameworks like [Design Thinking](https://en.wikipedia.org/wiki/Design_thinking){:target="_blank"} or [Double Diamond](https://en.wikipedia.org/wiki/Double_Diamond_(design_process_model)){:target="_blank"} can be valuable reference points, but open source projects rarely follow these processes strictly. Instead, successful open source design emerges through **community collaboration and consensus**. Design decisions typically develop through group discussions rather than top-down direction, with work happening across different time zones and schedules.
 
+In some cases, projects are funded to run development cycles, or are able to maintain volunteer run development cycles, that look more similar to commercial/proprietary software development. In these cases, design may be interested and able to integrate design methodologies and frameworks. If in doubt, always ask about whether you can test a certain approach.
+
 The open nature of these projects means design discussions and **decisions happen in public**, allowing anyone to participate and contribute ideas. Changes tend to happen more gradually rather than in big redesigns, as the community works together to reach consensus on the best path forward. The larger the project, the more involved the consensus-finding process typically is.
 
 Remember that as a designer, **you're joining an existing community** with established ways of working. Rather than trying to impose a specific design process, focus on understanding how the community operates and finding ways to contribute effectively within that context. Each project has its own culture and rhythm – take time to learn these before suggesting significant changes.
@@ -68,6 +70,8 @@ Make it easy for people to provide feedback asynchronously. This could include:
 3. **Asynchronous discussions**: Set up threads in project forums or mailing lists for longer, more in-depth discussions about design directions.
 
 4. **Design sprints**: For major redesigns, consider organizing virtual design sprints where interested community members can participate in intensive, collaborative design sessions.
+
+5. Ask for feedback that is **specific and actionable**. Don't be afraid to ask specifically and clearly for what you need feedback on. For example: _"I need feedback if this design meets the needs of user X when they are doing Y action under Z circumstances."_ Not doing so may result in long and unhelpful conversations.
 
 When processing feedback, focus on comments that help move decisions forward. **Look for patterns** across different responses rather than treating each piece of feedback in isolation. **Don't feel pressured** to implement every suggestion – part of your role as a designer is making informed decisions about what will best serve users.
 
