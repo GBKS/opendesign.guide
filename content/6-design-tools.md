@@ -29,82 +29,137 @@ preview: tools-preview.jpg
 
 ## Introduction to Open Source Design Tools
 
-As a designer contributing to open source projects, you'll find that your choice of tools can significantly impact your workflow and your ability to collaborate effectively with the community. While many designers are accustomed to proprietary software like Adobe Creative Suite or Sketch, the open source world often favors tools that align with its philosophy of openness and accessibility.
+When starting your journey in open source design, you'll find there's a wide variety of tools available to help you create and collaborate. While many designers are familiar with commercial tools like Adobe Creative Suite and Sketch, the open source community also offers powerful alternatives that align with its values.
 
-Embracing open source design tools not only demonstrates your commitment to the open source ethos but also ensures that your work is accessible to a wider range of contributors. Many of these tools are powerful alternatives to their proprietary counterparts and are continually improving thanks to active community development.
+A great benefit of using open-source tools is that they are designed for an accessible and community-led style of collaboration. Other contributors are not locked out because they can't afford your favorite commercial tool, or a proprietary file type is used. In addition, you can help improve the open-source tools you adopt by giving valuable feedback.
 
-## Vector Graphics: Inkscape
+It's important to note that you can absolutely use commercial tools for open source contributions. The key is choosing tools that work well for you and your project's needs. What matters most is your ability to collaborate effectively and create designs that benefit the project.
 
-[Inkscape](https://inkscape.org/) is a powerful vector graphics editor that serves as an excellent alternative to Adobe Illustrator. It supports a wide range of vector formats, including SVG, which is particularly useful for web graphics and icon design. Inkscape offers a comprehensive set of tools for creating and manipulating vector shapes, working with text, and applying various effects.
+## Essential Design Tools
 
-One of Inkscape's strengths is its extensibility. The software supports Python scripts and extensions, allowing you to automate repetitive tasks or add new functionalities. This can be particularly useful when working on large-scale design projects for open source software.
+### Interface Design
 
-When using Inkscape for open source projects, consider creating your designs at multiple scales to ensure they look good on different devices and at various sizes. Inkscape's SVG output is clean and standards-compliant, making it ideal for use in web applications or as a basis for further manipulation in code.
+**[Penpot](https://penpot.app/){:target="_blank"}** is a powerful open source design and prototyping platform that's gaining rapid adoption, especially in the open source community. It's designed to bridge the gap between designers and developers.
 
-## Raster Graphics: GIMP
+- Browser-based design and prototyping tool
+- Real-time collaboration features
+- Browser-based with self-hosting option
+- Growing community and feature set
+- Self-hosting option
 
-[GIMP](https://www.gimp.org/) (GNU Image Manipulation Program) is a robust alternative to Adobe Photoshop. While its interface may take some getting used to, GIMP offers a comprehensive set of tools for image editing, photo retouching, and creating raster graphics.
+**[Figma](https://www.figma.com/){:target="_blank"}** is a widely-used commercial alternative that offers powerful features for UI design, prototyping, and team collaboration. As a browser-based tool with a desktop app option, it makes it easy to create, share, and iterate on designs with teams of any size. While not open source, its free tier is generous enough for many open source projects.
 
-GIMP's layer-based editing system allows for complex compositions, and its support for a wide range of plugins extends its capabilities even further. When working on open source projects, GIMP's ability to handle a variety of file formats becomes particularly useful, as you may need to work with legacy graphics or output your work in specific formats for different use cases.
+- Real-time collaboration features
+- Extensive component libraries
+- Great for UI design and prototyping
+- Built-in developer handoff features
+- Also includes FigJam for collaborative brainstorming
 
-One particularly useful feature of GIMP for open source design is its scripting capabilities. You can use Scheme or Python to automate tasks, which can be a huge time-saver when working on large projects or when you need to apply consistent edits across multiple images.
+### Vector Design
 
-## 3D Modeling: Blender
+**[Inkscape](https://inkscape.org/){:target="_blank"}** is a powerful tool for creating and editing vector graphics. Vector graphics are images that can be scaled to any size without losing quality - perfect for logos, icons, and illustrations.
 
-While not all open source projects require 3D graphics, for those that do, [Blender](https://www.blender.org/) is an incredibly powerful tool. Originally focused on 3D modeling and animation, recent versions of Blender have expanded to include video editing, 2D animation, and even VFX capabilities.
+Key features:
+- Create scalable graphics for any screen size
+- Support for [SVG](https://de.wikipedia.org/wiki/Scalable_Vector_Graphics){:target="_blank"} (Scalable Vector Graphics, an open standard for vector graphics)
+- Extensive set of shape and path tools
+- Python scripting support for automating repetitive tasks
+- Active community with lots of tutorials and resources
 
-Blender's node-based material system is particularly useful for creating complex textures and materials that can be easily tweaked and adjusted. If you're working on an open source game or a project that involves 3D visualizations, Blender's ability to export to various formats makes it easy to integrate your work into different engines or platforms.
+### Image Editing
 
-Even if your project doesn't directly involve 3D graphics, Blender can be useful for creating isometric illustrations or rendering 3D mockups of physical products. Its powerful rendering engines (both built-in and via plugins) can produce highly realistic images that can enhance the visual appeal of your project's documentation or marketing materials.
+**[GIMP](https://www.gimp.org/){:target="_blank"}** is a versatile tool for working with images. Whether you're creating web graphics, editing photos, or designing user interface elements, GIMP provides the features you need.
 
-## Design Systems and Pattern Libraries
+Key features:
+- Comprehensive image editing capabilities
+- Support for layers and masks
+- Wide range of filters and effects
+- Plugin system for extending functionality
+- Cross-platform compatibility
 
-Design systems and pattern libraries are crucial for maintaining consistency across large open source projects. While not a tool in the traditional sense, these resources are invaluable for open source designers.
+**[Krita](https://krita.org/){:target="_blank"}** is another powerful open source tool, particularly beloved by digital artists and illustrators. While GIMP excels at photo editing and general image manipulation, Krita shines in digital painting and illustration.
 
-Several open source projects have created comprehensive design systems that you can learn from or even adapt for your own use:
+Key features:
+- Extensive brush engine with customizable brushes
+- Support for drawing tablets with pressure sensitivity
+- Animation tools
+- Built-in vector tools
+- Resource management for brushes, patterns, and gradients
 
-1. [Material Design](https://m3.material.io/): While created by Google, the Material Design system is open source and widely used in many projects.
-2. [elementary OS Human Interface Guidelines](https://docs.elementary.io/hig): A detailed design system for the elementary OS Linux distribution.
-3. [GNOME Human Interface Guidelines](https://developer.gnome.org/hig/): The design system for the GNOME desktop environment.
+### 3D Design
 
-When creating a design system for your open source project, consider using tools like Storybook, which allows you to create a living style guide that developers can easily reference and integrate into their workflow.
+**[Blender](https://www.blender.org/){:target="_blank"}** is a comprehensive 3D creation suite that's particularly useful if your project needs 3D graphics, animations, or visualizations. While not every project requires 3D elements, Blender can be invaluable for:
+
+- Creating 3D icons or illustrations
+- Developing game assets
+- Making product visualizations
+- Creating animations for tutorials or presentations
+- Rendering realistic mockups
+
+## UX Research Tools
+
+User research is crucial for creating effective designs. Here are some helpful tools for gathering and analyzing user feedback:
+
+- [Miro](https://miro.com/){:target="_blank"}: Collaborative whiteboarding for user journey mapping and workshop activities
+- [LimeSurvey](https://www.limesurvey.org/){:target="_blank"}: Create detailed surveys and questionnaires
+- [Google Forms](https://forms.google.com/){:target="_blank"}: Quick and easy survey creation
+- [Notion](https://www.notion.so/){:target="_blank"}: Organize research findings and collaborate with team members
+- [Nextcloud](https://nextcloud.com/){:target="_blank"}: Self-hosted solution for storing and sharing research data
+
+## Design Systems and Libraries
+
+### Design System Tools
+
+Design systems help maintain consistency across a project. Here are tools that can help you create and manage design systems:
+
+- [Zeroheight](https://zeroheight.com/){:target="_blank"}: Create living documentation for your design system
+- [Storybook](https://storybook.js.org/){:target="_blank"}: Document and test UI components
+- [Pattern Lab](https://patternlab.io/){:target="_blank"}: Build atomic design systems
+
+### Pattern Libraries
+
+Pattern libraries are collections of reusable design components. Some popular open source pattern libraries include:
+
+- [Material Design](https://material.io/){:target="_blank"}
+- [Carbon Design System](https://www.carbondesignsystem.com/){:target="_blank"}
+- [Ant Design](https://ant.design/){:target="_blank"}
+- [Bitcoin UI Kit](https://www.bitcoinuikit.com/){:target="_blank"}
+
+### Illustrations and Icons
+
+Ready-to-use visual elements that can enhance your project's design:
+
+- [Open Peeps](https://www.openpeeps.com/){:target="_blank"}
+- [Health Icons](https://healthicons.org){:target="_blank"}
+- [Bitcoin Icons](https://bitcoinicons.com/){:target="_blank"}
 
 ## Accessibility Tools
 
-Ensuring [accessibility](/8-improving-ux#designing-for-accessibility) is a crucial aspect of open source design, as these projects often aim to be usable by as wide an audience as possible. Several open source tools can help you evaluate and improve the accessibility of your designs:
+Accessibility isn't just a feature - it's a fundamental aspect of good design that should be considered from the start of any project. This is especially important in open source, where our work should be usable by everyone, regardless of their abilities.
 
-1. [WAVE](https://wave.webaim.org/): A web accessibility evaluation tool that provides visual feedback about the accessibility of your web content.
-2. [Contrast Checker](https://webaim.org/resources/contrastchecker/): A simple tool to check the contrast ratio of your color choices to ensure readability.
-3. [Axe](https://www.deque.com/axe/): An accessibility testing engine that can be integrated into automated workflows.
+Helpful accessibility tools include:
 
-Additionally, it's important to familiarize yourself with and regularly use the built-in accessibility features provided by major operating systems (Windows, macOS, iOS, Android). These include screen readers, magnifiers, and other assistive technologies. By using these tools during your design process, you can better understand how users with different abilities will interact with your software.
+- [WAVE](https://wave.webaim.org/){:target="_blank"}: Evaluate web content for accessibility issues
+- [Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank"}: Ensure your color choices meet accessibility standards
+- [Axe](https://www.deque.com/axe/){:target="_blank"}: Automated accessibility testing
+- [The A11Y Project](https://www.a11yproject.com/){:target="_blank"}: Resources and tutorials for learning about accessibility
 
-Remember that while these tools are helpful, they should complement, not replace, manual testing and feedback from users with disabilities. Regular testing throughout the design and development process is crucial to ensure consistent accessibility.
+Remember that accessibility is especially crucial in open source projects, as it aligns with the core values of inclusivity and collaboration. Even developer tools and terminal-based applications should be designed with accessibility in mind.
 
-## Version Control for Designers
+## Project Management and Communication
 
-While version control systems like Git are typically associated with code, they can also be incredibly useful for managing design assets. Using version control for your design files allows you to track changes over time, collaborate more effectively with others, and maintain a clear history of your design tools.
-
-Consider using Git Large File Storage (LFS) for managing larger binary files like high-resolution images or complex vector graphics. This can help keep your repository size manageable while still allowing you to version these files effectively.
-
-Several GUI tools can make Git more approachable for designers who aren't comfortable with the command line:
-
-1. [GitKraken](https://www.gitkraken.com/): A cross-platform Git client with a user-friendly interface.
-2. [SourceTree](https://www.sourcetreeapp.com/): Another popular Git client with a visual interface for managing repositories.
-
-## Collaboration Platforms
-
-Effective collaboration is key in open source projects. While many projects use GitHub for both code and design collaboration, there are other platforms that can enhance the design workflow:
-
-1. [Penpot](https://penpot.app/): An open source design and prototyping platform that's gaining popularity in the open source community.
-2. [Figma](https://www.figma.com/): While not open source itself, Figma offers a free tier and is widely used in open source projects due to its robust collaboration features.
-
-These platforms allow real-time collaboration, making it easier to work with contributors across different time zones and locations.
+- [Miro](https://miro.com/){:target="_blank"}: Digital whiteboard for visual collaboration
+- [Jira](https://www.atlassian.com/software/jira){:target="_blank"}: Project tracking and management
+- [Discord](https://discord.com/){:target="_blank"}: Real-time chat and community building
+- [Matrix](https://matrix.org/){:target="_blank"}: Decentralized communication platform
+- [CryptPad](https://cryptpad.fr/){:target="_blank"}: Privacy-focused collaboration platform
+- [Excalidraw](https://app.excalidraw.com/){:target="_blank"}: A whiteboard collaboration tools for note-taking, planning etc
+- [Taiga](https://taiga.pm/){:target="_blank"}: Kanban-style to-do lists and boards for project management
 
 ## Conclusion
 
-The landscape of open source design tools is rich and diverse, offering powerful alternatives to proprietary software. By familiarizing yourself with these tools and resources, you'll be better equipped to contribute effectively to open source projects.
+The tools you choose should support your workflow and help you collaborate effectively with others. Don't feel limited to using only open source tools - use what works best for you and your project. The most important thing is your ability to contribute meaningful designs that improve the user experience of open source software.
 
-Remember that the choice of tools should always be guided by the needs of your project and the preferences of your community. Be open to learning new tools and workflows, as this adaptability is key to success in the dynamic world of open source design.
+Remember that tools are just that - tools. They're meant to help you bring your ideas to life and collaborate with others. Focus on learning the tools that will help you achieve your goals and contribute effectively to the projects you care about.
 
-Lastly, don't forget that the most important tool at your disposal is the open source community itself. Engage with other designers, developers, and users in your project's community. Their insights, feedback, and contributions will be invaluable in creating designs that truly serve the needs of your project's users.
+As you become more involved in open source design, you'll discover which tools work best for your workflow. Don't be afraid to experiment with different options and ask other designers in the community about their experiences and recommendations.
