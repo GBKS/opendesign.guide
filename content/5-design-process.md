@@ -41,7 +41,25 @@ Remember that as a designer, **you're joining an existing community** with estab
 
 ## Conducting User Research
 
-One advantage of open source projects is direct access to your user community. However, it's important to understand the distinction between different types of users you'll encounter.
+One advantage of open source projects is direct access to your user community. However, it's important to understand the distinction between different types of users you'll encounter. In your project, you might have a mix of users:
+
+- Beginners who are new to the software
+- Regular users who use it often
+- Power users who push the software to its limits
+- Contributors who help develop the software
+- Maintainers who provide continuity to the project
+
+Each group has different needs and expectations. Your job is to make the software work well for all of them. Often, it is best to focus on one group at a time.
+
+### Personas
+
+When you dig into a group, it can be helpful to create user stories and personas. Here is an example of what a useful persona for a regular user might look like.
+
+> _Meet Maria, a computational biology researcher at a university. She uses open source software daily for data analysis, and she's comfortable with the command line and basic programming. What makes Maria's needs unique isn't just her technical skills – it's the context in which she works._
+
+> _She needs reproducible workflows because her research must be verifiable. She relies heavily on documentation because she often needs to share her processes with colleagues. And while she's technically skilled, she still gets frustrated by version compatibility issues that interrupt her work._
+
+This level of detail, based on real user research, helps us make better design decisions. We know that for users like Maria, detailed documentation might be more valuable than a simplified interface, and clear version information might be more important than a polished look.
 
 ### Contributors vs End Users
 
