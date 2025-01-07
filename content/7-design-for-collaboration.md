@@ -1,5 +1,5 @@
 ---
-title: Making Design Accessible
+title: Design for Collaboration
 chapter: Chapter 7
 description: Learn to create and share effective design assets in open source projects. Master file organization, documentation, and collaboration with the wider community.
 colors:
@@ -25,7 +25,7 @@ images:
 preview: design-assets-preview.jpg
 ---
 
-# Making Design Accessible
+# Design for Collaboration
 
 In open source design, you're not just creating interfaces or graphics; you're sharing work that others can learn from, adapt, and build upon. Whether it’s a single feature for a small utility app or a comprehensive design system for a large application, the goal remains the same: to make your design accessible, understandable, and easy to collaborate on for other contributors.
 
@@ -136,6 +136,8 @@ Clickable prototypes are invaluable for illustrating complex user flows or behav
 Whether you're creating a single icon or a complete interface, think about how others might need to modify or extend your work. Save your work in flexible formats and include any relevant usage guidelines. Here are some things to think about:
 
 ### Technical Considerations
+
+Choose file formats and resolutions that make your designs easy to reuse and modify:
 
 - Use scalable formats (SVG for icons and logos)
 - Provide assets in multiple resolutions if needed, especially for responsive designs
