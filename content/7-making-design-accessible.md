@@ -109,30 +109,27 @@ Here's how to make prototypes and mockups more valuable:
 ### Start with a Clear Problem Statement
 
 Before you create mockups or prototypes, define what you're solving for. Include:
-- The specific problem your design addresses. _(e.g., “Users need an easier way to navigate long forms.”)_
-- User needs being addressed (e.g., “Quick access to saved drafts.”)
-- Any constraints, like technical limitations. (e.g., “Form components must load dynamically.”)
-- Assumptions behind your design decisions. (e.g., “Users will save progress at least once before submitting.”)
+- The specific problem your design addresses. (_"Users need an easier way to navigate long forms.")_
+- User needs being addressed (_"Quick access to saved drafts."_)
+- Any constraints, like technical limitations. (_"Form components must load dynamically."_)
+- Assumptions behind your design decisions. (_"Users will save progress at least once before submitting."_)
 
 ### Use Progressive Disclosure
 
 Good prototypes and mockups communicate at different levels of detail. Now, depending on the audience:
-- Start with a high-level overview: What’s the purpose of this design, and how does it fit into the bigger picture?
-(e.g., “This dashboard redesign streamlines reporting tasks for admin users.”)
-- Add implementation details: Specifics for developers, like spacing, typography, or interaction states.
-(e.g., “Buttons have a 24px padding, hover states use #3A8FFF.”)
-- Include design rationale: Explain the “why” behind your choices to help others learn.
-(e.g., “We moved the primary action to the top because users prioritize efficiency.”)
-- Link to research findings when relevant: Back up your decisions with evidence.
-(e.g., “Usability tests showed a 30% faster completion time with this layout.”)"*
+- Start with a high-level overview: What’s the purpose of this design, and how does it fit into the bigger picture? (_"This dashboard redesign streamlines reporting tasks for admin users."_)
+- Add implementation details: Specifics for developers, like spacing, typography, or interaction states. (_"Buttons have a 24px padding, hover states use #3A8FFF."_)
+- Include design rationale: Explain the _"why"_ behind your choices to help others learn. (_"We moved the primary action to the top because users prioritize efficiency."_)
+- Link to research findings when relevant: Back up your decisions with evidence. (_"Usability tests showed a 30% faster completion time with this layout."_)
 
 ### Make It Interactive When Necessary
 
 Clickable prototypes are invaluable for illustrating complex user flows or behaviors. Use interactive elements to:
-- Demonstrate key user flows, like signing up or making a purchase.
-- Show state changes and transitions, such as hover effects or error messages.
-- Highlight responsive design, like adapting to mobile or tablet views.
-- Document edge cases and exceptions, like 404 pages or zero-data states.
+
+- Demonstrate key user flows, like signing up or making a purchase
+- Show state changes and transitions, such as hover effects or error messages
+- Highlight responsive design, like adapting to mobile or tablet views
+- Document edge cases and exceptions, like error pages or states without data
 
 ## Visual Assets That Scale
 
@@ -141,25 +138,25 @@ Whether you're creating a single icon or a complete interface, think about how o
 ### Technical Considerations
 
 - Use scalable formats (SVG for icons and logos)
-- Provide assets in multiple resolutions if needed, especially for responsive designs.
+- Provide assets in multiple resolutions if needed, especially for responsive designs
 - Include source files for easy modification
 - Document export and other settings
 
 ### Accessibility and Adaptation
 
 - Design with different contexts in mind
-- Provide variations for dark mode, high contrast, or other accessibility needs.
-- Write clear guidelines for modifying the assets, ensuring consistency across adaptations.
-- Consider different cultural or regional implications (e.g., color symbolism or text direction).
+- Provide variations for dark mode, high contrast, or other accessibility needs
+- Write clear guidelines for modifying the assets, ensuring consistency across adaptations
+- Consider different cultural or regional implications (like color symbolism or text direction)
 
 ### Include Style and Usage Guidelines
 
 Help contributors understand how to use your designs effectively:
 
-- Define the visual style — colors, typography, spacing, and tone.
-- Clarify where and how assets can be used (e.g., logos for headers, not backgrounds).
-- Include examples of proper and improper usage or modifications to avoid misinterpretation.
-- Provide info on whether and how attribution is required for external reuse.
+- Define the visual style — colors, typography, spacing, and tone
+- Clarify where and how assets can be used (like logos for headers, not backgrounds)
+- Include examples of proper and improper usage or modifications to avoid misinterpretation
+- Provide info on whether and how attribution is required for external reuse
 
 ## Scaling Your Contributions
 
@@ -169,13 +166,10 @@ As you become more involved in a project, you can contribute beyond individual d
 
 Open-source design is about more than creating something beautiful or functional — it’s about enabling others to collaborate, learn, and build upon your work. This philosophy drives the open-source ecosystem, and it’s just as crucial in design.
 
-Key Takeaways
+### Key Takeaways
 
-- Design with Collaboration in Mind
-Every component, icon, or system you create is a building block for someone else. By making your work accessible and understandable, you’re opening doors for others to contribute and innovate.
+- **Design with Collaboration in Mind:** Every component, icon, or system you create is a building block for someone else. By making your work accessible and understandable, you’re opening doors for others to contribute and innovate.
 
-- Start Small, Scale Thoughtfully
-You don’t need to create a complex system on day one. Start by documenting small components or organizing files clearly. As the project grows, your contributions can evolve to meet new challenges.
+- **Start Small, Scale Thoughtfully:** You don’t need to create a complex system on day one. Start by documenting small components or organizing files clearly. As the project grows, your contributions can evolve to meet new challenges.
 
-- Embrace Collective Growth
-The most impactful open designs aren’t just great in isolation — they’re tools for shared success. By sharing your thought process, decisions, and learnings, you’re building a foundation for others to create, adapt, and improve upon.
+- **Embrace Collective Growth:** The most impactful open designs aren’t just great in isolation — they’re tools for shared success. By sharing your thought process, decisions, and learnings, you’re building a foundation for others to create, adapt, and improve upon.
