@@ -65,7 +65,7 @@ onBeforeUnmount(() => {
             <h1>Open Design Guide</h1>
             <p>Open source software is designed by people just like you. Learn how to find your way around and contribute.</p>
 
-            <p class="-note">This is a total work-in-progress and the content is currently pretty much 100% AI generated and needs a ton of work. <a href="https://github.com/GBKS/opendesign.guide" target="_blank">File issues</a>, join our <a href="https://github.com/BitcoinDesign/Meta/issues?q=is%3Aissue+is%3Aopen+%22Open+Design+Guide%22" target="_blank">reading club</a>, and <a href="https://github.com/BitcoinDesign/Meta/issues/696" target="_blank">learn more</a>.</p>
+            <p class="-note">This is a total work-in-progress and the content is currently pretty much 100% AI generated and needs a ton of work. <a href="https://github.com/GBKS/opendesign.guide" target="_blank">Suggest improvements</a>, review <a href="https://github.com/GBKS/opendesign.guide/pulls" target="_blank">proposed changes</a>, and <a href="https://github.com/BitcoinDesign/Meta/issues/696" target="_blank">learn more</a>.</p>
         </header>
         <button
             :class="'content-toggle' + (showContents ? ' -active' : '')"
