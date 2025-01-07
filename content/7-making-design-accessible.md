@@ -38,6 +38,7 @@ As an example, you might document:
 - **The Problem:** Explain what issue you were trying to solve with your design.
 - **Your Process:** Even if informal, share how you came up with the design, including any research you did.
 - **Key Decisions:** Talk about important choices you made, like why you picked certain colors or layouts.
+- **Challenges and Solutions:** Share insights on any difficult questions or deeper problems you encountered during the design process and how you resolved them.
 - **How to Use It:** Give clear instructions on how your design should be used.
 - **Technical Details:** Include any specific information needed to use the design, like color codes.
 - **Accessibility:** Explain how your design works for people with different abilities.
