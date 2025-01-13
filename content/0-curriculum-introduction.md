@@ -58,7 +58,7 @@ This guide consists of 12 chapters, each focusing on a crucial aspect of open so
 9. [Building a Personal Brand](/9-personal-brand)
 10. [Advanced Topics](/10-advanced-topics)
 11. [Case Studies](/11-case-studies)
-12. [Final Project](/12-final-project)
+12. [Your First Project](/12-first-project)
 
 Each chapter includes detailed explanations, practical tips, and real-world examples to help you understand and apply the concepts.
 
