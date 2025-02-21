@@ -27,9 +27,13 @@ preview: advanced-preview.jpg
 
 # Advanced Topics
 
+As your involvement in open source design increases, you’ll face challenges that go beyond basic UI work. From creating scalable design systems to mentoring new contributors, these advanced areas require strategic thinking, collaboration, and leadership.
+
+This chapter dives into these complexities, helping you handle real-world situations while continuing to grow as a designer.
+
 ## Championing Design Initiatives
 
-As you gain experience in open source, you might find yourself ready to lead design efforts. But championing initiatives isn’t just about pitching ideas; it’s about driving change, building influence, and navigating complex community dynamics. Here’s how to approach it:
+Over time you will gain experience in open source and might find yourself ready to lead design efforts. But championing initiatives isn’t just about pitching ideas; it’s about driving change, building influence, and navigating complex community dynamics. Here’s how to approach it:
 
 - **Understand the big picture:** To lead effectively, you need to deeply understand the project's goals, roadmap, and community dynamics. This means more than just reading the documentation — you need to map out the ecosystem, identify key influencers, and strategically align your vision with the project’s direction.
 - **Build trust:** Before proposing any significant changes, have consistent contributions to the project. Demonstrate empathy, reliability, and a deep understanding of the project’s values. Trust in open source is earned, not given.
@@ -37,7 +41,7 @@ As you gain experience in open source, you might find yourself ready to lead des
 - **Be inclusive:** Involve other designers and non-designers in the process. Inclusive leadership means ensuring all voices are heard, not just the loudest. In open source, this involves strategic facilitation and conflict resolution.
 - **Break it down:** Large initiatives can be overwhelming. Breaking them into smaller, manageable tasks not only makes them more approachable but also helps in strategic prioritization.
 - **Document everything:** Advanced documentation goes beyond recording decisions — it provides context, rationale, and invites contributions from others.
-1. **Be patient:** Change in open source can be slow. Patience involves sustaining momentum and strategically guiding adoption over time.
+- **Be patient:** Change in open source can be slow. Patience involves sustaining momentum and strategically guiding adoption over time.
 
 Leadership in open source is often about internal drive and inspiration, not authority. By thoughtfully championing design initiatives, you can drive meaningful change and help shape the future of open source design.
 
@@ -90,7 +94,7 @@ Remember, user research is also about fostering a deeper connection with your co
 Contributing to open source can be deeply rewarding, but balancing it with personal life and professional responsibilities requires intentional planning. Here’s how to navigate it:
 
 - **Set realistic boundaries:** Determine how much time you can genuinely commit without compromising other areas of your life. This helps in maintaining consistency without burnout.
-**Communicate with other contributors:** Share your availability and preferred working style with your team to manage expectations and foster a supportive environment.
+- **Communicate with other contributors:** Share your availability and preferred working style with your team to manage expectations and foster a supportive environment.
 - **Engage with your employer:** If you’re employed, see if your company values open source contributions. Some organizations encourage participation as part of professional development.
 - **Focus on synergies:** Focus on projects that complement your career goals or leverage your existing skills to maximize impact with manageble effort.
 - **Optimize your workflow:** Utilize time management techniques like time-blocking or batching similar tasks to stay productive during limited work hours.

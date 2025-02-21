@@ -404,6 +404,10 @@ onMounted(() => {
                             }
                         }
                     }
+
+                    & + li {
+                        margin-top: 10px;
+                    }
                 }
             }
 
