@@ -27,50 +27,68 @@ preview: personal-brand-preview.jpg
 
 # Build Your Presence
 
-Contributing to open source is fundamentally about making meaningful improvements to projects you care about. As you contribute, you naturally develop relationships and build credibility within the community. While traditional "personal branding" might feel at odds with open source values, thoughtfully sharing your work and engaging with others can help you have a bigger impact and create more opportunities to do meaningful design work.
+Contributing to open source is fundamentally about making meaningful improvements to projects you care about. By sharing your ideas, collaborating openly, and inviting others to engage with your work, you create opportunities to grow as a designer while helping the community thrive.
+
+Unlike traditional personal branding, building your presence in open source is less about selling yourself and more about showing up authentically. It’s about making meaningful contributions and sharing your process in ways that help others, creating a foundation of trust and collaboration.
+
+This chapter explores how you can work in public, share your journey, and build genuine relationships that make an impact — not just for your projects but for your career and community.
 
 ## Working in Public
 
-Open source development happens in the open, creating natural opportunities for others to see your work. Your contributions - whether they're design improvements, documentation updates, or thoughtful discussions in issues - become part of the public record. This transparency allows others to learn from your process and builds trust over time.
+In open source, working in public means sharing your progress, challenges, and successes in real time. Every contribution — whether it’s a design tweak, documentation updates, or thoughtful feedback — becomes part of your public record. This transparency builds trust and allows others to learn from your process and experience.
 
-Transparency results in a type of organic self-promotion, so consider how you can make your work more accessible and useful to others. A well-organized portfolio showing your contributions, clear documentation [C7](/7-design-for-collaboration#documentation-that-fits){:class='chapter-link'} of your design decisions [C5](/5-design-process#community-led-design-approaches){:class='chapter-link'}, or blog posts explaining your problem-solving process can help others learn and potentially contribute themselves.
+But transparency doesn’t mean increased visibility. Simply having your work in public repositories isn’t enough — it should also be accessible and inviting. Consider creating a _work log_ where you document your decisions, challenges, and lessons learned. For example, [Christoph](http://gbks.substack.com){:target="_blank"} and [Mogashni](https://mogashni.substack.com){:target="_blank"} from the Bitcoin Design Community publish regular updates that offer insights into their design processes, turning their work into valuable resources for others interested in similar projects.
 
-Much work happens in publicly accessible places, but that does not mean it is automatically visible to others. So you may consider, for example, maintaining a public design journal or work log where you collect and document your ongoing contributions and insights. Two examples are [Christoph](https://gbks.substack.com){:target="_blank"} and [Mogashni](https://mogashni.substack.com){:target="_blank"} from the [Bitcoin Design Community](https://bitcoin.design/){:target="_blank"}, who publish regular updates about their work, creating valuable resources for others interested in similar projects.
+Authenticity is key here. When you share both your wins and your struggles, you show others the real work that went into your designs. This transparency results in a type of organic self-promotion which also inspires trust and encourages collaboration. Start small: document one project or share a reflection on a recent challenge. Then, let your presence grow naturally within the community.
 
 ## Sharing Your Process
 
-Writing about your experiences in open source can be incredibly valuable for the community. Instead of just showing final results, consider documenting your journey - the problems you encountered, the approaches you tried, and what you learned along the way. This kind of sharing helps others avoid similar pitfalls and builds collective knowledge.
+The process is just as valuable as the final product. When you share your process, you help others understand not only _what_ you did but _why_ and _how_. This builds collective knowledge, fosters collaboration, and invites feedback that can improve your work.
 
-When writing about your work, focus on being helpful rather than promotional. For instance, you might write a guide on "How to Start with Design" in your project, based on your experiences, or share case studies of specific design challenges you've tackled. The goal is to contribute to the community's knowledge base while naturally demonstrating your expertise.
+Start by documenting your experiences in ways that feel natural to you. Maybe write a blog post about a design problem you solved, a guide for new contributors, or a tweet thread about a recent experiment. Instead of focusing on perfection (or views), focus on being helpful — share your thought process, the problems you encountered, and the lessons you learned.
+
+For example, you could write:
+- A case study on improving a UI component: _‘How I redesigned the onboarding flow to reduce user confusion.’_
+- A guide for beginners: _‘Confused about what Bitcoin design project to contribute to? I was too. Here’s how I chose one’_
+
+When sharing your work or insights, focus on creating value for others than being self-promotional. When you document your work authentically and with purpose, you naturally demonstrate your expertise and invite others to connect.
 
 ## Building Relationships
 
-Open source thrives on collaboration and relationships [C4](/4-collaborative-workflows){:class='chapter-link'}. These connections grow organically through your contributions - discussing design work, reviewing proposed changes, or helping others with their questions. Focus on being genuinely helpful and engaged rather than networking for its own sake.
+Open source is not just about code or design — it’s about the people. Collaboration and trust are the foundation of any thriving project, and the relationships you build here can shape not only your contributions but your growth as a designer.
 
-There are many ways to connect with others in the open source community. You might join project-specific chat channels, participate in community calls, or attend conferences and meetups (consider presenting your work as well). Organizations like [Open Source Design](https://opensourcedesign.net){:target="_blank"} regularly host events and maintain lists of opportunities to get involved. The key is finding communities that align with your interests and where you can make meaningful contributions.
+To build meaningful connections, focus on being present and genuinely helpful. Share your knowledge, ask thoughtful questions, and engage in discussions that matter to the community. Whether you’re reviewing pull requests, offering design feedback, or helping someone with a tricky issue, your interactions can leave a lasting impact.
+
+You can connect with others in the open source community in many ways. You can join project-specific chat channels, participate in community calls, or attend conferences and meetups (consider presenting your work as well). Organizations like [Open Source Design](https://opensourcedesign.net/) regularly host events and maintain lists of opportunities to get involved. The more you immerse yourself in the community, the more you’ll find doors opening to collaboration, opportunities, and projects where you can make meaningful contributions.
 
 ## Finding Your Path
 
-Every designer's journey in open source is unique. Some focus deeply on specific projects, becoming core contributors [C10](/10-advanced-topics#leading-design-initiatives){:class='chapter-link'} over time. Others work across multiple projects, bringing fresh perspectives to different communities. What matters is finding ways to contribute that align with your skills and interests, and the community's needs.
+Every designer's journey in open source is unique. Some find joy in diving deep into a single project, shaping its growth over time. Others like to explore diverse projects, offering fresh perspectives to different communities. The key is to experiment, reflect, and discover where your contributions feel the most impactful.
 
-Consider what unique value you can bring to projects. This might be expertise in making complex interfaces more user-friendly, a talent for illustration, or skill in documenting design systems. Let your contributions speak for themselves and give them visibility, rather than trying to create a specific personal brand.
+Think about the unique strengths you bring to the table. Are you skilled at simplifying complex workflows, crafting engaging visuals, or creating detailed documentation? Let your work naturally reflect your skills and interests. Over time, your contributions will speak for themselves, showcasing your expertise and dedication.
+
+Rather than focusing on “branding” yourself, focus on showing up authentically. By sharing your work and building connections with purpose, you’ll create a presence that resonates deeply with others and leads to meaningful collaborations.
 
 ## Growing Career Opportunities
 
-Contributing to open source can create various opportunities for growth. Many companies value open source experience highly [C2](/2-the-designers-role){:class='chapter-link'}, seeing it as evidence of practical skills and ability to collaborate. Your public work becomes a natural portfolio, demonstrating both your design abilities and your approach to problem-solving.
+Contributing to open source can create various opportunities for growth. Many companies value open source experience because it highlights your practical skills, collaborative abilities, and initiative. Your contributions become a natural portfolio, demonstrating your unique approach to design and problem-solving.
 
-However, it's important to remember that career advancement should ideally be a byproduct of meaningful contribution, not the primary goal. Focus first on making valuable contributions and building strong relationships within the community. The professional opportunities often follow naturally from there.
+Beyond traditional job roles, open source can lead to freelance gigs, invitations to collaborate on exciting projects, or funding through grants and fellowships. The relationships you build here often become a bridge to unexpected possibilities.
+
+However, it’s important to approach open source with the right mindset. While career advancement is a huge benefit, the most fulfilling path often begins with valuable contributions. When you contribute meaningfully and engage authentically, professional growth often follows as a natural consequence.
 
 ## Balancing Visibility and Values
 
-While sharing your work and building relationships is important, it's crucial to do so in ways that align with open source values. This means:
+Unlike traditional spaces where personal branding can take center stage, open source thrives on values like transparency, collaboration, and shared success.
 
-- Being transparent about your process and decisions
-- Giving credit generously to others who contribute or inspire your work
-- Focusing on the collective success of projects rather than personal recognition
-- Staying humble and open to feedback and alternative approaches
+Here’s what _meaningful visibility_ looks like in this context:
 
-Remember, in open source, your reputation grows through consistent, valuable contributions and positive interactions with the community. Let your work speak for itself, and focus on being a reliable, helpful member of the projects you care about.
+- **Being Transparent:** Share not just the results of your work but the journey — your process, decisions, and learnings along the way.
+- **Attributing People:** Acknowledge those who inspire or contribute to your work. Open source is built on the shoulders of collective effort.
+- **Collaboration Over Competition:** Prioritize the success of the project and the community, rather than personal recognition.
+- **Being Humble:** Stay open to feedback, new ideas, and alternative approaches — it’s in these moments that growth happens.
+
+By aligning with these principles, you’ll naturally become a trusted and respected member of the community. In open source, your work speaks louder than any self-promotion. It’s about meaningful participation that leaves a lasting impact.
 
 ## Looking Forward
 
