@@ -33,9 +33,9 @@ Contributing to open source is fundamentally about making meaningful improvement
 
 Open source development happens in the open, creating natural opportunities for others to see your work. Your contributions - whether they're design improvements, documentation updates, or thoughtful discussions in issues - become part of the public record. This transparency allows others to learn from your process and builds trust over time.
 
-Transparency results in a type of organic self-promotion, so consider how you can make your work more accessible and useful to others. A well-organized portfolio showing your contributions, clear documentation of your design decisions, or blog posts explaining your problem-solving process can help others learn and potentially contribute themselves.
+Transparency results in a type of organic self-promotion, so consider how you can make your work more accessible and useful to others. A well-organized portfolio showing your contributions, clear documentation [C7](/7-design-for-collaboration#documentation-that-fits){:class='chapter-link'} of your design decisions [C5](/5-design-process#community-led-design-approaches){:class='chapter-link'}, or blog posts explaining your problem-solving process can help others learn and potentially contribute themselves.
 
-Much work happens in publicly accessible places, but that does not mean it is automatically visible to others. So you may consider, for example, maintaining a public design journal or work log where you collect and document your ongoing contributions and insights. Two examples are [Christoph](http://gbks.substack.com){:target="_blank"} and [Mogashni](https://mogashni.substack.com){:target="_blank"} from the Bitcoin Design Community, who publish regular updates about their work, creating valuable resources for others interested in similar projects.
+Much work happens in publicly accessible places, but that does not mean it is automatically visible to others. So you may consider, for example, maintaining a public design journal or work log where you collect and document your ongoing contributions and insights. Two examples are [Christoph](https://gbks.substack.com){:target="_blank"} and [Mogashni](https://mogashni.substack.com){:target="_blank"} from the [Bitcoin Design Community](https://bitcoin.design/){:target="_blank"}, who publish regular updates about their work, creating valuable resources for others interested in similar projects.
 
 ## Sharing Your Process
 
@@ -45,19 +45,19 @@ When writing about your work, focus on being helpful rather than promotional. Fo
 
 ## Building Relationships
 
-Open source thrives on collaboration and relationships. These connections grow organically through your contributions - discussing design work, reviewing proposed changes, or helping others with their questions. Focus on being genuinely helpful and engaged rather than networking for its own sake.
+Open source thrives on collaboration and relationships [C4](/4-collaborative-workflows){:class='chapter-link'}. These connections grow organically through your contributions - discussing design work, reviewing proposed changes, or helping others with their questions. Focus on being genuinely helpful and engaged rather than networking for its own sake.
 
 There are many ways to connect with others in the open source community. You might join project-specific chat channels, participate in community calls, or attend conferences and meetups (consider presenting your work as well). Organizations like [Open Source Design](https://opensourcedesign.net){:target="_blank"} regularly host events and maintain lists of opportunities to get involved. The key is finding communities that align with your interests and where you can make meaningful contributions.
 
 ## Finding Your Path
 
-Every designer's journey in open source is unique. Some focus deeply on specific projects, becoming core contributors over time. Others work across multiple projects, bringing fresh perspectives to different communities. What matters is finding ways to contribute that align with your skills and interests, and the community's needs.
+Every designer's journey in open source is unique. Some focus deeply on specific projects, becoming core contributors [C10](/10-advanced-topics#leading-design-initiatives){:class='chapter-link'} over time. Others work across multiple projects, bringing fresh perspectives to different communities. What matters is finding ways to contribute that align with your skills and interests, and the community's needs.
 
 Consider what unique value you can bring to projects. This might be expertise in making complex interfaces more user-friendly, a talent for illustration, or skill in documenting design systems. Let your contributions speak for themselves and give them visibility, rather than trying to create a specific personal brand.
 
 ## Growing Career Opportunities
 
-Contributing to open source can create various opportunities for growth. Many companies value open source experience highly, seeing it as evidence of practical skills and ability to collaborate. Your public work becomes a natural portfolio, demonstrating both your design abilities and your approach to problem-solving.
+Contributing to open source can create various opportunities for growth. Many companies value open source experience highly [C2](/2-the-designers-role){:class='chapter-link'}, seeing it as evidence of practical skills and ability to collaborate. Your public work becomes a natural portfolio, demonstrating both your design abilities and your approach to problem-solving.
 
 However, it's important to remember that career advancement should ideally be a byproduct of meaningful contribution, not the primary goal. Focus first on making valuable contributions and building strong relationships within the community. The professional opportunities often follow naturally from there.
 
