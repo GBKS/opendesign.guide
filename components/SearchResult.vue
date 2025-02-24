@@ -29,8 +29,8 @@ const relativeScore = computed(() => {
 
   h3 {
     font-weight: 500;
-    @include r('font-size', 15, 17);
     opacity: 0.65;
+    @include r('font-size', 15, 17);
   }
 
   h4 {

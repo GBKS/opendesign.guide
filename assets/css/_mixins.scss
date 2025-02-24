@@ -3,7 +3,7 @@
   $multiplier: math.div($maxSize - $minSize, 1280 - 375)*100;
   $baseSize: $minSize - math.div(375, 100) * $multiplier + 'px';
 
-  #{$property}: calc(#{$baseSize} + 1vw * #{$multiplier});
+  & { #{$property}: calc(#{$baseSize} + 1vw * #{$multiplier}); }
 
   @include media-query(large) {
     #{$property}: $maxSize+px;
