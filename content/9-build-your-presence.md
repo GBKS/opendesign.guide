@@ -37,7 +37,7 @@ This chapter explores how you can work in public, share your journey, and build 
 
 In open source, working in public means sharing your progress, challenges, and successes in real time. Every contribution — whether it’s a design tweak, documentation updates, or thoughtful feedback — becomes part of your public record. This transparency builds trust and allows others to learn from your process and experience.
 
-But transparency doesn’t mean increased visibility. Simply having your work in public repositories isn’t enough — it should also be accessible and inviting. Consider creating a _work log_ where you document your decisions, challenges, and lessons learned. For example, [Christoph](http://gbks.substack.com){:target="_blank"} and [Mogashni](https://mogashni.substack.com){:target="_blank"} from the Bitcoin Design Community publish regular updates that offer insights into their design processes, turning their work into valuable resources for others interested in similar projects.
+But transparency doesn’t mean increased visibility. Simply having your work in public repositories isn’t enough — it should also be accessible and inviting. Consider creating a _work log_ where you document your decisions, challenges, and lessons learned. For example, [Christoph](http://gbks.substack.com){:target="_blank"} and [Mogashni](https://mogashni.substack.com){:target="_blank"} from the [Bitcoin Design Community](https://bitcoin.design/){:target="_blank"} publish regular updates that offer insights into their design processes, turning their work into valuable resources for others interested in similar projects.
 
 Authenticity is key here. When you share both your wins and your struggles, you show others the real work that went into your designs. This transparency results in a type of organic self-promotion which also inspires trust and encourages collaboration. Start small: document one project or share a reflection on a recent challenge. Then, let your presence grow naturally within the community.
 
@@ -55,11 +55,11 @@ When sharing your work or insights, focus on creating value for others than bein
 
 ## Building Relationships
 
-Open source is not just about code or design — it’s about the people. Collaboration and trust are the foundation of any thriving project, and the relationships you build here can shape not only your contributions but your growth as a designer.
+Open source is not just about code or design — it’s about the people. Collaboration [C4](/4-collaborative-workflows){:class='chapter-link'} and trust are the foundation of any thriving project, and the relationships you build here can shape not only your contributions but your growth as a designer.
 
 To build meaningful connections, focus on being present and genuinely helpful. Share your knowledge, ask thoughtful questions, and engage in discussions that matter to the community. Whether you’re reviewing pull requests, offering design feedback, or helping someone with a tricky issue, your interactions can leave a lasting impact.
 
-You can connect with others in the open source community in many ways. You can join project-specific chat channels, participate in community calls, or attend conferences and meetups (consider presenting your work as well). Organizations like [Open Source Design](https://opensourcedesign.net/) regularly host events and maintain lists of opportunities to get involved. The more you immerse yourself in the community, the more you’ll find doors opening to collaboration, opportunities, and projects where you can make meaningful contributions.
+You can connect with others in the open source community in many ways. You can join project-specific chat channels, participate in community calls, or attend conferences and meetups (consider presenting your work as well). Organizations like [Open Source Design](https://opensourcedesign.net/){:target="_blank"} regularly host events and maintain lists of opportunities to get involved. The more you immerse yourself in the community, the more you’ll find doors opening to collaboration, opportunities, and projects where you can make meaningful contributions.
 
 ## Finding Your Path
 
@@ -71,7 +71,7 @@ Rather than focusing on “branding” yourself, focus on showing up authentical
 
 ## Growing Career Opportunities
 
-Contributing to open source can create various opportunities for growth. Many companies value open source experience because it highlights your practical skills, collaborative abilities, and initiative. Your contributions become a natural portfolio, demonstrating your unique approach to design and problem-solving.
+Contributing to open source can create various opportunities for growth. Many companies value open source experience [C2](/2-the-designers-role){:class='chapter-link'} because it highlights your practical skills, collaborative abilities, and initiative. Your contributions become a natural portfolio, demonstrating your unique approach to design and problem-solving.
 
 Beyond traditional job roles, open source can lead to freelance gigs, invitations to collaborate on exciting projects, or funding through grants and fellowships. The relationships you build here often become a bridge to unexpected possibilities.
 
