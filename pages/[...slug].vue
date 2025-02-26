@@ -176,7 +176,7 @@ onMounted(() => {
                 <p class="-chapter" :style="chapterStyle">{{ pageData?.chapter }}</p>
                 <h1>{{ title }}</h1>
                 <TableOfContents :content="headers" />
-                <ContentDoc :components="components" />
+                <ContentDoc class="article-content" :components="components" />
             </article>
             <div class="pagination">
                 <NuxtLink
@@ -407,12 +407,17 @@ onMounted(() => {
                 }
             }
 
+            :deep(.article-content ol li + li),
+            :deep(.article-content ul li + li) {
+                margin-top: 5px;
+            }
+
             :deep(hr) {
-                @include r('margin-top', 20, 40);
                 border: none;
                 height: 1px;
                 background-color: black;
                 opacity: 0.2;
+                @include r('margin-top', 20, 40);
             }
         }
 

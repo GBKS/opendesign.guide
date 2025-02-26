@@ -143,8 +143,8 @@ onBeforeUnmount(() => {
             &.-note {
                 margin-top: 20px;
                 color: #1CB3CB;
-                @include r('font-size', 17, 19);
                 font-weight: 600;
+                @include r('font-size', 17, 19);
 
                 a {
                     color: #1CB3CB;
@@ -163,8 +163,8 @@ onBeforeUnmount(() => {
         p {
             font-weight: 600;
             color: #808080;
-            @include r('font-size', 13, 15);
             padding: 5px 25px;
+            @include r('font-size', 13, 15);
 
             &:first-child {
                 background-color: #1CB3CB;

@@ -79,10 +79,10 @@ const props = defineProps([
     a {
       font-weight: 400;
       line-height: 1.3;
-      @include r('font-size', 21, 15);
       text-decoration: none;
       color: black;
       transition: all 100ms $ease;
+      @include r('font-size', 21, 15);
 
       &.-h2 {
         padding: 5px 0;
