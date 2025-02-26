@@ -53,12 +53,12 @@ This guide consists of 12 chapters, each focusing on a crucial aspect of open so
 4. [Collaborative Workflows](/4-collaborative-workflows)
 5. [Design Process](/5-design-process)
 6. [Tools and Resources](/6-design-tools)
-7. [Contributing Design Assets](/7-contributing-design-assets)
+7. [Design for Collaboration](/7-design-for-collaboration)
 8. [Improving User Experience](/8-improving-ux)
 9. [Building a Personal Brand](/9-personal-brand)
 10. [Advanced Topics](/10-advanced-topics)
 11. [Case Studies](/11-case-studies)
-12. [Final Project](/12-final-project)
+12. [Your First Contribution](/12-first-contribution)
 
 Each chapter includes detailed explanations, practical tips, and real-world examples to help you understand and apply the concepts.
 
