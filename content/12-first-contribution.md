@@ -171,9 +171,3 @@ Don’t hesitate to reach out for help or feedback along the way. Open-source co
 If you document your journey or create case studies, feel free to share them with us. We’d love to showcase your work and inspire others in the community. See [Chapter 13](/13-about){:class='chapter-link'} for ways to contribute back to this guide.
 
 Good luck, and happy designing! You’re not just building your skills – you’re helping shape the future of open-source.
-
-Don't be afraid to ask for help if you need it. Open source communities are often very supportive of new contributors who show enthusiasm and willingness to learn.
-
-Good luck with your project! Your contribution, no matter how small it might seem, is valuable. You're not just building your skills and portfolio – you're helping make open source software better for users around the world.
-
-And if you end up creating design proposals, blog posts, or case studies, let us know. We'd love to showcase them here in this guide.
