@@ -124,6 +124,13 @@ Your contribution doesn’t end once you’ve shared your design. Following thro
 3. **Stay engaged with the community:** After your design is implemented, don’t disappear. Continue participating in discussions, offer feedback to others, and share updates on how your design is being used. This builds ongoing relationships and establishes you as a reliable contributor.
     
 4. **Follow up on your contribution:** Check back to see how your design is performing in the wild. Did it solve the problem effectively? Is it being received well by users? This follow-up helps you understand the impact of your work and shows long-term dedication to the project.
+1. **Be responsive and communicative:** Once you’ve shared your work, keep the conversation going. Address feedback quickly, clarify doubts, and be open to revisions.
+    
+2. **Support the implementation process:** If possible, help developers implement your design. This might mean providing additional assets, explaining interactions, or adjusting designs to fit technical constraints. It’s a great way to learn and show commitment to the project.
+    
+3. **Stay engaged with the community:** After your design is implemented, don’t disappear. Continue participating in discussions, offer feedback to others, and share updates on how your design is being used. This builds ongoing relationships and establishes you as a reliable contributor.
+    
+4. **Follow up on your contribution:** Check back to see how your design is performing in the wild. Did it solve the problem effectively? Is it being received well by users? This follow-up helps you understand the impact of your work and shows long-term dedication to the project.
 ## Step 7: Reflecting and Documenting Your Journey
 
 Reflecting on your experience helps you grow as a designer and contributes to the community’s knowledge base. Sharing your journey also inspires others to get involved.
