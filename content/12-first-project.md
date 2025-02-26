@@ -25,68 +25,70 @@ images:
 preview: final-project-preview.jpg
 ---
 
-# Your First Project
+# Your First Contribution
 
-Now that we've covered all the key aspects of contributing to open source projects as a designer, it's time to put your skills into practice. This first project will guide you through making a significant design contribution to an open source project of your choice.
+You’ve come a long way, learning the essentials of contributing to open-source as a designer. Now, it’s time to take the next step and make your first real contribution. This is where theory meets practice, and you get to see your work impact an actual project. You don’t have to create something extraordinary right off the bat, starting small is okay. What matters most is taking the leap, learning from the experience, and building the confidence to keep contributing. Let’s dive in.
 
-## Step 1: Choosing a Project
+## Step 1: Choose a Project
 
-First, you need to find a project to contribute to. Here's how to go about it:
+Choosing the right project is the first step to a positive open-source experience. Here’s how to find one that matches your interests and helps you get started confidently:
 
-1. Reflect on your interests: What kind of project do you care about? It could software-related, like a text editor or game engine, a physical product, or a completely different creative endeavor.
-1. Assess your skills: What type of design work do you feel most confident doing? UI design? Icon creation? User research?
-1. Look for opportunities and projects that interest you and seem to need design help: 
-   - Browse open source platforms, like GitHub
-   - Look into training programs, like [Outreachy](https://www.outreachy.org/), [Summer of Code](https://summerofcode.withgoogle.com/), [Summer of Bitcoin](https://www.summerofbitcoin.org/organizations), and [Open Source Design Jobs](https://opensourcedesign.net/jobs/)
-   - Join design communities and follow open-source designers on social media
-   - Contact designers directly and ask them about opportunities (for example via [ADPList](https://adplist.org/explore/design))
-   - Or ask friends about their favorite open-source software
+1. **Reflect on your interests:** Think about the types of projects you genuinely care about. It could be software-related, like productivity tools, creative software, or gaming experiences. It could also be more unconventional, like contributing to open hardware or educational platforms. The more connected you feel to the project’s purpose, the more motivated you’ll be to contribute.
+1. **Assess your skills:** Identify the types of design work you’re most comfortable with. Are you more into UI/UX design, creating illustrations, designing brand identities, or conducting user research? Maybe you enjoy writing UX copy or building design systems. Being clear about your strengths helps you find a project where you can make a meaningful impact while still learning and growing.
+1. **Look for opportunities:** Start exploring projects that interest you and seem to need design help: 
+   - Browse open-source platforms: Check out GitHub, [OpenAlternative](https://openalternative.co/), or [SourceForge](https://sourceforge.net/directory/). Also, search YouTube for “Best Open Source Apps/Tools” to find inspiring projects.
+   - **Participate in training programs:** Look into [Outreachy](https://www.outreachy.org/), [Summer of Code](https://summerofcode.withgoogle.com/), [Summer of Bitcoin](https://www.summerofbitcoin.org/organizations), and [Open Source Design Jobs](https://opensourcedesign.net/jobs/)
+   - **Join communities:** Become part of design communities and follow open-source designers on social media (like Substack, NOSTR, X) to discover new opportunities.
+   - **Connect personally:** Reach out to experienced designers for guidance. Platforms like [ADPList](https://adplist.org/explore/design) can be great for mentorship.
+   - **Get creative with your search:** Ask friends about their favorite open-source tools, explore Reddit communities like [r/opensource](https://www.reddit.com/r/opensource/) or [r/foss](https://www.reddit.com/r/foss/), or visit forums where designers discuss their favorite projects. Inspiration can come from unexpected places.
 
-1. Check the project's openness to contributions: Look for design documentation or CONTRIBUTING.md file or similar documentation [C3](/3-getting-started#understanding-project-structures){:class='chapter-link'} about how to get involved.
-1. Start small: For your first major contribution, it's often best to choose a medium-sized project rather than a huge one like Linux or Firefox.
+1. **Check the project’s openness to contributions:** Before diving in, see if the project is open to design input. Look for design docs, a CONTRIBUTING.md file or similar documentation [C3](/3-getting-started#understanding-project-structures){:class='chapter-link'}, or active issue discussions to gauge how they engage with contributors.
+1. **Start small:** For your first major contribution, consider choosing a medium-sized project rather than a massive one like Linux or Firefox. Medium-sized projects often have active communities that are easier to get involved with while still being complex enough to offer valuable learning experiences. Plus, you’ll have a better chance of making a visible impact without getting lost in an enormous codebase.
 
-Remember, it's okay to take your time with this step. Finding the right project is crucial for a good experience.
+Be mindful and don't take too long to find the “perfect” project. It’s better to jump in, learn, and adapt along the way. The first project is just the beginning, and each experience will teach you something valuable. If one project doesn’t feel right, you can always pivot to another. The key is to take the first step.
 
-## Step 2: Understanding the Project
+## Step 2: Understand the Project
 
-Once you've chosen a project, dive in and learn about it:
+Once you’ve chosen a project, it’s time to get to know it inside out. The more familiar you are with the project, the better your contribution will be. Here’s how to dive in:
 
-1. **Install and use the software:** Get familiar with it from a user's perspective.
-1. **Read the documentation:** Understand the project's goals, target users, and current state.
-1. **Look at past contributions:** See what kind of design work has been done before.
-1. **Join the community:** Introduce yourself on the project's chat, forum, or mailing list.
-1. **Identify pain points:** As you use the software, note any usability issues or areas for improvement.
-1. **Get support:** Bring in other designers to collaborate and support you if you'd like.
+1. **Install and use the software:** Start by experiencing the project as a user. Explore its features, workflows, and challenges. This hands-on experience will help you understand the user’s perspective.
+1. **Read the documentation:** Go through the project’s README, design guidelines, and other relevant docs. Understand its goals, target users, and design philosophy. If the documentation seems outdated or incomplete, note it down - it could be a contribution opportunity.
+1. **Join the community::** Introduce yourself on the project’s chat, forum, or mailing list. Observe how people communicate and engage with each other. Building connections early on can make collaboration and feedback easier later.
+1. **Look at past contributions::** Check out past pull requests, issues, and design discussions. This helps you understand the project’s style, tone, and expectations for design work.
+1. **Identify pain points:** As you use the software, note any usability issues or areas for improvement. Pay attention to moments of confusion or inefficiency - these are opportunities for impactful design contributions.
 
-Take notes during this process. Your observations will be valuable when you start designing. For example, if you can't find good design documentation, your may start to contribute by addressing this.
+Document your journey. From your first impressions to challenges faced and ideas sparked, keep track of everything. These notes will not only guide your design decisions but also serve as valuable feedback for the community.
 
-## Step 3: Proposing Your Contribution
+## Step 3: Propose Your Contribution
 
-Now that you understand the project, it's time to propose your design contribution:
+Now that you understand the project, it’s time to propose your design contribution. Here’s how to effectively communicate your idea and gain community support:
 
-1. **Choose your focus:** Based on your skills and the project's needs, decide what you want to work on. It could be a redesign of a specific feature, a new set of icons, a usability study, or something else.
-1. **Draft a proposal:** Write up your idea, including:
-   - The problem you're addressing
-   - Your proposed solution
-   - How it aligns with the project's goals
-   - A rough timeline for the work
-1. **Get feedback:** Share your proposal with the community. Be open to suggestions and be prepared to revise your plans.
-1. **Finalize your plan:** Once you have community buy-in, refine your proposal into a concrete plan of action.
+1. **Identify a problem to solve:** Based on your observations, choose a problem you’re confident tackling. It could be a usability issue, a design inconsistency, or an enhancement to the user experience. Make sure it’s relevant to the project’s goals.
+1. **Check for existing discussions:** Before jumping in, search the project’s issue tracker, forums, or chat to see if the problem has already been raised. This helps you understand the context, see if others are working on it, and avoid duplicating efforts.
+1. **Discuss your idea:** Share your thoughts with the community early on. This could be in an issue thread, a forum post, or a community call. Early feedback helps you refine your idea and build initial support.
+1. **Draft your proposal using PAST:** Structure your proposal with the following elements:
+   - Problem: Clearly state the problem you’re addressing. What’s the pain point, and who does it impact?
+   - Agitation: Explain why it’s crucial to solve this issue. What’s at stake if it isn’t addressed? This highlights the importance of your contribution.
+   - Solution: Describe your proposed solution and how it effectively addresses the problem. Include rough sketches or wireframes to communicate your vision.
+   - Timeline: Provide an estimated timeline for your work. Breaking it down into phases or milestones helps set clear expectations.
+1. **Request feedback and support:** Share your proposal with the community. Be open to constructive criticism and willing to iterate on your idea. If needed, seek help from other designers or contributors - it’s okay/recommended to ask for support.
+1. **Finalize your plan:** Once you have community buy-in, refine your proposal into a concrete plan of action. Ensure it aligns with the project’s goals.
 
-Adjust the steps as needed. Small contributions and projects don't require extensive proposals or processes. Remember, communication is key in open source. Keep the community updated as you work.
+Adjust your approach based on the project’s size and complexity. Smaller contributions might only need a brief discussion, while larger ones may require detailed proposals. Remember, clear and consistent communication is key in open source. Keep the community informed of your progress and challenges along the way.
 
-## Step 4: Doing the Design Work
+## Step 4: Do the Design Work
 
-This is where you put all your skills into practice:
+Time to bring your ideas to life:
 
-1. **Research:** If needed, do user research to inform your design decisions.
-1. **Sketch and ideate:** Come up with multiple possible solutions to the problem.
-1. **Create mockups or prototypes:** Use the tools you're comfortable with to visualize your ideas.
-1. **Apply project standards:** Make sure your work fits with any existing style guides or design patterns.
-1. **Document your process:** Keep notes on your decisions and rationale.
-1. **Seek feedback early and often:** Share works-in-progress with the community and iterate based on feedback.
+1. **Research:** If needed, do user research or review existing feedback to inform your design decisions. A clear understanding of the problem leads to better solutions.
+1. **Ideate and explore solutions:** Sketch out multiple ideas and explore different approaches. Don’t aim for perfection, instead focus on solving the problem effectively.
+1. **Follow project standards:** Ensure your designs align with the project’s style guides, design patterns, or branding guidelines. Consistency is key.
+1. **Create mockups or prototypes:** Use your preferred design tools to create mockups or interactive prototypes. Keep them as simple or detailed as needed to communicate your vision.
+1. **Share progress and gather feedback: Don’t wait until you’re done - share early drafts and work-in-progress with the community. This keeps everyone in the loop and reduces the chance of major revisions later.
+1. **Document your process:** Keep notes of the “why” behind your design choices. Later, this helps the community understand your thought process and makes feedback more constructive.
+1. **Iterate and improve:** Based on the feedback, revise your designs. Stay flexible and open to new ideas as you collaborate.
 
-Tailor this design process to the situation.
+Design in open source is a collaborative journey. Keep communication open and stay adaptable as the project evolves.
 
 ::resources
 - [A new ‘Split’ Checkout - Community feedback on designs](https://community.openfoodnetwork.org/t/a-new-split-checkout-community-feedback-on-designs/2235) via Open Food Network
@@ -94,16 +96,16 @@ Tailor this design process to the situation.
 - [Implementing new designs for Dangerzone](https://www.youtube.com/watch?v=IghENxVNqL0) via [Dangerzone](https://github.com/freedomofpress/dangerzone)
 ::
 
-## Step 5: Presenting Your Work
+## Step 5: Present Your Work
 
-Once your design work is complete, it's time to present it to the project:
+Once your design is ready, it’s time to present it clearly and effectively:
 
-1. **Prepare your files:** Make sure all your design files are well-organized and in appropriate formats. Ask other contributors what works best for them.
-1. **Write up your contribution:** Explain your design decisions, how you addressed the original problem, and any technical considerations for implementation.
-1. **Create a pull request or equivalent:** Follow the project's process for submitting contributions.
-1. **Be responsive:** Answer questions and be open to making revisions based on community feedback.
-1. **Help with implementation:** If possible, assist the developers in implementing your design.
-1. **Follow up:** How was the response to your changes? Are users happier now?
+1. **Organize and Share Your Files:** Make sure your files are well-structured and in accessible formats (e.g., Figma links, PDFs, or image files). Share them in the project’s preferred channels, like GitHub issues or community forums, so they’re easy to access and review.
+1. **Document Your Contribution:** Clearly explain your design decisions, how they solve the original problem, and any technical considerations for implementation.
+1. **Submit Your Work:** Create a pull request (or follow the project’s preferred submission process) to share your contribution. 
+1. **Create an Asynchronous Presentation:** Record a brief walkthrough of your design using tools like [Loom](https://www.loom.com/) or a screen recording tool. This helps maintainers and contributors review your work on their own time, making the process more async-friendly. Keep it short and focused (ideally under 5 minutes).
+1. **Link to Relevant Discussions:** Provide context by linking to related issues, previous discussions, or feedback threads. This makes it easier for reviewers to understand the background without digging through multiple channels.
+1. **Invite feedback and start a discussion:** Clearly ask for specific feedback (e.g., “Does this flow address the usability issue we discussed?”). Engage in the conversation and be open to suggestions. This shows your willingness to collaborate and improve.
 
 Your presentation should be clear, professional, and show how your work benefits the project.
 
@@ -111,45 +113,64 @@ Your presentation should be clear, professional, and show how your work benefits
 - [Feedback request - Ideas for improving how multiple accounts are handled in the GUI](https://www.reddit.com/r/Monero/comments/c23zxn/feedback_request_ideas_for_improving_how_multiple/) via Monero
 ::
 
-## Step 6: Reflection and Documentation
+## Step 6: Collaborating and Following Through
 
-After your contribution is accepted (or even if it isn't), take time to reflect:
+Your contribution doesn’t end once you’ve shared your design. Following through and staying engaged ensures your work gets implemented effectively and helps you build strong relationships within the community.
 
-1. **Identify lessons learned:** Review your notes. What went well? What would you do differently next time?
-1. **Write a case study:** Document the entire process from start to finish. This is great for your portfolio and helpful for other designers.
-1. **Share your experience:** Consider writing a blog post or giving a talk about what you learned.
-1. **Plan your next steps:** Will you continue contributing to this project? Move on to a new one?
+1. **Be responsive and communicative:** Once you’ve shared your work, keep the conversation going. Address feedback quickly, clarify doubts, and be open to revisions.
+    
+2. **Support the implementation process:** If possible, help developers implement your design. This might mean providing additional assets, explaining interactions, or adjusting designs to fit technical constraints. It’s a great way to learn and show commitment to the project.
+    
+3. **Stay engaged with the community:** After your design is implemented, don’t disappear. Continue participating in discussions, offer feedback to others, and share updates on how your design is being used. This builds ongoing relationships and establishes you as a reliable contributor.
+    
+4. **Follow up on your contribution:** Check back to see how your design is performing in the wild. Did it solve the problem effectively? Is it being received well by users? This follow-up helps you understand the impact of your work and shows long-term dedication to the project.
+## Step 7: Reflecting and Documenting Your Journey
 
-This reflection process is crucial for your growth as an open source designer. Be aware that first contributions may be much harder than the next ones. As your become more familiar with the project, and the other contributors with you, it will become easier.
+Reflecting on your experience helps you grow as a designer and contributes to the community’s knowledge base. Sharing your journey also inspires others to get involved.
+
+- **Reflect on your experience:** Take a moment to review the process. What went well? What challenges did you face? Reflecting on your journey helps you learn from the experience and improve in future contributions.
+- **Document your contribution:** Create a brief write-up or case study about your design process, challenges, and solutions. This isn’t just for your portfolio — it also helps future contributors learn from your approach.
+- **Share your learnings:** Consider sharing your experience with the wider community. This could be through a blog post, social media thread, or even a short Loom video. It’s a way to give back to the community while building your credibility.
+1. **Plan your next steps:** Decide whether you want to continue contributing to this project or explore new opportunities. Reflecting on your experience will help you make an informed choice about your open-source journey.
+
+Reflection and documentation are powerful tools for personal and community growth. By analyzing your journey, sharing your experiences, and planning your next steps, you not only enhance your own skills but also contribute to the open-source ecosystem's continuous learning and development.
 
 ## Project Timeline
 
-It can be helpful to have a timeline in mind as you start out. Due to how organically many open-source projects collaborate, assume that you may need to adjust it as you go. Here's a simple one you use as a foundation:
+Having a timeline helps you stay organized, but open-source projects often require flexibility. Here’s a suggested breakdown of time investment:
 
-- Weeks 1-2: Choose a project and understand it
-- Week 3: Propose your contribution
-- Weeks 4-6: Do the design work
-- Week 7: Present your work and handle feedback
-- Week 8: Reflection and documentation
+- Weeks 1-2 (~10-15 hours) : Choose a project and understand it
+- Week 3 (~5-10 hours) : Propose your contribution
+- Weeks 4-6 (~20-30 hours) : Do the design work
+- Week 7 (~10-15 hours) : Present your work and handle feedback
+- Week 8 (~5-10 hours) : Reflection and documentation
 
 You have most control over your own work timeline, and least control over the parts where you rely on others (like feedback and implementation). Make the most of these dynamics, and as always, clear and regular communication is the key.
 
 ## Mentor Evaluation
 
-If you would like feedback, you could ask a mentor or another designer for an evaluation. Here are some criteria they may be looking for:
+If you would like feedback, you could ask a mentor or another designer for an evaluation. Here are some questions to reflect on:
 
-1. **Choice of project:** Was it a good fit for you and your interests and skillset?
-1. **Understanding of the project:** Did you grasp the project's needs and context?
-1. **Quality of your design work:** Does it solve a real problem effectively?
-1. **Community interaction:** How well did you communicate and handle feedback?
-1. **Documentation:** How well did you explain your process and decisions?
-1. **Reflection:** How thoughtfully did you analyze your own work and learning?
 
-This type of feedback can be very helpful in speeding up your learning process and finding your place in open-source. If you're comfortable without it, then that's also OK. You are your own boss in open-source.
+
+1. **Project Choice:** Did you choose a project that matched your skills and interests?
+1. **Understanding of the project:** Did you fully understand the project's needs and context before designing?
+1. **Design Quality:** Does your design solve a real problem effectively and improve the user experience?
+1. **Community Interaction:** How well did you communicate with the community and respond to feedback?
+1. **Documentation:** Is your documentation clear and thorough, explaining your design decisions?
+1. **Reflection and growth:** Did you thoughtfully reflect on your learning and growth throughout the process?
+
+This type of feedback can help you identify strengths and areas for improvement. However, it's perfectly fine to skip formal evaluations and trust your own judgment. You are your own boss in open-source.
 
 ## Conclusion
 
-This first project is your opportunity to apply everything you've learned about open source design. It might seem challenging, but remember that you have the skills and knowledge to make a real impact. If you have an idea that excited you, you could even start a new project of your own.
+You’ve reached the end of this guide, but your journey in open-source design is just beginning. This first project is your opportunity to apply everything you’ve learned, contribute to something meaningful, and grow as a designer. It might feel challenging, but remember – every open-source contributor started where you are now.
+
+Don’t hesitate to reach out for help or feedback along the way. Open-source communities are often supportive of newcomers who show enthusiasm and a willingness to learn. Your contribution, no matter how small, is valuable and can make a real impact.
+
+If you document your journey or create case studies, feel free to share them with us. We’d love to showcase your work and inspire others in the community.
+
+Good luck, and happy designing! You’re not just building your skills – you’re helping shape the future of open-source.
 
 Don't be afraid to ask for help if you need it. Open source communities are often very supportive of new contributors who show enthusiasm and willingness to learn.
 
