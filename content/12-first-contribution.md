@@ -36,8 +36,8 @@ Choosing the right project is the first step to a positive open-source experienc
 1. **Reflect on your interests:** Think about the types of projects you genuinely care about. It could be software-related, like productivity tools, creative software, or gaming experiences. It could also be more unconventional, like contributing to open hardware or educational platforms. The more connected you feel to the project’s purpose, the more motivated you’ll be to contribute. Consider the key principles of open source we discussed in [Chapter 1](/1-open-source#key-principles){:class='chapter-link'}.
 1. **Assess your skills:** Identify the types of design work you’re most comfortable with. Are you more into UI/UX design, creating illustrations, designing brand identities, or conducting user research? Maybe you enjoy writing UX copy or building design systems. Being clear about your strengths helps you find a project where you can make a meaningful impact while still learning and growing. Review the different designer roles discussed in [Chapter 2](/2-the-designers-role#types-of-design-contributions){:class='chapter-link'}.
 1. **Look for opportunities:** Start exploring projects that interest you and seem to need design help: 
-   - Browse open-source platforms: Check out GitHub, [OpenAlternative](https://openalternative.co/){:target="_blank"}, or [SourceForge](https://sourceforge.net/directory/){:target="_blank"}. Also, search YouTube for “Best Open Source Apps/Tools” to find inspiring projects.
-   - **Participate in training programs:** Look into [Outreachy](https://www.outreachy.org/){:target="_blank"}, [Summer of Code](https://summerofcode.withgoogle.com/){:target="_blank"}, [Summer of Bitcoin](https://www.summerofbitcoin.org/organizations){:target="_blank"}, and [Open Source Design Jobs](https://opensourcedesign.net/jobs/){:target="_blank"}
+   - **Browse open-source platforms:** Check out [GitHub](https://github.com/){:target="_blank"}, [OpenAlternative](https://openalternative.co/){:target="_blank"}, or [SourceForge](https://sourceforge.net/directory/){:target="_blank"}. Also, search YouTube for “Best Open Source Apps/Tools” to find inspiring projects.
+   - **Participate in training programs:** Look into [Outreachy](https://www.outreachy.org/){:target="_blank"}, [Summer of Code](https://summerofcode.withgoogle.com/){:target="_blank"}, [Summer of Bitcoin](https://www.summerofbitcoin.org/organizations){:target="_blank"}, and [Open Source Design Jobs](https://opensourcedesign.net/jobs/){:target="_blank"}.
    - **Join communities:** Become part of design communities and follow open-source designers on social media (like Substack, NOSTR, X) to discover new opportunities.
    - **Connect personally:** Reach out to experienced designers for guidance. Platforms like [ADPList](https://adplist.org/explore/design){:target="_blank"} can be great for mentorship.
    - **Get creative with your search:** Ask friends about their favorite open-source tools, explore Reddit communities like [r/opensource](https://www.reddit.com/r/opensource/){:target="_blank"} or [r/foss](https://www.reddit.com/r/foss/){:target="_blank"}, or visit forums where designers discuss their favorite projects. Inspiration can come from unexpected places.
@@ -101,11 +101,11 @@ Design in open source is a collaborative journey. Keep communication open and st
 
 Once your design is ready, it’s time to present it clearly and effectively:
 
-1. **Organize and Share Your Files:** Make sure your files are well-structured and in accessible formats (e.g., Penpot/Figma links, PDFs, or image files). Share them in the project’s preferred channels, like GitHub issues or community forums, so they’re easy to access and review. Follow the file organization principles from [Chapter 7](/7-design-for-collaboration#organizing-files){:class='chapter-link'}.
-1. **Document Your Contribution:** Clearly explain your design decisions, how they solve the original problem, and any technical considerations for implementation. The documentation strategies discussed in [Chapter 7](/7-design-for-collaboration#documentation-that-fits){:class='chapter-link'} will help make your work accessible to others.
-1. **Submit Your Work:** Create a pull request (or follow the project’s preferred submission process) to share your contribution.
-1. **Create an Asynchronous Presentation:** Record a brief walkthrough of your design using tools like [Loom](https://www.loom.com/) or a screen recording tool. This helps maintainers and contributors review your work on their own time, making the process more async-friendly. Keep it short and focused (ideally under 5 minutes).
-1. **Link to Relevant Discussions:** Provide context by linking to related issues, previous discussions, or feedback threads. This makes it easier for reviewers to understand the background without digging through multiple channels.
+1. **Organize and share your files:** Make sure your files are well-structured and in accessible formats (e.g., Penpot/Figma links, PDFs, or image files). Share them in the project’s preferred channels, like GitHub issues or community forums, so they’re easy to access and review. Follow the file organization principles from [Chapter 7](/7-design-for-collaboration#organizing-files){:class='chapter-link'}.
+1. **Document your contribution:** Clearly explain your design decisions, how they solve the original problem, and any technical considerations for implementation.
+1. **Submit your work:** Create a pull request (or follow the project’s preferred submission process) to share your contribution.
+1. **Create an aynchronous presentation:** Record a brief walkthrough of your design using tools like [Loom](https://www.loom.com/) or a screen recording tool. This helps maintainers and contributors review your work on their own time, making the process more async-friendly. Keep it short and focused (ideally under 5 minutes).
+1. **Link to relevant discussions:** Provide context by linking to related issues, previous discussions, or feedback threads. This makes it easier for reviewers to understand the background without digging through multiple channels.
 1. **Invite feedback and start a discussion:** Clearly ask for specific feedback (e.g., “Does this flow address the usability issue we discussed?”). Engage in the conversation and be open to suggestions. This shows your willingness to collaborate and improve. Use the feedback handling strategies from [Chapter 4](/4-collaborative-workflows){:class='chapter-link'}.
 
 Your presentation should be clear, professional, and show how your work benefits the project.
@@ -132,7 +132,7 @@ Reflecting on your experience helps you grow as a designer and contributes to th
 
 - **Reflect on your experience:** Take a moment to review the process. What went well? What challenges did you face? Reflecting on your journey helps you learn from the experience and improve in future contributions.
 - **Document your contribution:** Create a brief write-up or case study about your design process, challenges, and solutions. This isn’t just for your portfolio — it also helps future contributors learn from your approach.
-- **Share your learnings:** Consider sharing your experience with the wider community. This could be through a blog post, social media thread, or even a short Loom video. It’s a way to give back to the community while building your credibility. The strategies for working in public discussed in [Chapter 9](/9-build-your-presence){:class='chapter-link'} will help you share your work effectively.
+- **Share your learnings:** Consider sharing your experience with the wider community. This could be through a blog post, social media thread, or even a short video. It’s a way to give back to the community while building your credibility. The strategies for working in public discussed in [Chapter 9](/9-build-your-presence){:class='chapter-link'} will help you share your work effectively.
 - **Plan your next steps:** Decide whether you want to continue contributing to this project or explore new opportunities. Reflecting on your experience will help you make an informed choice about your open-source journey.
 
 Reflection and documentation are powerful tools for personal and community growth. By analyzing your journey, sharing your experiences, and planning your next steps, you not only enhance your own skills but also contribute to the open-source ecosystem's continuous learning and development. Consider contributing your story back to this guide as mentioned in [Chapter 13](/13-about){:class='chapter-link'}.
@@ -141,11 +141,11 @@ Reflection and documentation are powerful tools for personal and community growt
 
 Having a timeline helps you stay organized, but open-source projects often require flexibility. Here’s a suggested breakdown of time investment:
 
-- Weeks 1-2 (~10-15 hours) : Choose a project and understand it
-- Week 3 (~5-10 hours) : Propose your contribution
-- Weeks 4-6 (~20-30 hours) : Do the design work
-- Week 7 (~10-15 hours) : Present your work and handle feedback
-- Week 8 (~5-10 hours) : Reflection and documentation
+- **Weeks 1-2:** Choose a project and understand it (~10-15 hours)
+- **Week 3:** Propose your contribution (~5-10 hours)
+- **Weeks 4-6:** Do the design work (~20-30 hours)
+- **Week 7:** Present your work and handle feedback (~10-15 hours)
+- **Week 8:** Reflection and documentation (~5-10 hours)
 
 You have most control over your own work timeline, and least control over the parts where you rely on others (like feedback and implementation). Make the most of these dynamics, and as always, clear and regular communication is the key.
 
