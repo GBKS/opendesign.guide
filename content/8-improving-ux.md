@@ -37,7 +37,7 @@ But that doesn’t mean UX improvements aren’t needed. The key is to enhance t
 
 ## Understanding Your Community
 
-Before jumping into design changes, you need to really get to know your users. In open source, this can be both surprisingly easy and unexpectedly tricky. It’s easier because your users are often active in community forums, openly discussing their needs and ideas. But it’s also harder because open source projects serve a wide range of people – from beginners to experts – each with different preferences. [C5](/5-design-process#conducting-user-research){:class='chapter-link'}.
+Before jumping into design changes, you need to really get to know your users. In open source, this can be both surprisingly easy and unexpectedly tricky. It’s easier because your users are often active in community forums, openly discussing their needs and ideas. But it’s also harder because open source projects serve a wide range of people – from beginners to experts – each with different preferences [C5](/5-design-process#conducting-user-research){:class='chapter-link'}.
 
 Think of it like hosting a party. You’ve got a mix of guests with different tastes. Some prefer casual conversations, while others are deep into technical debates. Your job is to listen and observe – join community discussions, watch how people use the software, and pay attention to the workarounds they create. These workarounds are like clues, hinting at areas that could be improved.
 
@@ -65,11 +65,11 @@ Focus on issues that impact core functionality, affect many users, and can be fi
 
 Remember, good usability often goes unnoticed – and that's exactly the point. Users should focus on their tasks, not on figuring out how the interface works.
 
-- **For example:** [Blue Wallet's styling and usability recommendations for the export screens](https://github.com/BlueWallet/BlueWallet/issues/3885){:target="_blank"}
+**For example:** [Blue Wallet's styling and usability recommendations for the export screens](https://github.com/BlueWallet/BlueWallet/issues/3885){:target="_blank"}
 
 ## Enhancing Accessibility
 
-Making software accessible isn't just about serving a specific group of users, it's about improving the experience for everyone. It's like curb cuts on sidewalks: designed for wheelchair users, but also useful for parents with strollers, travelers with luggage, and delivery workers. Digital accessibility works the same way — small improvements can make your product more user-friendly for all.
+Making software accessible isn't just about serving a specific group of users, it's about improving the experience for everyone. It's like [curb cuts](https://en.wikipedia.org/wiki/Curb_cut_effect){:target="_blank"} on sidewalks: designed for wheelchair users, but also useful for parents with strollers, travelers with luggage, and delivery workers. Digital accessibility works the same way — small improvements can make your product more user-friendly for all.
 
 Start by considering common accessibility challenges, like color contrast, keyboard navigation, and screen reader compatibility. These adjustments might seem minor, but they can make a huge difference in usability.
 
@@ -81,19 +81,24 @@ Start by considering common accessibility challenges, like color contrast, keybo
 
 By tackling one issue at a time, they made accessibility improvements achievable for contributors and easier for the community to review and accept.
 
+::resources
+- [Accessibility](https://bitcoin.design/guide/designing-products/accessibility/) in the Bitcoin Design Guide
+::
+
 ## Navigation and Information Architecture
 
 Good navigation is key to helping users find what they need quickly and effortlessly. As a project grows and new features are added, the way information is organized often needs to evolve. Sometimes, it’s about restructuring the entire layout; other times, it’s as simple as moving a link to a more intuitive spot.
 
 When improving navigation, focus on:
 - **Consistency:** Keep navigation elements consistent across the app to reduce confusion.
+- **Context:** Consider the requirements of the specific situation the user is in.
 - **Simplicity:** Avoid clutter by only showing essential links and options.
 - **User Feedback:** Pay attention to how users move through the app – their actions often reveal where they get stuck.
 
 **For example:** In BTCPay, two small navigation changes made a significant impact:
 
-- [Moving the “Invoices” link to the top made it easier for users to access a frequently-used feature](https://github.com/btcpayserver/btcpayserver/pull/6429){:target="_blank"} (BTCPay)
-- [Shifting section navigation to a sidebar created a cleaner layout and improved the overall flow](https://github.com/btcpayserver/btcpayserver/pull/5744){:target="_blank"} (BTCPay)
+- [Moving the “Invoices” link to the top made it easier for users to access a frequently-used feature](https://github.com/btcpayserver/btcpayserver/pull/6429){:target="_blank"}
+- [Shifting section navigation to a sidebar created a cleaner layout and improved the overall flow](https://github.com/btcpayserver/btcpayserver/pull/5744){:target="_blank"}
 
 These adjustments didn’t require major design overhauls but made the interface more intuitive and efficient for users.
 
@@ -113,11 +118,12 @@ By documenting your UX guidelines, you’re not just organizing information – 
 ## The Power of Standards
 
 Improving user experience isn't always about making things look nicer – sometimes it's about making everything flow the same way for everyone. That's where standards come in. When different apps follow the same patterns, it makes life easier for users. It’s like using the same keyboard layout on every computer – you don’t have to relearn how to type each time.
-In the Bitcoin world, standards are great because they help users navigate different tools without confusion. Here are some examples:
 
-- [**WhenTaproot:**](http://whentaproot.org){:target="_blank"} Ensures that Bitcoin Taproot features work consistently across wallets, making transactions smoother.
-- [**BitcoinQR:**](http://bitcoinqr.dev){:target="_blank"} Standardizes QR codes, so scanning works seamlessly no matter which Bitcoin wallet you use.
-- [BOLT12](http://bolt12.org){:target="_blank"} promotes adoption of new Bitcoin Lightning Network features
+In the bitcoin ecosystem, standards are great because they help users navigate different tools without confusion. Here are some examples:
+
+- **[WhenTaproot:](http://whentaproot.org){:target="_blank"}** Ensures that Bitcoin Taproot features work consistently across wallets, making transactions smoother.
+- **[BitcoinQR:](http://bitcoinqr.dev){:target="_blank"}** Standardizes QR codes, so scanning works seamlessly no matter which Bitcoin wallet you use.
+- **[BOLT12](http://bolt12.org){:target="_blank"}** promotes adoption of new Bitcoin Lightning Network features.
 
 When apps follow standards like these, users don't have to learn new ways of doing things every time they try a different tool. It's like speaking the same language — everything just flows better.
 But creating new standards isn’t a quick fix. It’s more like planting a garden that needs care and patience:
