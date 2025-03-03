@@ -29,83 +29,113 @@ preview: user-experience-preview.jpg
 
 ## Finding the right approach
 
-User Experience design in open source projects presents unique challenges and opportunities. While many successful open source projects may have interfaces that seem complex or unpolished by commercial standards, they often maintain devoted user bases. This demonstrates an important principle: good UX isn't always about minimalist design or following commercial software conventions.
+Designing user experiences for open source projects comes with unique challenges and opportunities. You might notice that some successful open source tools look complex or rough around the edges compared to sleek commercial apps. But here’s the thing – their users love them just the way they are. That’s because good UX isn’t always about minimalist designs or following mainstream trends.
 
-In fact, some open source projects intentionally maintain a "hacker" aesthetic or complex interface because it better serves their user base's needs and expectations. For their users, a more technical interface can reinforce the sophisticated computational processes happening under the hood and provide the flexibility they need for custom workflows.
+In open source, users often appreciate interfaces that match the powerful, technical processes happening under the hood. Sometimes, a complex or “hacker” aesthetic is exactly what the community wants because it gives them the flexibility and control they need. It’s about understanding who you’re designing for.
 
-However, this doesn't mean we should ignore UX improvements. The key is understanding your specific user community and making thoughtful, targeted improvements that enhance rather than detract from their experience.
+But that doesn’t mean UX improvements aren’t needed. The key is to enhance the experience in ways that actually help your users without losing the unique vibe that makes the project special. It’s about making smart, thoughtful changes that make things better – not just prettier.
 
 ## Understanding Your Community
 
-Before making any changes, you need to really get to know your users – and in open source, this is both easier and harder than you might think. It's easier because your users are often right there in your community forums, actively discussing their needs. It's harder because open source projects typically serve wildly different types of users, from beginners to experts, each with their own preferences [C5](/5-design-process#conducting-user-research){:class='chapter-link'}.
+Before jumping into design changes, you need to really get to know your users. In open source, this can be both surprisingly easy and unexpectedly tricky. It’s easier because your users are often active in community forums, openly discussing their needs and ideas. But it’s also harder because open source projects serve a wide range of people – from beginners to experts – each with different preferences. [C5](/5-design-process#conducting-user-research){:class='chapter-link'}.
 
-Getting to know your users is like being a good host at a party. Spend time listening to conversations in community forums. Watch how people use your software. Pay attention to the workarounds they develop – these are like subtle hints that something could be improved. When users file bug reports or feature requests, look beyond the immediate issue to understand the underlying need they're expressing.
+Think of it like hosting a party. You’ve got a mix of guests with different tastes. Some prefer casual conversations, while others are deep into technical debates. Your job is to listen and observe – join community discussions, watch how people use the software, and pay attention to the workarounds they create. These workarounds are like clues, hinting at areas that could be improved.
+
+When you see bug reports or feature requests, don’t just look at the issue itself. Try to understand the need behind it. This helps you make design changes that truly solve user problems, rather than just treating the symptoms.
 
 ## Making Smart Improvements
 
-Think of improving UX like renovating a house that people are living in – you want to make things better without disrupting what's already working well. This is where the 80/20 rule comes in handy: look for changes that take 20% of the effort but create 80% of the impact. In open source projects, where resources are often limited, this approach is particularly valuable.
+Improving UX in open source projects is like renovating a house while people are still living in it – you want to make things better without breaking what already works. That’s why it’s smart to start small and aim for high-impact changes. One handy trick is the 80/20 rule: focus on improvements that take 20% of the effort but deliver 80% of the impact.
 
 For instance, sometimes just improving error messages can make a world of difference. Instead of a cryptic technical error, give users clear guidance about what went wrong and how to fix it. It's like turning "Error 404" into "We couldn't find that page – here are some places you might want to look instead."
 
 ## Visual Styling
 
-Think of visual styling as the universal language of your application. When a project lacks consistent design, it's like trying to read a book where every page uses different fonts and layouts – it's jarring and distracting. Many open source projects grow organically without dedicated design guidance, leading to inconsistent buttons, text styles, and colors.
+Visual styling is like the language your application speaks – and consistency is what makes it understandable. In open source projects, design elements often evolve organically, leading to inconsistent buttons, text styles, and colors. It’s like reading a book where every chapter uses a different font, its confusing and distracting.
 
-Creating a cohesive visual style isn't just about aesthetics – it's about building trust and reducing cognitive load. When interface elements follow consistent patterns, users can focus on their tasks rather than figuring out how different parts of the interface work. The best part? Visual improvements often require minimal code changes while creating immediate, visible impact for users.
+Creating a cohesive visual style isn't just about aesthetics; it’s about building trust and making things easier for users. When buttons and navigation elements look and behave consistently, users don’t have to pause and think about how to use them – they just get it.
+
+And here’s the good news: visual improvements are often low-hanging fruit. Small adjustments, like standardizing button styles or aligning text consistently, can have a big impact without heavy coding. It’s a quick win that makes your project feel more polished and professional.
 
 ## Usability
 
-Usability improvements are like clearing a path through a forest – you're making the journey easier for everyone who follows. The best place to start is by using the software yourself and documenting every friction point you encounter. No detail is too small, as even minor annoyances can add up to significant user frustration.
+Improving usability is like clearing a path through a forest – you're removing obstacles so users can reach their goals without frustration. The best way to start is by using the software yourself and noting every friction point you encounter. Even small annoyances can add up to big frustrations over time.
 
-Focus on issues that affect core functionality, impact many users, and can be fixed with reasonable effort. Test your solutions with other users before proposing changes. Remember, good usability often goes unnoticed – and that's exactly the point. Users should be able to focus on their tasks without thinking about the interface.
+Focus on issues that impact core functionality, affect many users, and can be fixed without major overhauls. When you find a potential improvement, test it with others before suggesting changes – real-world feedback is invaluable.
 
-- [Styling and usability recommendations for the export screens](https://github.com/BlueWallet/BlueWallet/issues/3885){:target="_blank"} (Blue Wallet)
+Remember, good usability often goes unnoticed – and that's exactly the point. Users should focus on their tasks, not on figuring out how the interface works.
 
-## Accessibility tweaks
+- **For example:** [Blue Wallet's styling and usability recommendations for the export screens](https://github.com/BlueWallet/BlueWallet/issues/3885){:target="_blank"}
 
-Making software accessible isn't about serving a specific group of users – it's about making it work better for everyone. Think about curb cuts in sidewalks: they were designed for wheelchair users, but they also help people with strollers, delivery workers, and travelers with rolling luggage. Digital accessibility works the same way: improvements that make software more accessible often make it better for all users.
+## Enhancing Accessibility
 
-Take the work done in the [Blue Wallet](http://bluewallet.io){:target="_blank"}, for example. They improved accessibility through a series of relatively small changes. As part of [Global Accessibility Day](https://accessibility.day){:target="_blank"}, the [Bitcoin Design Community](https://bitcoin.design){:target="_blank"} organized an accessibility audit which identified issues like insufficient color contrast and poor screen reader support. Instead of attempting a complete overhaul, they created specific, actionable issues that could be addressed one at a time. This made the improvements manageable for contributors and easier for the community to review and accept. Here are some of those issues:
+Making software accessible isn't just about serving a specific group of users, it's about improving the experience for everyone. It's like curb cuts on sidewalks: designed for wheelchair users, but also useful for parents with strollers, travelers with luggage, and delivery workers. Digital accessibility works the same way — small improvements can make your product more user-friendly for all.
+
+Start by considering common accessibility challenges, like color contrast, keyboard navigation, and screen reader compatibility. These adjustments might seem minor, but they can make a huge difference in usability.
+
+**For example:** The [Bitcoin Design Community](https://bitcoin.design){:target="_blank"} conducted an accessibility audit on [Blue Wallet](http://bluewallet.io){:target="_blank"} during [Global Accessibility Day](https://accessibility.day){:target="_blank"}. They found issues like low color contrast and incomplete screen reader support. Instead of overhauling the entire app, they broke down the fixes into manageable tasks, such as:
 
 - [Improve accessibility of the Wallet Export screen](https://github.com/BlueWallet/BlueWallet/issues/4742){:target="_blank"} (Blue Wallet)
 - [Make QR code on receive screen accessible](https://github.com/BlueWallet/BlueWallet/issues/5388){:target="_blank"} (Blue Wallet)
 - [Improve accessibility of floating buttons (scan, send, receive)](https://github.com/BlueWallet/BlueWallet/issues/5389){:target="_blank"} (Blue Wallet)
 
+By tackling one issue at a time, they made accessibility improvements achievable for contributors and easier for the community to review and accept.
+
 ## Navigation and Information Architecture
 
-Good navigation is key to users finding what they are looking for. As a project adds more features or expands it userbase, navigation often needs to be adjusted. This might be a complete restructuring, or moving an individual link to a more intuitive location. Here are two examples from BTCPay:
+Good navigation is key to helping users find what they need quickly and effortlessly. As a project grows and new features are added, the way information is organized often needs to evolve. Sometimes, it’s about restructuring the entire layout; other times, it’s as simple as moving a link to a more intuitive spot.
 
-- [UI: Move app's invoices link to the top](https://github.com/btcpayserver/btcpayserver/pull/6429){:target="_blank"} (BTCPay)
-- [UI: Move section navigation to sidebar](https://github.com/btcpayserver/btcpayserver/pull/5744){:target="_blank"} (BTCPay)
+When improving navigation, focus on:
+- **Consistency:** Keep navigation elements consistent across the app to reduce confusion.
+- **Simplicity:** Avoid clutter by only showing essential links and options.
+- **User Feedback:** Pay attention to how users move through the app – their actions often reveal where they get stuck.
+
+**For example:** In BTCPay, two small navigation changes made a significant impact:
+
+- [Moving the “Invoices” link to the top made it easier for users to access a frequently-used feature](https://github.com/btcpayserver/btcpayserver/pull/6429){:target="_blank"} (BTCPay)
+- [Shifting section navigation to a sidebar created a cleaner layout and improved the overall flow](https://github.com/btcpayserver/btcpayserver/pull/5744){:target="_blank"} (BTCPay)
+
+These adjustments didn’t require major design overhauls but made the interface more intuitive and efficient for users.
 
 ## Documenting UX Guidelines
 
-As you improve the UX of your project, it's important to document your decisions. This helps keep things consistent, especially when new contributors join. Some examples:
+As you improve the UX of your project, it’s important to document the design decisions you make. Think of it as leaving a trail of breadcrumbs for future contributors. Clear documentation keeps things consistent, reduces confusion, and ensures that as your project grows, the user experience remains seamless.
 
-- [Create a feature list in the design docs](https://github.com/BitcoinDesign/Bitcoin-Core-App/issues/125){:target="_blank"} (Bitcoin Core App)
+Good UX documentation should:
+- **Explain Design Choices:** Not just what was done but why it was done. This helps new contributors understand the reasoning behind the design.
+- **Stay Up to Date:** As features evolve, the documentation should be updated to reflect those changes.
+- **Be Accessible:** Keep it in a place where contributors can easily find and reference it, like a dedicated section in the project’s repository.
+
+For example: In the Bitcoin Core App, [creating a detailed feature list in the design docs](https://github.com/BitcoinDesign/Bitcoin-Core-App/issues/125){:target="_blank"} (Bitcoin Core App) helped maintain consistency as new features were added. It provided contributors with a clear understanding of existing functionalities and design patterns, reducing the likelihood of conflicting UI elements.
+
+By documenting your UX guidelines, you’re not just organizing information – you’re setting the foundation for a cohesive and scalable user experience.
 
 ## The Power of Standards
 
-Sometimes the best way to improve user experience isn't about changing how things look – it's about getting everyone to do things the same way. That's where standards come in. When different applications follow the same patterns, everything becomes easier for users. Think about it like having the same keyboard layout on every computer – it just makes sense!
-Here are some great examples of standards making bitcoin more user-friendly:
+Improving user experience isn't always about making things look nicer – sometimes it's about making everything flow the same way for everyone. That's where standards come in. When different apps follow the same patterns, it makes life easier for users. It’s like using the same keyboard layout on every computer – you don’t have to relearn how to type each time.
+In the Bitcoin world, standards are great because they help users navigate different tools without confusion. Here are some examples:
 
-- [WhenTaproot](http://whentaproot.org){:target="_blank"} helps applications implement Bitcoin Taproot features consistently
-- [BitcoinQR](http://bitcoinqr.dev){:target="_blank"} makes QR codes work the same way across different Bitcoin wallets
+- [**WhenTaproot:**](http://whentaproot.org){:target="_blank"} Ensures that Bitcoin Taproot features work consistently across wallets, making transactions smoother.
+- [**BitcoinQR:**](http://bitcoinqr.dev){:target="_blank"} Standardizes QR codes, so scanning works seamlessly no matter which Bitcoin wallet you use.
 - [BOLT12](http://bolt12.org){:target="_blank"} promotes adoption of new Bitcoin Lightning Network features
 
-When applications follow these kinds of standards, users don't have to learn new ways of doing things every time they try a different tool. It's like speaking the same language – everything just flows better.
-But creating new standards isn't a quick fix. It's more like planting a garden that needs constant care:
+When apps follow standards like these, users don't have to learn new ways of doing things every time they try a different tool. It's like speaking the same language — everything just flows better.
+But creating new standards isn’t a quick fix. It’s more like planting a garden that needs care and patience:
 
-1. You need to plan everything out carefully
-2. You have to talk with lots of different people and projects
-3. It takes patience to convince others to adopt your ideas
-4. You'll probably need to adjust things based on feedback
-5. Building agreement takes time and effort
+1. **Plan Carefully:** Think through how the standard will impact different users and applications.
+2. **Collaborate:** Talk with other projects to build consensus.
+3. **Stay Patient:** It takes time to convince others to adopt a new way of doing things.
+4. **Be Flexible:** Gather feedback and adjust as needed.
+5. **Build Agreement:** Remember, you’re asking the whole ecosystem to change – that takes effort.
 
-Remember, when you propose a new standard, you're asking the whole ecosystem to change how they do things. That's a big ask! It works best when you keep the conversation going and stay open to ideas from the community.
+Remember, proposing a new standard is a big ask because it impacts everyone in the ecosystem. The key is to keep the conversation open and listen to the community. When done right, standards create a smoother experience for everyone.
 
 ## Moving Forward
 
-As you work on improving UX in open source projects, remember that success often looks different than it does in commercial software. Focus on understanding your specific user community and making thoughtful, incremental improvements that respect their needs and workflows. Don't be afraid to maintain a technical interface if that's what serves your users best, but also don't assume that complexity is always necessary.
+Improving UX in open source projects is a journey, not a one-time fix. Unlike commercial software, success here isn’t measured by sales or profit margins but by how well your changes serve your community. That’s why it’s essential to understand your users deeply and make thoughtful, incremental improvements that respect their needs and workflows.
 
-Most importantly, keep your community involved throughout the process. Their insights and feedback are invaluable in creating improvements that truly serve their needs. After all, open source is about working together to create something better than any of us could create alone.
+Remember, simplicity isn’t always the answer. If your community thrives on technical complexity, don’t be afraid to keep advanced features front and center. But also question whether complexity is truly necessary or just a habit. Finding the right balance is key.
+
+Most importantly, keep your community involved throughout the process. Their insights and feedback are invaluable – after all, they’re the ones using the software every day. Open source is about collaboration and shared ownership. By working together, we can create better experiences than any of us could build alone.
+
+So, keep experimenting, keep learning, and keep sharing your work. Every small improvement contributes to the bigger picture. And who knows? Your next idea might just be the one that makes a world of difference.
