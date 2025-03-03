@@ -47,7 +47,7 @@ When you see bug reports or feature requests, don’t just look at the issue its
 
 Improving UX in open source projects is like renovating a house while people are still living in it – you want to make things better without breaking what already works. That’s why it’s smart to start small and aim for high-impact changes. One handy trick is the 80/20 rule: focus on improvements that take 20% of the effort but deliver 80% of the impact.
 
-For instance, sometimes just improving error messages can make a world of difference. Instead of a cryptic technical error, give users clear guidance about what went wrong and how to fix it. It's like turning "Error 404" into "We couldn't find that page – here are some places you might want to look instead."
+In open source, where resources are often limited, this approach can be a game-changer. Sometimes just improving error messages can make a world of difference. For example, instead of a cryptic technical error, give users clear guidance about what went wrong and how to fix it. It's like turning "_Error 404_" into "_We couldn't find that page – here are some places you might want to look instead._" This minor tweak makes the error actionable and reduces frustration without requiring complex changes in the backend.
 
 ## Visual Styling
 
