@@ -25,6 +25,9 @@ export default defineNuxtConfig({
     head: {
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ],
+      script: [
+        { defer: true, src:"https://info.bitcoin.design/script.js", "data-website-id": "3d680e56-985f-4c27-a10c-d8007b064649" }
       ]
     }
   }

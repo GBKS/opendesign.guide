@@ -27,13 +27,13 @@ preview: about-preview.jpg
 
 # Contributions
 
-## Our Supporters
+## Origin story
 
-This curriculum wouldn't be possible without the support of numerous individuals and organizations who share our vision for a more design-centric open source ecosystem. We'd like to extend our heartfelt thanks to:
+This curriculum emerged from a recognized need in the open source community: designers often struggle to understand how open source works and how to contribute meaningfully, while projects frequently face challenges in working effectively with designers and design processes. And there wasn't any good learning material.
 
-- Placeholder for specific supporters (TODO)
+The Open Design Guide was launched by the [Bitcoin Design Community](http://bitcoin.design), which also hosted a series of reading club calls to review and revise the initial AI-generated content.
 
-Your belief in our mission and your generous support have been instrumental in bringing this curriculum to life.
+While this project began as a grassroots effort rather than through formal organizational support, it reflects the collaborative spirit of open source – growing from community-identified needs and volunteer expertise.
 
 ## The Open Source Community
 
