@@ -1,75 +1,36 @@
-# Nuxt 3 Minimal Starter
+# Open Design Guide
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is where the code for the [Open Design Guide](https://opendesign.guide/) resides. You are welcome to chip in. If you're not sure how to contribute to open-source projects yet, best to browse the guide - that's what it's for.
 
-## Setup
+Generally, all content improvements are welcome. If you have a suggestion, go to the issues tab and create a new one and describe what you have in mind. We can discuss there in the comments and figure out how to move forward.
 
-Make sure to install the dependencies:
+The site has privacy-preserving tracking via custom [Umami](https://umami.is/) installation. You can [view the stats here](https://info.bitcoin.design/share/I2uVniojQ5gdd2tp/opendesign.guide).
 
+## Running the site locally
+
+The guide uses the Nuxt framework. Good to have installed:
+- Node
+- NVM (to manage Node versions)
+- NPM (to install needed code libraries)
+
+Switch to the recommended node version
 ```bash
-# npm
+nvm use
+```
+
+Install dependencies
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+Run the project
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+If all works correctly, you can then access the site at:
+http://localhost:3005/
 
-Build the application for production:
+## Deployment
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The site is built and deployed with Netlify.
