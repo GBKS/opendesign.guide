@@ -139,9 +139,9 @@ Accessibility isn't just a feature - it's a fundamental aspect of good design th
 
 Helpful accessibility tools include:
 
-- [WAVE](https://wave.webaim.org/){:target="_blank"}: Evaluate web content for accessibility issues
-- [Contrast Checker](https://webaim.org/resources/contrastchecker/){:target="_blank"}: Ensure your color choices meet accessibility standards
-- [Axe](https://www.deque.com/axe/){:target="_blank"}: Automated accessibility testing
+- [Accessibility Insights](https://accessibilityinsights.io/){:target="_blank"}: Evaluate web content in your browser for accessibility issues (using Deque's axe-core)
+- [Oobee](https://github.com/GovTechSG/oobee){:target="_blank"}: Site-wide accessibility testing (using Deque's axe-core)
+- [Contrast Report](https://contrast.report/){:target="_blank"}: Ensure your color choices meet accessibility standards
 - [The A11Y Project](https://www.a11yproject.com/){:target="_blank"}: Resources and tutorials for learning about accessibility
 
 Remember that accessibility is especially crucial in open source projects, as it aligns with the core values of inclusivity and collaboration. Even developer tools and terminal-based applications should be designed with accessibility in mind.
